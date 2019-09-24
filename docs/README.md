@@ -18,6 +18,11 @@ The weekly expenditures have been scaled to annual expenditures.  Throughout thi
 
 ### Calculation of carbon footprint
 
+### Carbon Capture and Storage rates
+
+The cost of [Carbon Capture and Storage (CCS)](https://en.wikipedia.org/wiki/Carbon_capture_and_storage) is very hard to estimate.   The current marginal cost (e.g. from power plamts or rewilding) is very low, but this does not scale to a Zero Carbon UK. [Bio-energy with carbon capture and storage](https://en.wikipedia.org/wiki/Bio-energy_with_carbon_capture_and_storage) and [direct air carbon capture and storage](https://en.wikipedia.org/wiki/Direct_air_capture) are both emerging technologies.  As such, it is beyond this work to give an accurate estimate of price.  Instead we use a low price of 100 £/tCO2e, a mid price of 200 £/tCO2e and a high price of 400 £/tCO2e to illustrate the options.
+
+
 ## Analysis by item
 
 We can now summarise all expenditure items.  The ten highest values WILL BE highlighted.
