@@ -31,6 +31,7 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 
 | Item  | Description | cost(£) | Elast. | kgCO2/£ | kgCO2 | cost(%up) at £100/t | cost(%up) at £200/t | cost(%up) at £400/t |
 | ----- | ----------- | -------:| ------:| -------:| -----:| -------------------:| -------------------:| -------------------:|
+
 | 1.1.5 | Beef (fresh, chilled or frozen) | 103 | 1.80 | 185 | 0.68 | 121 (17) | 140 (36) | 177 (72) |
 | 1.1.6 | Pork (fresh, chilled or frozen) | 32 | 1.14 | 36 | 0.52 | 35 (11) | 39 (22) | 46 (45) |
 | 1.1.7 | Lamb (fresh, chilled or frozen) | 33 | 0.95 | 31 | 0.34 | 36 (9) | 39 (18) | 45 (37) |
@@ -47,6 +48,7 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 
 | Item  | Description | cost(£) | Elast. | kgCO2/£ | kgCO2 | cost(%up) at £100/t | cost(%up) at £200/t | cost(%up) at £400/t |
 | ----- | ----------- | -------:| ------:| -------:| -----:| -------------------:| -------------------:| -------------------:|
+
 | 1.1.1 | Bread, rice and cereals | 283 | 0.72 | 204 | 0.35 | 304 (7) | 324 (14) | 365 (28) |
 | 1.1.2 | Pasta products | 22 | 0.72 | 16 | 0.41 | 24 (7) | 26 (14) | 29 (28) |
 | 1.1.3 | Buns, cakes, biscuits etc | 200 | 0.72 | 144 | 0.24 | 214 (7) | 228 (14) | 257 (28) |
