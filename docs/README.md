@@ -29,6 +29,7 @@ We can now summarise all expenditure items with their CO2e impact and the new co
 
 It is assumed that a carbon tax would be introduced gradually over a 10 year timescale.  As such items that increase in cost less than 30 percent (2.66 percent per year) have been excluded for clarity.  The full table can be found in the appendix.
 
+
 | Item  | Description | cost(£) | Elast. | kgCO2/£ | kgCO2 | cost(%up) at £100/t | cost(%up) at £200/t | cost(%up) at £400/t |
 | ----- | ----------- | ------: | -----: | ------: | ----: | ------------------: | ------------------: | ------------------: |
 
@@ -44,6 +45,7 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 | 7.1.3 | Purchase of motorcycles and other vehicles | 32 | 0.78 | 25 | 1.76 | 34 (7) | 37 (15) | 42 (31) |
 | 7.2.2 | Petrol, diesel and other motor oils | 1103 | 1.78 | 1961 | 1.09 | 1300 (17) | 1496 (35) | 1888 (71) |
 ## Appendix: Full analysis by item
+
 
 
 | Item  | Description | cost(£) | Elast. | kgCO2/£ | kgCO2 | cost(%up) at £100/t | cost(%up) at £200/t | cost(%up) at £400/t |
