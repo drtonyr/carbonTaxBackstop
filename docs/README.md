@@ -27,8 +27,8 @@ The cost of [Carbon Capture and Storage (CCS)](https://en.wikipedia.org/wiki/Car
 
 We can now summarise all expenditure items.  The ten highest values WILL BE highlighted.
 
-| Item  | Description |  £  | Elast. | kgCO2/£ | kgCO2 | £ (%up) at £100/t | £ (%up) at £200/t | £ (%up) at £400/t |
-| ----- | ----------- | ---:| ------:| -------:| -----:| -------------------:| -------------------:| -------------------:|
+| Item  | Description | cost(£) | Elast. | kgCO2/£ | kgCO2 | cost(%up) at £100/t | cost(%up) at £200/t | cost(%up) at £400/t |
+| ----- | ----------- | -------:| ------:| -------:| -----:| -------------------:| -------------------:| -------------------:|
 | 1.1.1 | Bread, rice and cereals | 283 | 0.72 | 204 | 0.35 | 304 (7) | 324 (14) | 365 (28) |
 | 1.1.2 | Pasta products | 22 | 0.72 | 16 | 0.41 | 24 (7) | 26 (14) | 29 (28) |
 | 1.1.3 | Buns, cakes, biscuits etc | 200 | 0.72 | 144 | 0.24 | 214 (7) | 228 (14) | 257 (28) |
