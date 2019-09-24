@@ -42,7 +42,7 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 | 7.1.2 | Purchase of second hand cars or vans | 888 | 0.78 | 693 | 1.34 | 957 (7) | 1027 (15) | 1165 (31) |
 | 7.1.3 | Purchase of motorcycles and other vehicles | 32 | 0.78 | 25 | 1.76 | 34 (7) | 37 (15) | 42 (31) |
 | 7.2.2 | Petrol, diesel and other motor oils | 1103 | 1.78 | 1961 | 1.09 | 1300 (17) | 1496 (35) | 1888 (71) |
-## Appendix: Full analusis by item
+## Appendix: Full analysis by item
 
 
 | Item  | Description | cost(£) | Elast. | kgCO2/£ | kgCO2 | cost(%up) at £100/t | cost(%up) at £200/t | cost(%up) at £400/t |
