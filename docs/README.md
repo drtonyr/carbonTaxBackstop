@@ -46,7 +46,6 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 ## Appendix: Full analysis by item
 
 
-
 | Item  | Description | cost(£) | Elast. | kgCO2/£ | kgCO2 | cost(%up) at £100/t | cost(%up) at £200/t | cost(%up) at £400/t |
 | ----- | ----------- | ------: | -----: | ------: | ----: | ------------------: | ------------------: | ------------------: |
 | 1.1.1 | Bread, rice and cereals | 283 | 0.72 | 204 | 0.35 | 304 (7) | 324 (14) | 365 (28) |
@@ -186,6 +185,7 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 | 12.5.2 | Bank, building society, post office, credit card charges | 28 | 0.50 | 14 | 1.23 | 29 (5) | 31 (10) | 34 (19) |
 | 12.5.3 | Other services and professional fees | 74 | 0.50 | 37 | 1.51 | 78 (5) | 81 (10) | 89 (19) |
 | 13.3 | Holiday spending | 643 | 0.50 | 321 | 1.93 | 675 (5) | 707 (10) | 771 (19) |
+
 ## Appendix: Elasticity by item
 
 ![1.1.1](1.1.1.png
