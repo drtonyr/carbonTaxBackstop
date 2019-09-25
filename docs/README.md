@@ -38,10 +38,12 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 | 1.1.10 Other meat and meat preparations | 331 | 1.30 | 431 | 0.30 | 374 (12) | 417 (26) | 503 (52) |
 | 4.4.1 Electricity | 592 | 2.32 | 1372 | 0.14 | 729 (23) | 866 (46) | 1141 (92) |
 | 4.4.2 Gas | 512 | 6.41 | 3280 | 0.19 | 840 (64) | 1168 (128) | 1824 (256) |
+| 4.4.3 Other fuels | 69 | 1.78 | 123 | 0.75 | 81 (17) | 94 (35) | 118 (71) |
 | 7.1.1 Purchase of new cars and vans | 514 | 0.78 | 401 | 3.45 | 554 (7) | 594 (15) | 674 (31) |
 | 7.1.2 Purchase of second hand cars or vans | 888 | 0.78 | 693 | 1.34 | 957 (7) | 1027 (15) | 1165 (31) |
 | 7.1.3 Purchase of motorcycles and other vehicles | 32 | 0.78 | 25 | 1.76 | 34 (7) | 37 (15) | 42 (31) |
 | 7.2.2 Petrol, diesel and other motor oils | 1103 | 1.78 | 1961 | 1.09 | 1300 (17) | 1496 (35) | 1888 (71) |
+| 9.6.2 Package holidays - abroad | 1311 | 4.00 | 5244 | 1.80 | 1835 (39) | 2360 (80) | 3408 (160) |
 
 ## Appendix: Full analysis by item
 
@@ -81,12 +83,12 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 | 1.1.31 Confectionery products | 41 | 0.72 | 29 | 0.16 | 43 (7) | 46 (14) | 52 (28) |
 | 1.1.32 Edible ices and ice cream | 34 | 0.72 | 25 | 0.19 | 37 (7) | 39 (14) | 44 (28) |
 | 1.1.33 Other food products | 135 | 0.72 | 97 | 0.58 | 144 (7) | 154 (14) | 173 (28) |
-| 1.2.1 Coffee | 49 | 0.50 | 24 | 0.47 | 51 (5) | 54 (9) | 59 (19) |
-| 1.2.2 Tea | 23 | 0.50 | 11 | 0.51 | 24 (4) | 25 (10) | 27 (19) |
-| 1.2.3 Cocoa and powdered chocolate | 5 | 0.50 | 3 | 0.00 | 5 (5) | 6 (10) | 6 (19) |
-| 1.2.4 Fruit and vegetable juices (inc. fruit squash) | 56 | 0.50 | 28 | 0.45 | 58 (5) | 61 (10) | 67 (19) |
-| 1.2.5 Mineral or spring waters | 21 | 0.50 | 10 | 0.36 | 22 (5) | 23 (10) | 25 (19) |
-| 1.2.6 Soft drinks (inc. fizzy and ready to drink fruit drinks) | 103 | 0.50 | 51 | 0.05 | 108 (5) | 113 (9) | 124 (19) |
+| 1.2.1 Coffee | 49 | 0.72 | 35 | 0.47 | 52 (7) | 56 (14) | 63 (28) |
+| 1.2.2 Tea | 23 | 0.72 | 16 | 0.51 | 25 (7) | 26 (14) | 29 (28) |
+| 1.2.3 Cocoa and powdered chocolate | 5 | 0.72 | 4 | 0.00 | 6 (7) | 6 (14) | 7 (28) |
+| 1.2.4 Fruit and vegetable juices (inc. fruit squash) | 56 | 0.72 | 40 | 0.45 | 60 (7) | 64 (14) | 72 (28) |
+| 1.2.5 Mineral or spring waters | 21 | 0.72 | 15 | 0.36 | 22 (7) | 24 (14) | 27 (28) |
+| 1.2.6 Soft drinks (inc. fizzy and ready to drink fruit drinks) | 103 | 0.72 | 74 | 0.05 | 110 (7) | 118 (14) | 133 (28) |
 | 2.1.1 Spirits and liqueurs (brought home) | 102 | 0.50 | 51 | 0.64 | 107 (5) | 112 (9) | 122 (19) |
 | 2.1.2 Wines, fortified wines (brought home) | 235 | 0.15 | 35 | 1.41 | 238 (1) | 242 (3) | 249 (6) |
 | 2.1.3 Beer, lager, ciders and perry (brought home) | 113 | 0.50 | 57 | 0.64 | 119 (5) | 125 (10) | 136 (19) |
@@ -111,7 +113,7 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 | 4.3 Water supply and miscellaneous services relating to the dwelling | 483 | 0.50 | 241 | 0.30 | 507 (5) | 531 (9) | 579 (19) |
 | 4.4.1 Electricity | 592 | 2.32 | 1372 | 0.14 | 729 (23) | 866 (46) | 1141 (92) |
 | 4.4.2 Gas | 512 | 6.41 | 3280 | 0.19 | 840 (64) | 1168 (128) | 1824 (256) |
-| 4.4.3 Other fuels | 69 | 0.50 | 35 | 0.75 | 73 (5) | 76 (9) | 83 (19) |
+| 4.4.3 Other fuels | 69 | 1.78 | 123 | 0.75 | 81 (17) | 94 (35) | 118 (71) |
 | 5.1.1 Furniture and furnishings | 978 | 0.50 | 489 | 1.26 | 1026 (5) | 1075 (10) | 1173 (20) |
 | 5.1.2 Floor coverings | 197 | 0.50 | 98 | 1.08 | 206 (5) | 216 (10) | 236 (19) |
 | 5.2 Household textiles | 117 | 0.50 | 58 | 1.26 | 123 (5) | 129 (9) | 140 (19) |
@@ -136,18 +138,18 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 | 7.3.3 Combined fares | 32 | 0.50 | 16 | 3.23 | 34 (5) | 36 (10) | 39 (19) |
 | 7.3.4 Other travel and transport | 679 | 0.50 | 340 | 1.31 | 713 (5) | 747 (10) | 815 (19) |
 | 8.1 Postal services | 33 | 0.50 | 17 | 0.95 | 35 (5) | 37 (10) | 40 (19) |
-| 8.2 Telephone and telefax equipment | 59 | 0.50 | 29 | 1.35 | 62 (5) | 65 (10) | 71 (19) |
-| 8.3 Telephone and telefax services | 642 | 0.50 | 321 | 0.50 | 674 (5) | 706 (10) | 770 (19) |
+| 8.2 Telephone and telefax equipment | 59 | 0.39 | 23 | 1.35 | 61 (3) | 63 (7) | 68 (15) |
+| 8.3 Telephone and telefax services | 642 | 0.62 | 398 | 0.50 | 681 (6) | 721 (12) | 801 (24) |
 | 8.4 Internet subscription fees | 196 | 0.50 | 98 | 0.47 | 206 (5) | 216 (10) | 235 (19) |
-| 9.1.1 Audio equipment and accessories, CD players | 55 | 0.50 | 28 | 1.31 | 58 (5) | 61 (10) | 66 (19) |
-| 9.1.2 TV, video and computers | 182 | 0.50 | 91 | 1.22 | 191 (5) | 200 (10) | 218 (19) |
-| 9.1.3 Photographic, cine and optical equipment | 17 | 0.50 | 8 | 1.09 | 18 (4) | 19 (10) | 20 (19) |
-| 9.2 Other major durables for recreation and culture | 139 | 0.50 | 69 | 4.03 | 146 (5) | 152 (10) | 166 (19) |
-| 9.3.1 Games, toys and hobbies | 162 | 0.50 | 81 | 0.70 | 170 (5) | 178 (10) | 194 (19) |
-| 9.3.2 Computer software and games | 55 | 0.50 | 27 | 0.45 | 57 (5) | 60 (10) | 66 (19) |
-| 9.3.3 Equipment for sport, camping and open-air recreation | 53 | 0.50 | 26 | 1.34 | 55 (5) | 58 (10) | 63 (19) |
-| 9.3.4 Horticultural goods, garden equipment and plants | 134 | 0.50 | 67 | 1.03 | 140 (4) | 147 (10) | 160 (19) |
-| 9.3.5 Pets and pet food | 292 | 0.50 | 146 | 0.72 | 307 (5) | 321 (10) | 351 (19) |
+| 9.1.1 Audio equipment and accessories, CD players | 55 | 0.65 | 36 | 1.31 | 59 (6) | 62 (12) | 69 (25) |
+| 9.1.2 TV, video and computers | 182 | 0.65 | 118 | 1.22 | 194 (6) | 206 (12) | 229 (26) |
+| 9.1.3 Photographic, cine and optical equipment | 17 | 0.65 | 11 | 1.09 | 18 (6) | 19 (12) | 21 (26) |
+| 9.2 Other major durables for recreation and culture | 139 | 0.29 | 40 | 4.03 | 143 (2) | 147 (5) | 155 (11) |
+| 9.3.1 Games, toys and hobbies | 162 | 0.29 | 47 | 0.70 | 166 (2) | 171 (5) | 180 (11) |
+| 9.3.2 Computer software and games | 55 | 0.29 | 16 | 0.45 | 56 (2) | 58 (5) | 61 (11) |
+| 9.3.3 Equipment for sport, camping and open-air recreation | 53 | 0.29 | 15 | 1.34 | 54 (2) | 56 (5) | 59 (11) |
+| 9.3.4 Horticultural goods, garden equipment and plants | 134 | 0.29 | 39 | 1.03 | 138 (2) | 141 (5) | 149 (11) |
+| 9.3.5 Pets and pet food | 292 | 0.29 | 85 | 0.72 | 301 (2) | 309 (5) | 326 (11) |
 | 9.4.1 Sports admissions, subscriptions, leisure class fees and equipment hire | 341 | 0.29 | 99 | 1.56 | 350 (2) | 360 (5) | 380 (11) |
 | 9.4.2 Cinema, theatre and museums etc | 163 | 0.29 | 47 | 1.61 | 168 (2) | 173 (5) | 182 (11) |
 | 9.4.3 TV, video, satellite rental, cable subscriptions and TV licences | 367 | 0.29 | 106 | 0.60 | 377 (2) | 388 (5) | 409 (11) |
@@ -158,8 +160,8 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 | 9.5.2 Diaries, address books, cards etc | 109 | 0.66 | 72 | 0.88 | 116 (6) | 123 (13) | 137 (26) |
 | 9.5.3 Newspapers | 68 | 0.66 | 45 | 0.49 | 73 (6) | 77 (13) | 86 (26) |
 | 9.5.4 Magazines and periodicals | 36 | 0.66 | 24 | 0.50 | 38 (6) | 41 (13) | 45 (26) |
-| 9.6.1 Package holidays - UK | 84 | 0.50 | 42 | 1.92 | 88 (5) | 92 (9) | 101 (20) |
-| 9.6.2 Package holidays - abroad | 1311 | 0.50 | 655 | 1.80 | 1376 (5) | 1442 (9) | 1573 (19) |
+| 9.6.1 Package holidays - UK | 84 | 0.51 | 43 | 1.92 | 88 (5) | 93 (10) | 101 (20) |
+| 9.6.2 Package holidays - abroad | 1311 | 4.00 | 5244 | 1.80 | 1835 (39) | 2360 (80) | 3408 (160) |
 | 10.1 Education fees | 393 | 0.25 | 98 | 4.30 | 403 (2) | 413 (5) | 432 (10) |
 | 10.2 Payments for school trips, other ad-hoc expenditure | 21 | 0.50 | 10 | 1.81 | 22 (5) | 23 (10) | 25 (19) |
 | 11.1.1 Restaurant and café meals | 967 | 0.51 | 493 | 1.28 | 1017 (5) | 1066 (10) | 1165 (20) |
