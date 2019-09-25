@@ -15,3 +15,9 @@ This work differs from the [COICOP](https://ec.europa.eu/eurostat/statistics-exp
 
 | Item description |
 |:-----------------|
+| 4.1.1 Gross rent || 4.1.2 less housing benefit, rebates and allowances rec'd |
+
+Some non-COICOP items were included as they consituted significant discressionay spending:
+
+| Item description |
+|:-----------------|
