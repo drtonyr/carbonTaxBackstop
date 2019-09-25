@@ -13,19 +13,20 @@ The [Office for National Statistics (ONS)](https://www.ons.gov.uk/) collects and
 
 This work differs from the [COICOP](https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Classification_of_individual_consumption_by_purpose_(COICOP)) categories in the ONS table for a few items.  Some items have been excluded as they don't form part of the total calculation:
 
-| Exclused item description |
-|:-----------------|
-| 4.1.1 Gross rent |
-| 4.1.2 less housing benefit, rebates and allowances rec'd |
+|    | Excluded item description |
+|:---|:--------------------------|
+| 4.1.1 | Gross rent |
+| 4.1.2 | less housing benefit, rebates and allowances rec'd |
 
 
 Some non-COICOP items were included as they consituted significant discressionay spending:
 
-| Included item description |
-|:-----------------|
-| 13.3 Holiday spending |
-| 13.4.2 Cash gifts and donations |
-| 14.6 Savings and investments |
+|    | Included item description |
+|:---|:--------------------------|
+
+| 13.3 | Holiday spending |
+| 13.4.2 | Cash gifts and donations |
+| 14.6 | Savings and investments |
 
 
 The weekly expenditures have been scaled to annual expenditures.  Throughout this work all values are per annum.
