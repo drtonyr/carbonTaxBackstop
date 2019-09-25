@@ -11,17 +11,22 @@ This analysis is intentionally basic so as to to form a complete isolated projec
 
 The [Office for National Statistics (ONS)](https://www.ons.gov.uk/) collects and publishes a wide variety of data for the UK, specifically [Detailed household expenditure by equivalised disposable income decile group: Table 3.1E](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/datasets/detailedhouseholdexpenditurebyequivaliseddisposableincomedecilegroupoecdmodifiedscaleuktable31e).
 
-This work differs from the [COICOP](https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Classification_of_individual_consumption_by_purpose_(COICOP)) categories in the ONS table for a few items.  Some items have been excluded as they didn't form part of the total calculation:
+This work differs from the [COICOP](https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Classification_of_individual_consumption_by_purpose_(COICOP)) categories in the ONS table for a few items.  Some items have been excluded as they don't form part of the total calculation:
 
-| Item description |
+| Exclused item description |
 |:-----------------|
-| 4.1.1 Gross rent || 4.1.2 less housing benefit, rebates and allowances rec'd |
+| 4.1.1 Gross rent |
+| 4.1.2 less housing benefit, rebates and allowances rec'd |
+
 
 Some non-COICOP items were included as they consituted significant discressionay spending:
 
-| Item description |
+| Included item description |
 |:-----------------|
-| 13.3 Holiday spending || 13.4.2 Cash gifts and donations || 14.6 Savings and investments |
+| 13.3 Holiday spending |
+| 13.4.2 Cash gifts and donations |
+| 14.6 Savings and investments |
+
 
 The weekly expenditures have been scaled to annual expenditures.  Throughout this work all values are per annum.
 
