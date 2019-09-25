@@ -21,3 +21,4 @@ Some non-COICOP items were included as they consituted significant discressionay
 
 | Item description |
 |:-----------------|
+| 13.3 Holiday spending || 13.4.2 Cash gifts and donations || 14.6 Savings and investments |
