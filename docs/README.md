@@ -1,4 +1,6 @@
 # Analysis of a Basic Carbon Tax for the UK
+## WORK IN PROGRESS:  ETA EARLY OCTOBER 2019
+
 ## Abstract
 
 This work investigates the inpact of a [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) on UK household spending.  It is widely accepted that we must achieve [carbon neutrality](https://en.wikipedia.org/wiki/Carbon_neutrality) as soon as is practical and a carbon tax is regarded as the main economic tool to achive this.
@@ -8,6 +10,8 @@ This work assumes that the UK can implement a carbon tax and that the revenues r
 This analysis is intentionally basic so as to to form a complete isolated project.  A discussion of the limitations is provided and it is concluded that the carvon tax rates calcuated here are an upper bound on what is necessary.  [Full source code](https://github.com/drtonyr/basicCarbonTaxUK) is [freely available](https://en.wikipedia.org/wiki/MIT_License).
 
 ## Methodolgy
+
+### Household expenditure
 
 The [Office for National Statistics (ONS)](https://www.ons.gov.uk/) collects and publishes a wide variety of data for the UK, specifically [Detailed household expenditure by equivalised disposable income decile group: Table 3.1E](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/datasets/detailedhouseholdexpenditurebyequivaliseddisposableincomedecilegroupoecdmodifiedscaleuktable31e).
 
@@ -19,7 +23,7 @@ This work differs from the [COICOP](https://ec.europa.eu/eurostat/statistics-exp
 | 4.1.2 | less housing benefit, rebates and allowances rec'd |
 
 
-Some non-COICOP items were included as they consituted significant discressionay spending:
+Some non-COICOP items were included as they consituted significant discretionary spending:
 
 |    | Included item description |
 |:---|:--------------------------|
@@ -30,13 +34,29 @@ Some non-COICOP items were included as they consituted significant discressionay
 
 The weekly expenditures have been scaled to annual expenditures.  Throughout this work all values are per annum.
 
-### Calculation of elasticity
-
 ### Calculation of carbon footprint
 
-### Carbon Capture and Storage rates
+Various sources are used to estimate the mass of CO2e emitted per pound spent (kgC)e2/£).  In the case of fuel the emissions are known and current prices were used.  Other sources were researched and are documetned in the code.  A heiractical inheritence is used so that if a value was not found it inherits from the parent class.  As can be seen later, only a few items dominate the household CO2e emissions and so it is felt that the approximations used are appropriate.
 
-The cost of [Carbon Capture and Storage (CCS)](https://en.wikipedia.org/wiki/Carbon_capture_and_storage) is very hard to estimate.   The current marginal cost (e.g. from power plamts or rewilding) is very low, but this does not scale to a Zero Carbon UK. [Bio-energy with carbon capture and storage](https://en.wikipedia.org/wiki/Bio-energy_with_carbon_capture_and_storage) and [direct air carbon capture and storage](https://en.wikipedia.org/wiki/Direct_air_capture) are both emerging technologies.  As such, it is beyond this work to give an accurate estimate of price.  Instead we use a low price of £100/tCO2e, a mid price of £200/tCO2e and a high price of £400/tCO2e to illustrate the range.
+### Carbon tax rates
+
+It is anticipated that a carbon tax would be phased in over a number of years.  The final value will depend on many factors which are outside the scope of this work.  To illustrate the impact a low price of £100/tCO2e, a mid price of £200/tCO2e and a high price of £400/tCO2e are used.
+
+### Income elasticity of demand
+
+The [Income elasticity of demand](https://en.wikipedia.org/wiki/Income_elasticity_of_demand) measures the change in demand of an expenditure item with change in income.  Put another way, the model assumes that the relative change in depand is proportional to the relative change in income, or equivilently that demand is an [exponential function](https://en.wikipedia.org/wiki/Exponential_function) of income and so has the form y = a b<sup>x</sup>.  This work includes savings and givings as expenditure items and so the total is an estimate of income.
+
+The ONS data is segmented into income deciles, so elasicity can be estimated from a least squares fit of the logarithms of expenditure and income, that is ln(y) = ln(a) + ln(b) ln(x) - see http://mathworld.wolfram.com/LeastSquaresFittingExponential.html
+
+Whilst we estimate income as a total of expenditure items, the income elasticity of demand model is not constrained so that the total change in demand equates to the change in income.  Thus, if we apply a change in income it predicts a change in expenditure for each item but the total of predicted item expenditures does not equal the total expenditure.  Other models could be developed but ethos of this work is to keep things as basic as possible so the process is iterated until the totals match.
+
+### Universal income
+
+A 
+
+### Final calculation of target CCS rates
+
+Putting this all together, for any given rate of carbon tax we can calculate the expected change in demand for expenditure items and the CO2e for these items.  Dividing the amount of tax raised by the total CO2e consumed gives a target CSS rate.  A carbon tax that raised enough revune to match the cost of implementing CSS would be tax neural and carbon neurtal, achieving the goal.
 
 
 ## Analysis by item
