@@ -46,9 +46,9 @@ It is anticipated that a carbon tax would be phased in over a number of years.  
 
 The [Income elasticity of demand](https://en.wikipedia.org/wiki/Income_elasticity_of_demand) measures the change in demand of an expenditure item with change in income.  Put another way, the model assumes that the relative change in depand is proportional to the relative change in income, or equivilently that demand is an [exponential function](https://en.wikipedia.org/wiki/Exponential_function) of income and so has the form y = a b<sup>x</sup>.  This work includes savings and givings as expenditure items and so the total is an estimate of income.
 
-The ONS data is segmented into income deciles, so elasicity can be estimated from a least squares fit of the logarithms of expenditure and income, that is ln(y) = ln(a) + ln(b) x - [see details](http://mathworld.wolfram.com/LeastSquaresFittingExponential.html).
+The ONS data is segmented into income deciles, so elasicity can be estimated from a least squares fit of the logarithms of expenditure and income, that is fitting ln(y) = ln(a) + ln(b) x ([details](http://mathworld.wolfram.com/LeastSquaresFittingExponential.html)).
 
-Whilst we estimate income as a total of expenditure items, the income elasticity of demand model is not constrained so that the total change in demand equates to the change in income.  Thus, if we apply a change in income it predicts a change in expenditure for each item but the total of predicted item expenditures does not equal the total expenditure.  Other models could be developed but ethos of this work is to keep things as basic as possible so the process is iterated until the totals match.
+Whilst we regard income as the total of expenditure items, the income elasticity of demand model is not constrained so that the total change in demand equates to the change in income.  Thus, if we apply a change in income it predicts a change in expenditure for each item but the total of predicted item expenditures does not equal the total expenditure.  Other models could be developed but ethos of this work is to keep things as basic as possible so the process is iterated until the totals match.
 
 ### Universal income
 
