@@ -111,7 +111,7 @@ It is now possible to calculate the expected change in demand for expenditure it
 | 10 | 51615 | 13271 | 26 | 36.6 | 27.8 |
 | mean | 27319 | 5312 | 17 | 21.4 | 17.9 |
 
-Thus a carbon tax of 800 would be expected to raise £5312 p.a. per household with average emissions of 17.9 tCO2e and thus support a CCS rate of £297 /tCO2e. The change in expenditure is assumed to occur over 10 years and so is 1.6% per year.
+Thus a carbon tax of £800/tCO2e would be expected to raise £5312 p.a. per household with average emissions of 17.9 tCO2e and thus support a removal rate of £297/tCO2e. The change in expenditure is assumed to occur over 10 years and so is 1.6% per year.
 
 
 ### Carbon tax and Carbon Capture and Storage
@@ -123,9 +123,13 @@ It is possible to sweep over at large range of tax rates and estimate the revenu
 
 ## Limitations              
 
+As noted earlier, the income elasticity of demand model is bery basic.
+
+Most importantly, we do not have CCS technology that can operate at scale.  Considerable capital expenditure will be required to develop this.
+
 ## Conclusion              
 
-A carbon tax with universal income is not an effective way to reduce emissions directly, indeed the universal income aspect ensures that lowest income households do not have to reduce emissions. However, it does provide a means to bound the changes needed to achieve carbon neutrality.
+A carbon tax with universal income is not an effective way to reduce emissions directly. However, it does provide a means to bound the changes needed to achieve carbon neutrality.
 
 ## Appendix: Full analysis by item
 
