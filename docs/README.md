@@ -111,6 +111,7 @@ It is now possible to calculate the expected change in demand for expenditure it
 | 10 | 51615 | 13271 | 26 | 36.6 | 27.8 |
 | mean | 27319 | 5312 | 17 | 21.4 | 17.9 |
 
+Thus a carbon tax of 800 would be expected to raise £5312 p.a. per household with average emissions of 17.9 tCO2e and thus support a CCS rate of £297 /tCO2e.
 
 ### Carbon tax and Carbon Capture and Storage
 
