@@ -44,3 +44,22 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 
 | Item description | £  | kgCO2/£ | kgCO2 | £(%up) at £100/t| £(%up) at £400/t|
 |:-----------------|---:|--------:|------:|----------------:|----------------:|
+| 1.1.5 Beef (fresh, chilled or frozen) | 103 | 1.80 | 185 | 121 (17) | 177 (72) |
+| 1.1.6 Pork (fresh, chilled or frozen) | 32 | 1.14 | 36 | 35 (11) | 46 (45) |
+| 1.1.7 Lamb (fresh, chilled or frozen) | 33 | 0.95 | 31 | 36 (9) | 45 (37) |
+| 1.1.8 Poultry (fresh, chilled or frozen) | 121 | 1.14 | 138 | 135 (11) | 176 (45) |
+| 1.1.10 Other meat and meat preparations | 331 | 1.30 | 431 | 374 (12) | 503 (52) |
+| 4.4.1 Electricity | 592 | 2.32 | 1372 | 729 (23) | 1141 (92) |
+| 4.4.2 Gas | 512 | 6.41 | 3280 | 840 (64) | 1824 (256) |
+| 4.4.3 Other fuels | 69 | 1.78 | 123 | 81 (17) | 118 (71) |
+| 7.1.1 Purchase of new cars and vans | 514 | 0.78 | 401 | 554 (7) | 674 (31) |
+| 7.1.2 Purchase of second hand cars or vans | 888 | 0.78 | 693 | 957 (7) | 1165 (31) |
+| 7.1.3 Purchase of motorcycles and other vehicles | 32 | 0.78 | 25 | 34 (7) | 42 (31) |
+| 7.2.2 Petrol, diesel and other motor oils | 1103 | 1.78 | 1961 | 1300 (17) | 1888 (71) |
+| 9.6.2 Package holidays - abroad | 1311 | 2.00 | 2622 | 1573 (19) | 2360 (80) |
+| Household total | 27319 |  | 21407 |
+
+
+### Carbon footprint by decile and universal income
+
+The ONS data is segmented into income deciles so the catbon footprint can be calculated for each income segment under the two illustrative catbon tax rates.  The universal income is set so that there is no net effect to decile 2 and so the net effect of tax and universal income can be calculated.
