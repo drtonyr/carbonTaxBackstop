@@ -67,6 +67,33 @@ The ONS data is segmented into income deciles so the catbon footprint can be cal
 | Decile | expenditure | tCO2e | ctax at £100/t | ctax-UI at £100/t | ctax at £400/t | ctax-UI at £400/t |
 |:------:|------------:|------:|--------------:|-----------------:|--------------:|-----------------:|
 
+| 0 | 12449 | 11.3 | 1125 | FINISH |  4500 | FINISH |
+ 
+
+| 1 | 16219 | 13.9 | 1389 | FINISH |  5558 | FINISH |
+ 
+
+| 2 | 18343 | 15.6 | 1559 | FINISH |  6237 | FINISH |
+ 
+
+| 3 | 20842 | 17.0 | 1697 | FINISH |  6789 | FINISH |
+ 
+
+| 4 | 23455 | 18.8 | 1881 | FINISH |  7524 | FINISH |
+ 
+
+| 5 | 27734 | 21.5 | 2146 | FINISH |  8586 | FINISH |
+ 
+
+| 6 | 30103 | 23.7 | 2374 | FINISH |  9495 | FINISH |
+ 
+
+| 7 | 32965 | 25.2 | 2521 | FINISH |  10085 | FINISH |
+ 
+
+| 8 | 39465 | 30.5 | 3051 | FINISH |  12204 | FINISH |
+ 
+
 | 9 | 51615 | 36.6 | 3662 | FINISH |  14649 | FINISH |
  
 
