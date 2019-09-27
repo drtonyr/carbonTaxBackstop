@@ -8,7 +8,7 @@ This work investigates the inpact of a [Carbon Tax](https://en.wikipedia.org/wik
 This work assumes that the UK can implement a carbon tax and that the revenues raised can be used to sequester carbon such that we achieve neurality.  Analysis of houshold spending gives a reasonable approximation of CO2e emissions by item expenditure.  Analysis of income elasticity by item gives an expectation of the change in spending at a given rate of carbon tax.  In order not to disavantage the lowest income households a universal household income is included so that there is no net change to the first decile.
 Increasing the carbon tax thus both reduces expenditure on high carbon items and so reduces emissions and also raises revenues which can be spent on carbon capture and storage and so achieve net carbon zero.  Details of the expected changes are provided.
 
-This analysis is intentionally basic so as to to form a complete isolated work.  The tax-and-sequester method is not proposed as the best route forward, it is proposed to provide one way forward and so bound the changes needed to achieve carbon neutrality.  It is clearly better not to emit than to emit-tax-and-sequester but the taxation element will provide economic pressure to find better solutions. [Full source code](https://github.com/drtonyr/basicCarbonTaxUK) is [freely available](https://en.wikipedia.org/wiki/MIT_License).
+This analysis is intentionally basic so as to to form a complete isolated work.  The tax-and-sequester method is not proposed as the best route forward, it is proposed to provide one way forward to bound the changes needed to achieve carbon neutrality.  It is clearly better not to emit than to emit-tax-and-sequester but the taxation element will provide economic pressure to find better solutions. [Full source code](https://github.com/drtonyr/basicCarbonTaxUK) is [freely available](https://en.wikipedia.org/wiki/MIT_License).
 
 ## Methodolgy
 
@@ -97,19 +97,19 @@ Another major limitation of this model is that it does not consider cross corela
 It is now possible to calculate the expected change in demand for expenditure items and the CO2e for these items.  The biggest changes in behaviour occur at the highest income group, so that is used to illustrate the change.
 
 
-| Decile | expenditure | ctax-UI at £800/t | prior tCO2e | post tCO2e  |
-|:------:|------------:|-----------------:|------------:|------------:|
-| 1 | 12449 | 0 | 11.3 | 11.3 |
-| 2 | 16219 | 1383 | 13.9 | 13.0 |
-| 3 | 18343 | 2271 | 15.6 | 14.1 |
-| 4 | 20842 | 2994 | 17.0 | 15.0 |
-| 5 | 23455 | 3954 | 18.8 | 16.2 |
-| 6 | 27734 | 5343 | 21.5 | 17.9 |
-| 7 | 30103 | 6532 | 23.7 | 19.4 |
-| 8 | 32965 | 7303 | 25.2 | 20.4 |
-| 9 | 39465 | 10074 | 30.5 | 23.8 |
-| 10 | 51615 | 13271 | 36.6 | 27.8 |
-| mean | 27319 | 5312 | 21.4 | 17.9 |
+| Decile | expenditure | ctax-UI at £800/t | %decrease in expenditure | prior tCO2e | post tCO2e  |
+|:------:|------------:|-----------------:|--------------------------:|------------:|------------:|
+| 1 | 12449 | 0 | 0 | 11.3 | 11.3 |
+| 2 | 16219 | 1383 | 9 | 13.9 | 13.0 |
+| 3 | 18343 | 2271 | 12 | 15.6 | 14.1 |
+| 4 | 20842 | 2994 | 14 | 17.0 | 15.0 |
+| 5 | 23455 | 3954 | 17 | 18.8 | 16.2 |
+| 6 | 27734 | 5343 | 19 | 21.5 | 17.9 |
+| 7 | 30103 | 6532 | 22 | 23.7 | 19.4 |
+| 8 | 32965 | 7303 | 22 | 25.2 | 20.4 |
+| 9 | 39465 | 10074 | 26 | 30.5 | 23.8 |
+| 10 | 51615 | 13271 | 26 | 36.6 | 27.8 |
+| mean | 27319 | 5312 | 17 | 21.4 | 17.9 |
 
 
 ### Carbon tax and Carbon Capture and Storage
@@ -123,7 +123,7 @@ It is possible to sweep over at large range of tax rates and estimate the revenu
 
 ## Conclusion              
 
-A carbon tax with universal income is not an effective way to reduce emissions directly.  However, it does provide a bounded means to carbon neutrality.
+A carbon tax with universal income is not an effective way to reduce emissions directly, indeed the universal income aspect ensures that lowest income households do not have to reduce emissions. However, it does provide a means to bound the changes needed to achieve carbon neutrality.
 
 ## Appendix: Full analysis by item
 
