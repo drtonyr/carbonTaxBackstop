@@ -76,6 +76,7 @@ The ONS data is segmented into income deciles so the catbon footprint can be cal
  | 8 | 32965 | 25.2 | 2521 | 1132 | 10085 | 4527 |
  | 9 | 39465 | 30.5 | 3051 | 1662 | 12204 | 6647 |
  | 10 | 51615 | 36.6 | 3662 | 2273 | 14649 | 9091 |
+ | mean | 27319 | 21.4 | 2141 | 751 | 8563 | 3005 |
  
 
 ### Income elasticity of demand
@@ -88,7 +89,7 @@ Elasicity has been estimated using all three functions. The appendix contanis pl
 
 Whilst we regard income as the total of expenditure items, the income elasticity of demand model is not constrained so that the total change in demand equates to the change in income.  Thus, if we apply a change in income it predicts a change in expenditure for each item but the total of predicted item expenditures does not equal the total expenditure.  Other models could be developed but ethos of this work is to keep things as basic as possible so the process is iterated until the totals match.
 
-Another major limitation of this model is that it does not consider cross corelations, that is that the change in demand of one item may affect another.  For ezample, when the carbontax on natural gas makes electicity more economical for home heating it can be assumed that there will be a drastic reduciton in gas usage and an equivelent increase in electicity usage.  More subtly, it also assumes that a household which has exactly the same increase in costs due to carbon tax as is matched with the universal income will not change any expenditures.  Whlist this may be true for some households, others may chose to spend on low carbon goods and so increase overall valye and reduce carbon emissions.   Thus the model presented here can be considered an upper bound on what is needed, in practice we will ne able to get away with lower carbon tax rates.
+Another major limitation of this model is that it does not consider cross corelations, that is that the change in demand of one item may affect another.  For example, when the carbon tax on natural gas makes electicity more economical for home heating it can be assumed that there will be a drastic reduciton in gas usage and an equivelent increase in electicity usage.  More subtly, it also assumes that a household which has exactly the same increase in costs due to carbon tax as is matched with the universal income will not change any expenditures.  Whlist this may be true for some households, others may chose to spend on low carbon goods and so increase overall value and reduce carbon emissions.   Thus the model presented here can be considered an upper bound on what is needed, in practice we will ne able to get away with lower carbon tax rates.
 
 ### Final calculation of target CCS rates
 
