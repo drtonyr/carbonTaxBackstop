@@ -40,63 +40,22 @@ Various sources are used to estimate the mass of CO2e emitted per pound spent (k
 
 We can now summarise all expenditure items with their CO2e impact and the new costs under different carbon tax rates.  To illustrate the impact a low price of £200/tCO2e and a high price of £800/tCO2e are used.
 
-It is assumed that a carbon tax would be introduced gradually over a 10 year timescale.  As such items that increase in cost less than 50 percent (4.14 percent per year) have been excluded for clarity.  The full table can be found in the appendix.
+It is assumed that a carbon tax would be introduced gradually over a 10 year timescale.  As such items that increase in cost less than 60 percent (4.81 percent per year) have been excluded for clarity.  The full table can be found in the appendix.
 
 | Item description | £  | kgCO2/£ | kgCO2 | £(%up) at £200/t| £(%up) at £800/t|
 |:-----------------|---:|--------:|------:|----------------:|----------------:|
-| 1.1.1 Bread, rice and cereals | 283 | 0.72 | 204 | 324 (14) | 447 (57) |
-| 1.1.2 Pasta products | 22 | 0.72 | 16 | 26 (14) | 35 (57) |
-| 1.1.3 Buns, cakes, biscuits etc | 200 | 0.72 | 144 | 228 (14) | 315 (57) |
-| 1.1.4 Pastry (savoury) | 48 | 0.72 | 34 | 55 (14) | 75 (57) |
 | 1.1.5 Beef (fresh, chilled or frozen) | 103 | 1.80 | 185 | 140 (36) | 251 (144) |
 | 1.1.6 Pork (fresh, chilled or frozen) | 32 | 1.14 | 36 | 39 (22) | 61 (91) |
 | 1.1.7 Lamb (fresh, chilled or frozen) | 33 | 0.95 | 31 | 39 (18) | 58 (75) |
 | 1.1.8 Poultry (fresh, chilled or frozen) | 121 | 1.14 | 138 | 149 (22) | 232 (91) |
 | 1.1.10 Other meat and meat preparations | 331 | 1.30 | 431 | 417 (26) | 676 (104) |
-| 1.1.11 Fish and fish products | 151 | 0.72 | 109 | 173 (14) | 238 (57) |
-| 1.1.12 Milk | 113 | 0.72 | 81 | 129 (14) | 178 (57) |
-| 1.1.13 Cheese and curd | 103 | 0.72 | 75 | 118 (14) | 163 (57) |
-| 1.1.14 Eggs | 37 | 0.72 | 27 | 42 (14) | 58 (57) |
-| 1.1.15 Other milk products | 122 | 0.72 | 88 | 140 (14) | 193 (57) |
-| 1.1.16 Butter | 25 | 0.72 | 18 | 29 (14) | 39 (57) |
-| 1.1.17 Margarine, other vegetable fats and peanut butter | 31 | 0.72 | 22 | 35 (14) | 48 (57) |
-| 1.1.18 Cooking oils and fats | 18 | 0.72 | 13 | 20 (14) | 28 (57) |
-| 1.1.19 Fresh fruit | 207 | 0.72 | 149 | 237 (14) | 327 (57) |
-| 1.1.20 Other fresh, chilled or frozen fruits | 24 | 0.72 | 18 | 28 (14) | 39 (57) |
-| 1.1.21 Dried fruit and nuts | 44 | 0.72 | 31 | 50 (14) | 69 (57) |
-| 1.1.22 Preserved fruit and fruit based products | 8 | 0.72 | 6 | 9 (14) | 12 (57) |
-| 1.1.23 Fresh vegetables | 224 | 0.72 | 161 | 256 (14) | 352 (57) |
-| 1.1.24 Dried vegetables | 4 | 0.72 | 3 | 4 (14) | 6 (57) |
-| 1.1.25 Other preserved or processed vegetables | 87 | 0.72 | 63 | 99 (14) | 137 (57) |
-| 1.1.26 Potatoes | 41 | 0.72 | 29 | 46 (14) | 64 (57) |
-| 1.1.27 Other tubers and products of tuber vegetables | 85 | 0.72 | 61 | 98 (14) | 134 (57) |
-| 1.1.28 Sugar and sugar products | 20 | 0.72 | 15 | 23 (14) | 32 (57) |
-| 1.1.29 Jams, marmalades | 16 | 0.72 | 12 | 18 (14) | 25 (57) |
-| 1.1.30 Chocolate | 110 | 0.72 | 79 | 126 (14) | 173 (57) |
-| 1.1.31 Confectionery products | 41 | 0.72 | 29 | 46 (14) | 64 (57) |
-| 1.1.32 Edible ices and ice cream | 34 | 0.72 | 25 | 39 (14) | 54 (57) |
-| 1.1.33 Other food products | 135 | 0.72 | 97 | 154 (14) | 212 (57) |
-| 1.2.1 Coffee | 49 | 0.72 | 35 | 56 (14) | 77 (57) |
-| 1.2.2 Tea | 23 | 0.72 | 16 | 26 (14) | 36 (57) |
-| 1.2.3 Cocoa and powdered chocolate | 5 | 0.72 | 4 | 6 (14) | 8 (57) |
-| 1.2.4 Fruit and vegetable juices (inc. fruit squash) | 56 | 0.72 | 40 | 64 (14) | 88 (57) |
-| 1.2.5 Mineral or spring waters | 21 | 0.72 | 15 | 24 (14) | 33 (57) |
-| 1.2.6 Soft drinks (inc. fizzy and ready to drink fruit drinks) | 103 | 0.72 | 74 | 118 (14) | 162 (57) |
 | 4.4.1 Electricity | 592 | 2.32 | 1372 | 866 (46) | 1689 (185) |
 | 4.4.2 Gas | 512 | 6.41 | 3280 | 1168 (128) | 3136 (512) |
 | 4.4.3 Other fuels | 69 | 1.78 | 123 | 94 (35) | 167 (142) |
-| 6.1.1 Medicines, prescriptions, healthcare products etc | 109 | 0.66 | 72 | 124 (13) | 167 (52) |
 | 7.1.1 Purchase of new cars and vans | 514 | 0.78 | 401 | 594 (15) | 834 (62) |
 | 7.1.2 Purchase of second hand cars or vans | 888 | 0.78 | 693 | 1027 (15) | 1442 (62) |
 | 7.1.3 Purchase of motorcycles and other vehicles | 32 | 0.78 | 25 | 37 (15) | 52 (62) |
 | 7.2.2 Petrol, diesel and other motor oils | 1103 | 1.78 | 1961 | 1496 (35) | 2672 (142) |
-| 9.1.1 Audio equipment and accessories, CD players | 55 | 0.65 | 36 | 62 (12) | 84 (52) |
-| 9.1.2 TV, video and computers | 182 | 0.65 | 118 | 206 (12) | 277 (52) |
-| 9.1.3 Photographic, cine and optical equipment | 17 | 0.65 | 11 | 19 (12) | 26 (52) |
-| 9.5.1 Books | 66 | 0.66 | 43 | 74 (13) | 100 (52) |
-| 9.5.2 Diaries, address books, cards etc | 109 | 0.66 | 72 | 123 (13) | 166 (52) |
-| 9.5.3 Newspapers | 68 | 0.66 | 45 | 77 (13) | 104 (52) |
-| 9.5.4 Magazines and periodicals | 36 | 0.66 | 24 | 41 (13) | 55 (52) |
 | 9.6.2 Package holidays - abroad | 1311 | 2.00 | 2622 | 1835 (39) | 3408 (160) |
 | Household total | 27319 |  | 21407 |
 
