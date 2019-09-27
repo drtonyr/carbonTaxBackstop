@@ -5,7 +5,7 @@
 
 This work investigates the inpact of a [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) on UK household spending.  It is widely accepted that we must achieve [carbon neutrality](https://en.wikipedia.org/wiki/Carbon_neutrality) as soon as is practical and a carbon tax is regarded as the main economic tool to achive this.
 
-This work assumes that the UK can implement a carbon tax and that the revenues raised can be used to sequester carbon such that we achieve neurality.  Analysis of houshold spending gives a reasonable approximation of CO2e emissions by item expenditure.  Analysis of income elasticity by item gives an expectation of the change in spending at a given rate of carbon tax.  In order not to disavantage the lowest income households a universal household income is included so that there is no net change to decile 2 (with lower deciles gaining and higher deciles contributing).  Increasing the carbon tax thus both reduces expenditure on high carbon items and so reduces emissions and also raises revenues which can be spent on carbon capture and storage and so achieve net carbon zero.  Details of the expected changes are provided.
+This work assumes that the UK can implement a carbon tax and that the revenues raised can be used to sequester carbon such that we achieve neurality.  Analysis of houshold spending gives a reasonable approximation of CO2e emissions by item expenditure.  Analysis of income elasticity by item gives an expectation of the change in spending at a given rate of carbon tax.  In order not to disavantage the lowest income households a universal household income is included so that there is no net change to decile 1 (with lower deciles gaining and higher deciles contributing).  Increasing the carbon tax thus both reduces expenditure on high carbon items and so reduces emissions and also raises revenues which can be spent on carbon capture and storage and so achieve net carbon zero.  Details of the expected changes are provided.
 
 This analysis is intentionally basic so as to to form a complete isolated project.  A discussion of the limitations is provided and it is concluded that the carvon tax rates calcuated here are an upper bound on what is necessary.  [Full source code](https://github.com/drtonyr/basicCarbonTaxUK) is [freely available](https://en.wikipedia.org/wiki/MIT_License).
 
@@ -62,21 +62,21 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 
 ### Carbon footprint by decile and universal income
 
-The ONS data is segmented into income deciles so the catbon footprint can be calculated for each income segment under the two illustrative catbon tax rates.  The universal income is set so that there is no net effect to decile 2 and so the net effect of tax and universal income can be calculated.
+The ONS data is segmented into income deciles so the catbon footprint can be calculated for each income segment under the two illustrative catbon tax rates.  The universal income is set so that there is no net effect to decile 1 and so the net effect of tax and universal income can be calculated.
 
 | Decile | expenditure | tCO2e | ctax at £200/t | ctax-UI at £200/t | ctax at £800/t | ctax-UI at £800/t |
 |:------:|------------:|------:|--------------:|-----------------:|--------------:|-----------------:|
-| 1 | 12449 | 11.3 | 2250 | -529 | 9000 | -2116 |
- | 2 | 16219 | 13.9 | 2779 | 0 | 11116 | 0 |
- | 3 | 18343 | 15.6 | 3119 | 340 | 12474 | 1359 |
- | 4 | 20842 | 17.0 | 3395 | 616 | 13579 | 2463 |
- | 5 | 23455 | 18.8 | 3762 | 983 | 15048 | 3933 |
- | 6 | 27734 | 21.5 | 4293 | 1514 | 17172 | 6056 |
- | 7 | 30103 | 23.7 | 4748 | 1969 | 18991 | 7875 |
- | 8 | 32965 | 25.2 | 5043 | 2264 | 20170 | 9055 |
- | 9 | 39465 | 30.5 | 6102 | 3323 | 24409 | 13293 |
- | 10 | 51615 | 36.6 | 7324 | 4546 | 29298 | 18182 |
- | mean | 27319 | 21.4 | 4281 | 1503 | 17126 | 6010 |
+| 1 | 12449 | 11.3 | 2250 | 0 | 9000 | 0 |
+ | 2 | 16219 | 13.9 | 2779 | 529 | 11116 | 2116 |
+ | 3 | 18343 | 15.6 | 3119 | 869 | 12474 | 3474 |
+ | 4 | 20842 | 17.0 | 3395 | 1145 | 13579 | 4579 |
+ | 5 | 23455 | 18.8 | 3762 | 1512 | 15048 | 6048 |
+ | 6 | 27734 | 21.5 | 4293 | 2043 | 17172 | 8172 |
+ | 7 | 30103 | 23.7 | 4748 | 2498 | 18991 | 9991 |
+ | 8 | 32965 | 25.2 | 5043 | 2793 | 20170 | 11170 |
+ | 9 | 39465 | 30.5 | 6102 | 3852 | 24409 | 15409 |
+ | 10 | 51615 | 36.6 | 7324 | 5074 | 29298 | 20298 |
+ | mean | 27319 | 21.4 | 4281 | 2031 | 17126 | 8126 |
  
 
 ### Income elasticity of demand
@@ -98,17 +98,17 @@ It is now possible to calculate the expected change in demand for expenditure it
 
 | Decile | expenditure | ctax-UI at £800/t | prior tCO2e | post tCO2e  |
 |:------:|------------:|-----------------:|------------:|------------:|
-| 1 | 12449 | -1383 | 11.3 | 12.2 |
-| 2 | 16219 | 0 | 13.9 | 13.9 |
-| 3 | 18343 | 888 | 15.6 | 15.0 |
-| 4 | 20842 | 1611 | 17.0 | 15.9 |
-| 5 | 23455 | 2571 | 18.8 | 17.1 |
-| 6 | 27734 | 3959 | 21.5 | 18.8 |
-| 7 | 30103 | 5149 | 23.7 | 20.3 |
-| 8 | 32965 | 5920 | 25.2 | 21.3 |
-| 9 | 39465 | 8691 | 30.5 | 24.8 |
-| 10 | 51615 | 11888 | 36.6 | 28.8 |
-| mean | 27319 | 3929 | 21.4 | 18.8 |
+| 1 | 12449 | 0 | 11.3 | 11.3 |
+| 2 | 16219 | 1383 | 13.9 | 13.0 |
+| 3 | 18343 | 2271 | 15.6 | 14.1 |
+| 4 | 20842 | 2994 | 17.0 | 15.0 |
+| 5 | 23455 | 3954 | 18.8 | 16.2 |
+| 6 | 27734 | 5343 | 21.5 | 17.9 |
+| 7 | 30103 | 6532 | 23.7 | 19.4 |
+| 8 | 32965 | 7303 | 25.2 | 20.4 |
+| 9 | 39465 | 10074 | 30.5 | 23.8 |
+| 10 | 51615 | 13271 | 36.6 | 27.8 |
+| mean | 27319 | 5312 | 21.4 | 17.9 |
 
 
 ### Carbon tax and Carbon Capture and Storage
