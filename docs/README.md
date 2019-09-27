@@ -64,8 +64,12 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 
 The ONS data is segmented into income deciles so the catbon footprint can be calculated for each income segment under the two illustrative catbon tax rates.  The universal income is set so that there is no net effect to decile 2 and so the net effect of tax and universal income can be calculated.
 
-| Decile | expenditure | ctax at £100/t | ctax-UI at £100/t | ctax at £400/t | ctax-UI at £400/t |
-|:------:|------------:|--------------:|-----------------:|--------------:|-----------------:|
+| Decile | expenditure | tCO2e | ctax at £100/t | ctax-UI at £100/t | ctax at £400/t | ctax-UI at £400/t |
+|:------:|------------:|------:|--------------:|-----------------:|--------------:|-----------------:|
+
+| 9 | 51615 | 36.6 | 3662 | FINISH |  14649 | FINISH |
+ 
+
 
 ### Income elasticity of demand
 
