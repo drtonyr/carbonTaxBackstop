@@ -131,7 +131,30 @@ Most importantly, we do not have CCS technology that can operate at scale.  Cons
 
 A carbon tax with universal income is not an effective way to reduce emissions directly. However, it does provide a means to bound the changes needed to achieve carbon neutrality.
 
-## Appendix: Full analysis by item
+## Appendix: Python configurationm
+
+This report was generated from catbonTaxBackstop.py which can be found at [drtonyr.github.io/carbonTaxBackstop](https://drtonyr.github.io/carbonTaxBackstop).
+
+There is a configuration section at the top of the code, the pararmeters used for this report were:
+
+```
+
+## you might want to play with this block
+exclItem = ['4.1.1', '4.1.2']          # excluded items
+inclItem = ['13.3', '13.4.2', '14.6']  # included items
+nyear = 10    # the number of years taken to get to Net Carbon Zero
+nEquality = 1 #  decile with no net impact
+ctaxLo = 200   # the low  illustrative Carbon Tax rate in £/tCO2e
+ctaxHi = 800   # the high illustrative Carbon Tax rate in £/tCO2e
+thresholdPC = 60 # the percentage increase over nyear considered small (30% works for £400/t, 40% at £500/t, )
+cacheImg = True  # set to False to recalulate images even if already present
+
+## you probably don't want to play with this block
+path = r'docs/basicCarbonTaxUK.xls' # name of cached spreadsheet 
+ndec = 10     # number of decile divisions
+npoly = 1     # polynomial order
+ 
+```## Appendix: Full analysis by item
 
 
 | Item description | £  | kgCO2/£ | kgCO2 | £(%up) at £200/t| £(%up) at £800/t|
