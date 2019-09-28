@@ -135,7 +135,8 @@ A carbon tax with universal income is not an effective way to reduce emissions d
 
 This report was generated from catbonTaxBackstop.py which can be found at [drtonyr.github.io/carbonTaxBackstop](https://drtonyr.github.io/carbonTaxBackstop).
 
-There is a configuration section at the top of the code, the pararmeters used for this report were:```
+There is a configuration section at the top of the code, the pararmeters used for this report were:
+```
 
 ## you might want to play with this block
 exclItem = ['4.1.1', '4.1.2']          # excluded items
