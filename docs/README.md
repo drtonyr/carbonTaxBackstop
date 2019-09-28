@@ -114,7 +114,9 @@ It is now possible to calculate the expected change in demand for expenditure it
 Thus a carbon tax of £800/tCO2e would be expected to raise £5312 p.a. per household with average emissions of 17.9 tCO2e and thus support a removal rate of £297/tCO2e. The change in expenditure is assumed to occur over 10 years and so is 1.6% per year.
 
 
-### Carbon tax and Carbon Capture and Storage
+### Carbon tax and carbon sequestration
+
+Talk about marginal costs here.
 
 The cost of [Carbon Capture and Storage (CCS)](https://en.wikipedia.org/wiki/Carbon_capture_and_storage) is very hard to estimate.   The current marginal cost (e.g. from power plants or rewilding) is very low, but this does not scale to a Zero Carbon UK. [Bio-energy with carbon capture and storage](https://en.wikipedia.org/wiki/Bio-energy_with_carbon_capture_and_storage) and [direct air carbon capture and storage](https://en.wikipedia.org/wiki/Direct_air_capture) are both emerging technologies.  For example, figure 10.2 in [The Committee on Climate Change](https://www.theccc.org.uk) [Net Zero – Technical Report](https://www.theccc.org.uk/publication/net-zero-technical-report) has numbers around £200/tCO2e with great uncertainty.
 
