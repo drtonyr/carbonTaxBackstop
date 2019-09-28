@@ -135,9 +135,7 @@ A carbon tax with universal income is not an effective way to reduce emissions d
 
 This report was generated from catbonTaxBackstop.py which can be found at [drtonyr.github.io/carbonTaxBackstop](https://drtonyr.github.io/carbonTaxBackstop).
 
-There is a configuration section at the top of the code, the pararmeters used for this report were:
-
-```
+There is a configuration section at the top of the code, the pararmeters used for this report were:```
 
 ## you might want to play with this block
 exclItem = ['4.1.1', '4.1.2']          # excluded items
@@ -154,7 +152,8 @@ path = r'docs/basicCarbonTaxUK.xls' # name of cached spreadsheet
 ndec = 10     # number of decile divisions
 npoly = 1     # polynomial order
  
-```## Appendix: Full analysis by item
+```
+## Appendix: Full analysis by item
 
 
 | Item description | £  | kgCO2/£ | kgCO2 | £(%up) at £200/t| £(%up) at £800/t|
