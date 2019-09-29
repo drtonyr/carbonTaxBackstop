@@ -10,6 +10,15 @@ Increasing the carbon tax thus both reduces expenditure on high carbon items and
 
 This analysis is intentionally limited so as to to form a complete isolated work.  The tax-and-sequester method is not proposed as the best route forward, it is proposed to provide one way forward to bound the changes needed to achieve carbon neutrality.  It is clearly better not to emit than to emit-tax-and-sequester and as such it provides a backstop and economic pressure to find better solutions. [Full source code](https://github.com/drtonyr/carbonTaxBackstop) is [freely available](https://en.wikipedia.org/wiki/MIT_License).
 
+## MOtivation
+
+There seems to be two styles of Climate Change policy:
+
+* Aspirational:  These will have a clear target but are not backed up by a detailed implementation.  They carry an execution risk because they may not be practical and aspirations may change.
+* Implementational:  These have a detailed implementation, typically involving many interdependent parts which sum to the desireed target.  They carry an execution risk as inevitably some parts will work out and some won't - as Niels Bohr said "Prediction is very difficult, especially about the future.". 
+
+A backstop is valuable to all policies.  It provides a commitement now to the carbon neutrality goal and an insurance policy incase some aspects do not work out as expected.
+
 ## Methodolgy
 
 ### Household expenditure
