@@ -123,11 +123,14 @@ The cost of [Carbon Capture and Storage (CCS)](https://en.wikipedia.org/wiki/Car
 It is possible to sweep over at large range of tax rates and estimate the revenue generated and the correspondnig reduction in CO2e.  Dividing the expected CO2e by the reveue rasied gives a CSS rate which, if achieved, would result in carbon neutrality.
 
 
-## Limitations              
+## Limitations and Discussion              
 
 As noted earlier, the income elasticity of demand model is bery basic.
 
-Most importantly, we do not have CCS technology that can operate at scale.  Considerable capital expenditure will be required to develop this.
+Most importantly, we do not have CCS technology that can operate at scale.  Considerable capital expenditure will be required to develop this. However, this is at the far end of the backstop.  As the carbon tax will be phased in gradually over a number of years the initial low rate will discourage the emissions which are easy to eliminate and as the rate increases different techniques will come into play.   CCS is at the far end and thus it is expected that CO2e emmissions will be vastly reduced by the time this technoldy is needed.
+
+This work does not consider how the carbon tax would be implemented not its effect on different sectors of the economy.  For discussion of this see [How to price carbon
+to reach net-zero emissions in the UK](http://www.lse.ac.uk/GranthamInstitute/wp-content/uploads/2019/05/GRI_POLICY-REPORT_How-to-price-carbon-to-reach-net-zero-emissions-in-the-UK.pdf).
 
 ## Conclusion              
 
