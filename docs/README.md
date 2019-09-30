@@ -12,7 +12,7 @@ This analysis is intentionally limited so as to to form a complete isolated work
 
 ## Motivation
 
-There seems to be two styles of Climate Change policy:
+Broadly speaking, there are two styles of climate change policy:
 
 * Aspirational:  These will have a clear target but are not backed up by a detailed implementation.  They carry an execution risk because they may not be practical and aspirations may change.
 * Implementational:  These have a detailed implementation, typically involving many interdependent parts which sum to the desired target.  They carry an execution risk as inevitably some parts will work out and some won't - the Danish saying "Prediction is very difficult, especially about the future." is pertient as we are in danger of hitting a tipping point.
