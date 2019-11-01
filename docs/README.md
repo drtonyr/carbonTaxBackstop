@@ -28,7 +28,7 @@ Climate crisis affects how majority will vote in UK election]).
 
 The [Office for National Statistics (ONS)](https://www.ons.gov.uk/) collects and publishes a wide variety of data for the UK, specifically [Detailed household expenditure by equivalised disposable income decile group: Table 3.1E](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/datasets/detailedhouseholdexpenditurebyequivaliseddisposableincomedecilegroupoecdmodifiedscaleuktable31e).   This breaks household expenditure down into about 140 [COICOP](https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Classification_of_individual_consumption_by_purpose_(COICOP)) categories, and further breaks down all categories into deciles of total household spending.
 
-This work differs from the [COICOP](https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Classification_of_individual_consumption_by_purpose_(COICOP)) categories in the ONS table for a few items.  Some items have been excluded as they don't form part of the total calculation:
+This work adjusts COICOP categories for a few items.  Some items have been excluded as they don't form part of the total calculation:
 
 |    | Excluded item description |
 |:---|:--------------------------|
@@ -36,7 +36,7 @@ This work differs from the [COICOP](https://ec.europa.eu/eurostat/statistics-exp
 | 4.1.2 | less housing benefit, rebates and allowances rec'd |
 
 
-Some non-COICOP items were included as they consituted significant discretionary spending:
+Some non-COICOP items in the ONS data were included as they consituted significant discretionary spending:
 
 |    | Included item description |
 |:---|:--------------------------|
