@@ -12,20 +12,21 @@ This report is generated from python source code which is [freely available](htt
 
 ## Motivation
 
-Broadly speaking, there are two styles of climate change policy:
+Broadly speaking, the spectrum of climate change policy has extremes of:
 
-* Aspirational:  These will have a clear target but are not backed up by a detailed implementation.  They carry an execution risk because they may not be practical and aspirations may change.
+* Aspirational:  These polcies will have a clear target but are not backed up by a detailed implementation.  They carry an execution risk because they may not be practical and aspirations may change.
 * Implementational:  These have a detailed implementation, typically involving many interdependent parts which sum to the desired target.  They carry an execution risk as inevitably some parts will work out and some won't - the Danish saying "Prediction is very difficult, especially about the future." is pertient as there are many things we can't model exactly.
 
-A backstop is means of guaranteing the desired outcome, if better means are found then it need not be used.
+A backstop is means of guaranteeing the desired outcome, if better means are found then it need not be used.
 
-A carbon tax backstop is valuable to all policies and all political parties.  It provides the ability to commitement to carbon neutrality.
+A carbon tax backstop is valuable to all policies and all political parties.  It provides the ability to commitement to carbon neutrality ((https://www.theguardian.com/environment/2019/oct/30/climate-crisis-affects-how-majority-will-vote-in-uk-election-poll)[
+Climate crisis affects how majority will vote in UK election]).
 
-## Methodolgy
+## Methodology
 
 ### Household expenditure
 
-The [Office for National Statistics (ONS)](https://www.ons.gov.uk/) collects and publishes a wide variety of data for the UK, specifically [Detailed household expenditure by equivalised disposable income decile group: Table 3.1E](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/datasets/detailedhouseholdexpenditurebyequivaliseddisposableincomedecilegroupoecdmodifiedscaleuktable31e).
+The [Office for National Statistics (ONS)](https://www.ons.gov.uk/) collects and publishes a wide variety of data for the UK, specifically [Detailed household expenditure by equivalised disposable income decile group: Table 3.1E](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/datasets/detailedhouseholdexpenditurebyequivaliseddisposableincomedecilegroupoecdmodifiedscaleuktable31e).   This breaks household expenditure down into about 140 [COICOP](https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Classification_of_individual_consumption_by_purpose_(COICOP)) categories, and further breaks down all categories into deciles of total household spending.
 
 This work differs from the [COICOP](https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Classification_of_individual_consumption_by_purpose_(COICOP)) categories in the ONS table for a few items.  Some items have been excluded as they don't form part of the total calculation:
 
@@ -44,7 +45,7 @@ Some non-COICOP items were included as they consituted significant discretionary
 | 14.6 | Savings and investments |
 
 
-The weekly expenditures have been scaled to annual expenditures.  Throughout this work all values are per annum.
+The weekly expenditures provided have been scaled to annual expenditures.  Throughout this work all values are per annum.
 
 ### Calculation of carbon footprint
 
