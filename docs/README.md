@@ -6,7 +6,7 @@ This work models the impact of a [Carbon Tax](https://en.wikipedia.org/wiki/Carb
 This work assumes that a carbon tax will be implemented and that the revenues raised can be used to reduce CO2e emissions such that we achieve carbon neutrality.  Analysis of household spending from the UK gives a reasonable approximation of CO2e emissions by item expenditure.  Analysis of income elasticity by item gives an expectation of the change in spending at a given rate of carbon tax.  In order not to disadvantage the lowest income households a universal household income is included so that there is no net change to the first decile.
 Increasing the carbon tax thus both reduces expenditure on high carbon items (reducing emissions) and also raises revenues which can be spent on decarbonifying our economy so achieve net carbon zero.  Details of the expected changes are provided.
 
-This analysis is modelled as a backstop, that is a guarantee that the desired outcome will be achieved whilst leaving open the exact means of achieving the outcome.  All major political parties will be committing to carbon neutrality for the UK between 2030 and 2050.   This work allows them to guarantee that their target will be hit whilst not having to specify every detail.
+This analysis is modelled as a backstop, that is a guarantee that the desired outcome will be achieved whilst leaving open the exact means of achieving the outcome.  All major political parties will be committing to carbon neutrality for the UK between 2030 and 2050.   This work allows them to guarantee that their target will be hit whilst not having to specify every detail.  Carbon Neutrality is expected to be achievable with only modest changes in household expenditure.
 
 This report is generated from python source code which is [freely available](https://github.com/drtonyr/carbonTaxBackstop).
 
@@ -122,12 +122,12 @@ It is now possible to calculate the expected change in demand for expenditure it
 | 10 | 51791 | 9564 | 18 | 36.7 | 30.4 |
 | mean | 27412 | 3829 | 12 | 21.5 | 18.9 |
 
-Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 18.9 tCO2e p.a, a reduction of 12%.  Note that this is a backstop, we still haven't factored in the decarbonisation of expenditure.The change in expenditure is assumed to occur over 10 years and so is 1.1% per year.
+Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 18.9 tCO2e p.a, a reduction of 12%.The change in expenditure is assumed to occur over 10 years and so is 1.1% per year.  Note that this is the worse-case backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
 
 
 ## Carbon Tax and Decarbonisation
 
-So far we've assumed a high rate of carbon tax and seen that the worst case effect of the backstop is likely to be a small reduction in household spending every year and consequently a small reduction in CO2e per year - all of this done without decarbonisation.
+So far we've assumed a high rate of carbon tax and seen that the worst case effect of the backstop is likely to be a small reduction in household spending every year and consequently a small reduction in CO2e per year - all of this done without significant decarbonisation.
 
 There are many ways to decarbonise our economy.  Many items are reasonably, wind is already the most economical way to generate electricity in the UK and solar worldwide.  The hardest areas to decarbonise are where the high energy density of fossil fuels can't easily be replaced, such as in aviation.  Thus the worse case is when we have to remove CO2e from the atmosphere, and this was used to set the carbon tax rate.
 
