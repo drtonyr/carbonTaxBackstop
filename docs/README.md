@@ -74,8 +74,8 @@ Note that no changes in manufacturing or consumption have been included in the t
 
 The ONS data is segmented into income deciles so the catbon footprint can be calculated for each income segment under the two illustrative catbon tax rates.  The universal income is set so that there is no net effect to decile 1 and so the net effect of tax and universal income can be calculated (this number is one of the parameters of the code - changing it and running again results in a different report). 
 
-| Decile | expenditure | tCO2e | ctax at £200/t | ctax-UI at £200/t | ctax at £500/t | ctax-UI at £500/t |
-|:------:|------------:|------:|--------------:|-----------------:|--------------:|-----------------:|
+| Decile | expenditure/£ | tCO2e | ctax at £200/t | ctax-UI at £200/t | ctax at £500/t | ctax-UI at £500/t |
+|:------:|--------------:|------:|--------------:|-----------------:|--------------:|-----------------:|
 | 1 | 12491 | 11.3 | 2258 | 0 | 5644 | 0 |
  | 2 | 16274 | 13.9 | 2788 | 531 | 6971 | 1327 |
  | 3 | 18405 | 15.6 | 3129 | 871 | 7823 | 2179 |
@@ -89,7 +89,7 @@ The ONS data is segmented into income deciles so the catbon footprint can be cal
  | mean | 27412 | 21.5 | 4296 | 2038 | 10740 | 5096 |
  
 
-Looking at decile 1 we see that the Universal Income is set to exactly match the carbon tax.  Deciles higher than this benefit from the carbon tax, those lower fund decarbonisation.
+Looking at decile 1 we see that the Universal Income is set to exactly match the carbon tax.  Deciles higher than this benefit finacially, those lower fund decarbonisation.
 
 ### Income elasticity of demand
 
