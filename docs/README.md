@@ -125,7 +125,7 @@ It is now possible to calculate the expected change in demand for expenditure it
 Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 18.9 tCO2e p.a, a reduction of 12%.  Note that this is a backstop, we still haven't factored in the decarbonisation of expenditure.The change in expenditure is assumed to occur over 10 years and so is 1.1% per year.
 
 
-### Carbon tax and decarbonisation
+## Carbon Tax and Decarbonisation
 
 So far we've assumed a high rate of carbon tax and seen that the worst case effect of the backstop is likely to be a small reduction in household spending every year and consequently a small reduction in CO2e per year - all of this done without decarbonisation.
 
@@ -134,21 +134,21 @@ There are many ways to decarbonise our economy.  Many items are reasonably, wind
 The cost of [Carbon Capture and Storage (CCS)](https://en.wikipedia.org/wiki/Carbon_capture_and_storage) is very hard to estimate.   The current marginal cost (e.g. from power plants or rewilding) is very low, but this does not scale to a Zero Carbon UK. [Bio-energy with carbon capture and storage](https://en.wikipedia.org/wiki/Bio-energy_with_carbon_capture_and_storage) and [direct air carbon capture and storage](https://en.wikipedia.org/wiki/Direct_air_capture) are both emerging technologies.  For example, figure 10.2 in [The Committee on Climate Change](https://www.theccc.org.uk) [Net Zero – Technical Report](https://www.theccc.org.uk/publication/net-zero-technical-report) has numbers around £200/tCO2e with great uncertainty.
 
 This report calculated that a carbon tax rate of £500/tCO2e would be expected to raise £3829 p.a. per household with average emissions of 18.9 tCO2e and thus support a removal rate of £202/tCO2e.  This is in line with worse case costs, so we can expect that decarbonisation would be achieved more effectively that this.
-So what is the likely outcome of implementing a Carbon Tax Backstop?  By making a political commitment to achieve carbon neutrality industry would be able to plan to decarbonise.  We have assumed worse case rates, so the real cost will be less than the numbers adopted in the backstop plan.  Decarbonisation would happen at considerably less cost, so the 
 
-
-## Limitations and Discussion              
-
-As noted earlier, the income elasticity of demand model is very basic.
-
-Most importantly, we do not have CCS technology that can operate at scale.  Considerable capital expenditure will be required to develop this. However, this is at the far end of the backstop.  As the carbon tax will be phased in gradually over a number of years the initial low rate will discourage the emissions which are easy to eliminate and as the rate increases different techniques will come into play.   CCS is at the far end and thus it is expected that CO2e emissions will be vastly reduced by the time this technology is needed.
-
-This work does not consider how the carbon tax would be implemented not its effect on different sectors of the economy.  For discussion of this see [How to price carbon
-to reach net-zero emissions in the UK](http://www.lse.ac.uk/GranthamInstitute/wp-content/uploads/2019/05/GRI_POLICY-REPORT_How-to-price-carbon-to-reach-net-zero-emissions-in-the-UK.pdf).
+So what is the likely outcome of implementing a Carbon Tax Backstop?  It enables a trusted route to achieve carbon neutrality and so provides economic pressure to achieve this.  Industry would be able to plan to decarbonise and would see the economic benefit from doing so.  We have assumed worse case rates, so the real cost will be less than the numbers adopted in the backstop plan and decarbonisation will happen at considerably less cost than the worse case assumed.  Cnosequently the rates of revenue achieved would be considderably less than reported here.  Complete decarbonisation is not possible, but 90% is, so the economic impact on household spending may only be 10% of that modeled here.   Thus the backstop achieves it's desired effect of decarbonisation without significant finanicial household burden.
 
 ## Conclusion              
 
-A carbon tax with universal income is not an effective way to reduce emissions directly. However, it does provide a means to bound the changes needed to achieve carbon neutrality.
+Raising money through carbon tax/universal income to spend on sequestration is far from the best way to decarbonify our economy.  However, it does provide an effective economic incentive to implement better mechanisms.  As such it provides the certainty needed to prevent catastrophic climate breakdown.
+
+## Appendix: Summary of Assumptions and Limitations
+
+The income elasticity of demand model is very basic, but there again the change in demand is not great for most expenditure items.  Even taken over all items this work does not depend on reducing expenditure directly.
+
+We do not have CCS technology that can operate at scale.  Considerable capital expenditure will be required to develop this. However, this is at the far end of the backstop.  As the carbon tax will be phased in gradually over a number of years the initial low rate will discourage the emissions which are easy to eliminate and as the rate increases different techniques will come into play.   It is expected that CO2e emissions will be vastly reduced by the time this technology is needed.
+
+This work does not consider how the carbon tax would be implemented not its effect on different sectors of the economy.  For discussion of this see [How to price carbon
+to reach net-zero emissions in the UK](http://www.lse.ac.uk/GranthamInstitute/wp-content/uploads/2019/05/GRI_POLICY-REPORT_How-to-price-carbon-to-reach-net-zero-emissions-in-the-UK.pdf).
 
 ## Appendix: Python configuration
 
