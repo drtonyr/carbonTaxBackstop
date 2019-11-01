@@ -89,6 +89,8 @@ The ONS data is segmented into income deciles so the catbon footprint can be cal
  | mean | 27412 | 21.5 | 4296 | 2038 | 10740 | 5096 |
  
 
+Looking at decile 1 we see that the Universal Income is set to exactly match the carbon tax.  Deciles higher than this benefit from the carbon tax, those lower fund decarbonisation.
+
 ### Income elasticity of demand
 
 The [Income elasticity of demand](https://en.wikipedia.org/wiki/Income_elasticity_of_demand) measures the change in demand of an expenditure item with change in income.  Commonly the model assumes that the relative change in depand is proportional to the relative change in income, or equivilently that demand is an [exponential function](https://en.wikipedia.org/wiki/Exponential_function).  It is also possible to model demand as a [linear function](https://en.wikipedia.org/wiki/Linear_function) of income or as a [monomial](https://en.wikipedia.org/wiki/Monomial).
