@@ -19,7 +19,7 @@ Broadly speaking, the spectrum of climate change policy has extremes of:
 
 A backstop is means of guaranteeing the desired outcome, if better means are found then it need not be used.
 
-A carbon tax backstop is valuable to all policies and all political parties.  It provides the ability to commitement to carbon neutrality ((https://www.theguardian.com/environment/2019/oct/30/climate-crisis-affects-how-majority-will-vote-in-uk-election-poll)[Climate crisis affects how majority will vote in UK election]).
+A carbon tax backstop is valuable to all policies and all political parties.  It provides the ability to commitement to carbon neutrality (e.g. [Climate crisis affects how majority will vote in UK election](https://www.theguardian.com/environment/2019/oct/30/climate-crisis-affects-how-majority-will-vote-in-uk-election-poll)).
 
 ## Methodology
 
