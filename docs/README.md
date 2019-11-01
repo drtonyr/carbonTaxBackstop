@@ -106,8 +106,8 @@ Another major limitation of this model is that it does not consider cross corela
 It is now possible to calculate the expected change in demand for expenditure items and the CO2e for these items.  The biggest changes in behaviour occur at the highest income group, so that is used to illustrate the change.
 
 
-| Decile | expenditure | ctax-UI at £500/t | %decrease in expenditure | prior tCO2e | post tCO2e  |
-|:------:|------------:|-----------------:|--------------------------:|------------:|------------:|
+| Decile | expenditure/£ | ctax-UI at £500/t | %decrease in expenditure | prior tCO2e | post tCO2e  |
+|:------:|--------------:|-----------------:|--------------------------:|------------:|------------:|
 | 1 | 12491 | 0 | 0 | 11.3 | 11.3 |
 | 2 | 16274 | 997 | 6 | 13.9 | 13.3 |
 | 3 | 18405 | 1637 | 9 | 15.6 | 14.6 |
