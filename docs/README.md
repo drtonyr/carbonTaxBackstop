@@ -89,7 +89,7 @@ The ONS data is segmented into income deciles so the catbon footprint can be cal
  | mean | 27412 | 21.5 | 4296 | 2038 | 10740 | 5096 |
  
 
-Looking at decile 1 we see that the Universal Income is set to exactly match the carbon tax.  Deciles higher than this benefit finacially, those lower fund decarbonisation.
+Looking at decile 1 we see that the Universal Income is set to exactly match the carbon tax.  Deciles higher than this benefit finacially, those lower fund decarbonisation.  The numbers in this table still don't reflect the change in expenditure due to price changes.
 
 ### Income elasticity of demand
 
