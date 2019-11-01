@@ -1,12 +1,12 @@
 # Carbon Tax Backstop
 ## Abstract
 
-This work models the inpact of a [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) on UK household spending and tax rasied.  It is widely accepted that we must achieve [carbon neutrality](https://en.wikipedia.org/wiki/Carbon_neutrality) as soon as is practical and a carbon tax is regarded as the main economic tool to achive this.
+This work models the impact of a [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) on UK household spending and tax rasied.  It is widely accepted that we must achieve [carbon neutrality](https://en.wikipedia.org/wiki/Carbon_neutrality) as soon as is practical and a carbon tax is regarded as the main economic tool to achive this.
 
 This work assumes that a carbon tax will be implemented and that the revenues raised can be used to reduce CO2e emissions such that we achieve carbon neurality.  Analysis of houshold spending from the UK gives a reasonable approximation of CO2e emissions by item expenditure.  Analysis of income elasticity by item gives an expectation of the change in spending at a given rate of carbon tax.  In order not to disavantage the lowest income households a universal household income is included so that there is no net change to the first decile.
 Increasing the carbon tax thus both reduces expenditure on high carbon items (reducing emissions) and also raises revenues which can be spent on decarbonifying our economy so achieve net carbon zero.  Details of the expected changes are provided.
 
-This analysis is modelled as a backstop, that is a guarantee that the desired outcome will be achieved whilst leaving open the exact means of achieving the outcome.  All major political parties will be committing to carbon neuyrality for the UK between 2030 and 2050.   This work provides a means for them to guarantee that thier target will be hit whilst not having to specify the details at this stagee.
+This analysis is modelled as a backstop, that is a guarantee that the desired outcome will be achieved whilst leaving open the exact means of achieving the outcome.  All major political parties will be committing to carbon neurality for the UK between 2030 and 2050.   This work allows them to guarantee that thier target will be hit whilst not having to specify every detail.
 
 This report is generated from python source code which is [freely available](https://github.com/drtonyr/carbonTaxBackstop).
 
@@ -15,9 +15,11 @@ This report is generated from python source code which is [freely available](htt
 Broadly speaking, there are two styles of climate change policy:
 
 * Aspirational:  These will have a clear target but are not backed up by a detailed implementation.  They carry an execution risk because they may not be practical and aspirations may change.
-* Implementational:  These have a detailed implementation, typically involving many interdependent parts which sum to the desired target.  They carry an execution risk as inevitably some parts will work out and some won't - the Danish saying "Prediction is very difficult, especially about the future." is pertient as we are in danger of hitting a tipping point.
+* Implementational:  These have a detailed implementation, typically involving many interdependent parts which sum to the desired target.  They carry an execution risk as inevitably some parts will work out and some won't - the Danish saying "Prediction is very difficult, especially about the future." is pertient as there are many things we can't model exactly.
 
-A backstop is valuable to all policies.  It provides a commitement now to the carbon neutrality goal and an insurance policy in case some aspects do not work out as expected.
+A backstop is means of guaranteing the desired outcome, if better means are found then it need not be used.
+
+A carbon tax backstop is valuable to all policies and all political parties.  It provides the ability to commitement to carbon neutrality.
 
 ## Methodolgy
 
