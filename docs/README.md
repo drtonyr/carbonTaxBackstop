@@ -95,17 +95,17 @@ Looking at decile 1 we see that the Universal Income is set to exactly match the
 
 The [Income elasticity of demand](https://en.wikipedia.org/wiki/Income_elasticity_of_demand) measures the change in demand of an expenditure item with change in income.  Commonly the model assumes that the relative change in depand is proportional to the relative change in income, or equivilently that demand is an [exponential function](https://en.wikipedia.org/wiki/Exponential_function).  It is also possible to model demand as a [linear function](https://en.wikipedia.org/wiki/Linear_function) of income or as a [monomial](https://en.wikipedia.org/wiki/Monomial).
 
-Elasicity has been estimated using all three functions. The appendix contanis plots for all expenditure items and one is given below.   As can be seen there is no clear best funciton, so for simpliity a linear relationship is used in the remainder of this work.
+Elasicity has been estimated using all three functions. The appendix contains plots for all expenditure items and one is given below.   As can be seen there is no clear best fit, so for simpliity a linear relationship is used in the remainder of this work.
 
 ![7.2.2](7.2.2.png)
 
-Whilst we regard income as the total of expenditure items, the income elasticity of demand model is not constrained so that the total change in demand equates to the change in income.  Thus, if we apply a change in income it predicts a change in expenditure for each item but the total of predicted item expenditures does not equal the total expenditure.  Other models could be developed but ethos of this work is to keep things as basic as possible so the process is iterated until the totals match.
+Note that whilst we regard income as the total of expenditure items, the income elasticity of demand model is not constrained so that the total change in demand equates to the change in income.  Thus, if we apply a change in income it predicts a change in expenditure for each item but the total of predicted item expenditures does not equal the total expenditure.  Other models could be developed but ethos of this work is to keep things as simple as possible so the process is iterated until the totals match.
 
-Another major limitation of this model is that it does not consider cross corelations, that is that the change in demand of one item may affect another.  For example, when the carbon tax on natural gas makes electicity more economical for home heating it can be assumed that there will be a drastic reduciton in gas usage and an equivelent increase in electicity usage.  More subtly, it also assumes that a household which has exactly the same increase in costs due to carbon tax as is matched with the universal income will not change any expenditures.  Whlist this may be true for some households, others may chose to spend on low carbon goods and so increase overall value and reduce carbon emissions.   Thus the model presented here can be considered an upper bound on what is needed, in practice we will ne able to get away with lower carbon tax rates.
+Another major limitation of this model is that it does not consider cross corelations, that is that the change in demand of one item may affect another.  For example, when the carbon tax on natural gas makes electicity more economical for home heating it can be assumed that there will be a drastic reduction in gas usage and an equivelent increase in electicity usage.  More subtly, it also assumes that a household which has exactly the same increase in costs due to carbon tax as is matched with the universal income will not change any expenditures.  Whlist this may be true for some households, others may chose to spend on low carbon goods and so increase overall value and reduce carbon emissions.   Thus the model presented here can be considered an upper bound on what is needed, in practice we will ne able to get away with lower carbon tax rates - this being perfectly acceptable behaviour for a backstop.
 
 ### Change in expenditure under a carbon tax
 
-It is now possible to calculate the expected change in demand for expenditure items and the CO2e for these items.  The biggest changes in behaviour occur at the highest income group, so that is used to illustrate the change.
+It is now possible to calculate the expected change in demand for expenditure items and the CO2e for these items.
 
 
 | Decile | expenditure/£ | ctax-UI at £500/t | %decrease in expenditure | prior tCO2e | post tCO2e  |
@@ -122,7 +122,7 @@ It is now possible to calculate the expected change in demand for expenditure it
 | 10 | 51791 | 9564 | 18 | 36.7 | 30.4 |
 | mean | 27412 | 3829 | 12 | 21.5 | 18.9 |
 
-Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household with average emissions of 18.9 tCO2e and thus support a removal rate of £202/tCO2e. The change in expenditure is assumed to occur over 10 years and so is 1.1% per year.
+Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 18.9 tCO2e p.a, a reduction of 12%.  Note that this is a backstop, we still haven't factored in the decarbonisation of expediture.The change in expenditure is assumed to occur over 10 years and so is 1.1% per year.
 
 
 ### Carbon tax and carbon sequestration
