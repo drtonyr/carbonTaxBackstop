@@ -1,12 +1,12 @@
 # A Carbon Tax Backstop to Guarantee Carbon Neutrality
 ## Abstract
 
-This work models the impact of a [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) on UK household spending and tax rasied.  It is widely accepted that we must achieve [carbon neutrality](https://en.wikipedia.org/wiki/Carbon_neutrality) as soon as is practical and a carbon tax is regarded as the main economic tool to achive this.
+This work models the impact of a [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) on UK household spending and tax raised.  It is widely accepted that we must achieve [carbon neutrality](https://en.wikipedia.org/wiki/Carbon_neutrality) as soon as is practical and a carbon tax is regarded as the main economic tool to achieve this.
 
-This work assumes that a carbon tax will be implemented and that the revenues raised can be used to reduce CO2e emissions such that we achieve carbon neurality.  Analysis of houshold spending from the UK gives a reasonable approximation of CO2e emissions by item expenditure.  Analysis of income elasticity by item gives an expectation of the change in spending at a given rate of carbon tax.  In order not to disavantage the lowest income households a universal household income is included so that there is no net change to the first decile.
+This work assumes that a carbon tax will be implemented and that the revenues raised can be used to reduce CO2e emissions such that we achieve carbon neutrality.  Analysis of household spending from the UK gives a reasonable approximation of CO2e emissions by item expenditure.  Analysis of income elasticity by item gives an expectation of the change in spending at a given rate of carbon tax.  In order not to disadvantage the lowest income households a universal household income is included so that there is no net change to the first decile.
 Increasing the carbon tax thus both reduces expenditure on high carbon items (reducing emissions) and also raises revenues which can be spent on decarbonifying our economy so achieve net carbon zero.  Details of the expected changes are provided.
 
-This analysis is modelled as a backstop, that is a guarantee that the desired outcome will be achieved whilst leaving open the exact means of achieving the outcome.  All major political parties will be committing to carbon neurality for the UK between 2030 and 2050.   This work allows them to guarantee that thier target will be hit whilst not having to specify every detail.
+This analysis is modelled as a backstop, that is a guarantee that the desired outcome will be achieved whilst leaving open the exact means of achieving the outcome.  All major political parties will be committing to carbon neutrality for the UK between 2030 and 2050.   This work allows them to guarantee that their target will be hit whilst not having to specify every detail.
 
 This report is generated from python source code which is [freely available](https://github.com/drtonyr/carbonTaxBackstop).
 
@@ -14,8 +14,8 @@ This report is generated from python source code which is [freely available](htt
 
 Broadly speaking, the spectrum of climate change policy has extremes of:
 
-* Aspirational:  These polcies will have a clear target but are not backed up by a detailed implementation.  They carry an execution risk because they may not be practical and aspirations may change.
-* Implementational:  These have a detailed implementation, typically involving many interdependent parts which sum to the desired target.  They carry an execution risk as inevitably some parts will work out and some won't - the Danish saying "Prediction is very difficult, especially about the future." is pertient as there are many things we can't model exactly.
+* Aspirational:  These polices will have a clear target but are not backed up by a detailed implementation.  They carry an execution risk because they may not be practical and aspirations may change.
+* Implementational:  These have a detailed implementation, typically involving many interdependent parts which sum to the desired target.  They carry an execution risk as inevitably some parts will work out and some won't - the Danish saying "Prediction is very difficult, especially about the future." is pertinent as there are many things we can't model exactly.
 
 A backstop is means of guaranteeing the desired outcome, if better means are found then it need not be used.
 
@@ -35,7 +35,7 @@ This work adjusts COICOP categories for a few items.  Some items have been exclu
 | 4.1.2 | less housing benefit, rebates and allowances rec'd |
 
 
-Some non-COICOP items in the ONS data were included as they consituted significant discretionary spending:
+Some non-COICOP items in the ONS data were included as they constituted significant discretionary spending:
 
 |    | Included item description |
 |:---|:--------------------------|
@@ -48,7 +48,7 @@ The weekly expenditures provided have been scaled to annual expenditures.  Throu
 
 ### Calculation of carbon footprint
 
-Various sources are used to estimate the mass of CO2e emitted per pound spent (kgCOe2/£).  In the case of fuel the emissions are known and current household prices were used.  Other sources were researched and are documented in the code.  Heiractical inheritence is used so that if a value is not know it is assumed to be the same as it's parent.  As can be seen later, only a few items dominate the household CO2e emissions and so it is felt that the approximations used are appropriate.
+Various sources are used to estimate the mass of CO2e emitted per pound spent (kgCOe2/£).  In the case of fuel the emissions are known and current household prices were used.  Other sources were researched and are documented in the code.  Hierarchical inheritance is used so that if a value is not know it is assumed to be the same as it's parent.  As can be seen later, only a few items dominate the household CO2e emissions and so it is felt that the approximations used are appropriate.
 
 We can now summarise all expenditure items with their CO2e impact and the new costs under different carbon tax rates.  To illustrate the impact a low price of £200/tCO2e and a high price of £500/tCO2e are used.
 
@@ -72,7 +72,7 @@ Note that no changes in manufacturing or consumption have been included in the t
 
 ### Carbon footprint by decile and universal income
 
-The ONS data is segmented into income deciles so the catbon footprint can be calculated for each income segment under the two illustrative catbon tax rates.  The universal income is set so that there is no net effect to decile 1 and so the net effect of tax and universal income can be calculated (this number is one of the parameters of the code - changing it and running again results in a different report). 
+The ONS data is segmented into income deciles so the carbon footprint can be calculated for each income segment under the two illustrative carbon tax rates.  The universal income is set so that there is no net effect to decile 1 and so the net effect of tax and universal income can be calculated (this number is one of the parameters of the code - changing it and running again results in a different report). 
 
 | Decile | expenditure/£ | tCO2e | ctax at £200/t | ctax-UI at £200/t | ctax at £500/t | ctax-UI at £500/t |
 |:------:|--------------:|------:|--------------:|-----------------:|--------------:|-----------------:|
@@ -89,19 +89,19 @@ The ONS data is segmented into income deciles so the catbon footprint can be cal
  | mean | 27412 | 21.5 | 4296 | 2038 | 10740 | 5096 |
  
 
-Looking at decile 1 we see that the Universal Income is set to exactly match the carbon tax.  Deciles higher than this benefit finacially, those lower fund decarbonisation.  The numbers in this table still don't reflect the change in expenditure due to price changes.
+Looking at decile 1 we see that the Universal Income is set to exactly match the carbon tax.  Deciles higher than this benefit financially, those lower fund decarbonisation.  The numbers in this table still don't reflect the change in expenditure due to price changes.
 
 ### Income elasticity of demand
 
-The [Income elasticity of demand](https://en.wikipedia.org/wiki/Income_elasticity_of_demand) measures the change in demand of an expenditure item with change in income.  Commonly the model assumes that the relative change in depand is proportional to the relative change in income, or equivilently that demand is an [exponential function](https://en.wikipedia.org/wiki/Exponential_function).  It is also possible to model demand as a [linear function](https://en.wikipedia.org/wiki/Linear_function) of income or as a [monomial](https://en.wikipedia.org/wiki/Monomial).
+The [Income elasticity of demand](https://en.wikipedia.org/wiki/Income_elasticity_of_demand) measures the change in demand of an expenditure item with change in income.  Commonly the model assumes that the relative change in demand is proportional to the relative change in income, or equivalently that demand is an [exponential function](https://en.wikipedia.org/wiki/Exponential_function).  It is also possible to model demand as a [linear function](https://en.wikipedia.org/wiki/Linear_function) of income or as a [monomial](https://en.wikipedia.org/wiki/Monomial).
 
-Elasicity has been estimated using all three functions. The appendix contains plots for all expenditure items and one is given below.   As can be seen there is no clear best fit, so for simpliity a linear relationship is used in the remainder of this work.
+Elasticity has been estimated using all three functions. The appendix contains plots for all expenditure items and one is given below.   As can be seen there is no clear best fit, so for simplicity a linear relationship is used in the remainder of this work.
 
 ![7.2.2](7.2.2.png)
 
 Note that whilst we regard income as the total of expenditure items, the income elasticity of demand model is not constrained so that the total change in demand equates to the change in income.  Thus, if we apply a change in income it predicts a change in expenditure for each item but the total of predicted item expenditures does not equal the total expenditure.  Other models could be developed but ethos of this work is to keep things as simple as possible so the process is iterated until the totals match.
 
-Another major limitation of this model is that it does not consider cross corelations, that is that the change in demand of one item may affect another.  For example, when the carbon tax on natural gas makes electicity more economical for home heating it can be assumed that there will be a drastic reduction in gas usage and an equivelent increase in electicity usage.  More subtly, it also assumes that a household which has exactly the same increase in costs due to carbon tax as is matched with the universal income will not change any expenditures.  Whlist this may be true for some households, others may chose to spend on low carbon goods and so increase overall value and reduce carbon emissions.   Thus the model presented here can be considered an upper bound on what is needed, in practice we will ne able to get away with lower carbon tax rates - this being perfectly acceptable behaviour for a backstop.
+Another major limitation of this model is that it does not consider cross correlations, that is that the change in demand of one item may affect another.  For example, when the carbon tax on natural gas makes electricity more economical for home heating it can be assumed that there will be a drastic reduction in gas usage and an equivalent increase in electricity usage.  More subtly, it also assumes that a household which has exactly the same increase in costs due to carbon tax as is matched with the universal income will not change any expenditures.  Whilst this may be true for some households, others may chose to spend on low carbon goods and so increase overall value and reduce carbon emissions.   Thus the model presented here can be considered an upper bound on what is needed, in practice we will be able to get away with lower carbon tax rates - this being perfectly acceptable behaviour for a backstop.
 
 ### Change in expenditure under a carbon tax
 
@@ -122,7 +122,7 @@ It is now possible to calculate the expected change in demand for expenditure it
 | 10 | 51791 | 9564 | 18 | 36.7 | 30.4 |
 | mean | 27412 | 3829 | 12 | 21.5 | 18.9 |
 
-Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 18.9 tCO2e p.a, a reduction of 12%.  Note that this is a backstop, we still haven't factored in the decarbonisation of expediture.The change in expenditure is assumed to occur over 10 years and so is 1.1% per year.
+Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 18.9 tCO2e p.a, a reduction of 12%.  Note that this is a backstop, we still haven't factored in the decarbonisation of expenditure.The change in expenditure is assumed to occur over 10 years and so is 1.1% per year.
 
 
 ### Carbon tax and decarbonisation
@@ -133,12 +133,15 @@ There are many ways to decarbonise our economy.  Many items are reasonably, wind
 
 The cost of [Carbon Capture and Storage (CCS)](https://en.wikipedia.org/wiki/Carbon_capture_and_storage) is very hard to estimate.   The current marginal cost (e.g. from power plants or rewilding) is very low, but this does not scale to a Zero Carbon UK. [Bio-energy with carbon capture and storage](https://en.wikipedia.org/wiki/Bio-energy_with_carbon_capture_and_storage) and [direct air carbon capture and storage](https://en.wikipedia.org/wiki/Direct_air_capture) are both emerging technologies.  For example, figure 10.2 in [The Committee on Climate Change](https://www.theccc.org.uk) [Net Zero – Technical Report](https://www.theccc.org.uk/publication/net-zero-technical-report) has numbers around £200/tCO2e with great uncertainty.
 
-This report calculated that a carbon tax rate of £500/tCO2e would be expected to raise £3829 p.a. per household with average emissions of 18.9 tCO2e and thus support a removal rate of £202/tCO2e. 
+This report calculated that a carbon tax rate of £500/tCO2e would be expected to raise £3829 p.a. per household with average emissions of 18.9 tCO2e and thus support a removal rate of £202/tCO2e.  This is in line with worse case costs, so we can expect that decarbonisation would be achieved more effectively that this.
+So what is the likely outcome of implementing a Carbon Tax Backstop?  By making a political commitment to achieve carbon neutrality industry would be able to plan to decarbonise.  We have assumed worse case rates, so the real cost will be less than the numbers adopted in the backstop plan.  Decarbonisation would happen at considerably less cost, so the 
+
+
 ## Limitations and Discussion              
 
-As noted earlier, the income elasticity of demand model is bery basic.
+As noted earlier, the income elasticity of demand model is very basic.
 
-Most importantly, we do not have CCS technology that can operate at scale.  Considerable capital expenditure will be required to develop this. However, this is at the far end of the backstop.  As the carbon tax will be phased in gradually over a number of years the initial low rate will discourage the emissions which are easy to eliminate and as the rate increases different techniques will come into play.   CCS is at the far end and thus it is expected that CO2e emmissions will be vastly reduced by the time this technoldy is needed.
+Most importantly, we do not have CCS technology that can operate at scale.  Considerable capital expenditure will be required to develop this. However, this is at the far end of the backstop.  As the carbon tax will be phased in gradually over a number of years the initial low rate will discourage the emissions which are easy to eliminate and as the rate increases different techniques will come into play.   CCS is at the far end and thus it is expected that CO2e emissions will be vastly reduced by the time this technology is needed.
 
 This work does not consider how the carbon tax would be implemented not its effect on different sectors of the economy.  For discussion of this see [How to price carbon
 to reach net-zero emissions in the UK](http://www.lse.ac.uk/GranthamInstitute/wp-content/uploads/2019/05/GRI_POLICY-REPORT_How-to-price-carbon-to-reach-net-zero-emissions-in-the-UK.pdf).
@@ -149,9 +152,9 @@ A carbon tax with universal income is not an effective way to reduce emissions d
 
 ## Appendix: Python configuration
 
-This report was generated from catbonTaxBackstop.py which can be found at [drtonyr.github.io/carbonTaxBackstop](https://drtonyr.github.io/carbonTaxBackstop).
+This report was generated from carbonTaxBackstop.py which can be found at [drtonyr.github.io/carbonTaxBackstop](https://drtonyr.github.io/carbonTaxBackstop).
 
-There is a configuration section at the top of the code, the pararmeters used for this report were:
+There is a configuration section at the top of the code, the parameters used for this report were:
 ```
 
 ## you might want to play with this block
@@ -162,7 +165,7 @@ nEquality = 1 #  decile with no net impact
 ctaxLo = 200   # the low  illustrative Carbon Tax rate in £/tCO2e
 ctaxHi = 500   # the high illustrative Carbon Tax rate in £/tCO2e
 thresholdPC = 50 # the percentage increase over nyear considered small (30% works for £400/t, 40% at £500/t, 60% at £800/t)
-cacheImg = True  # set to False to recalulate images even if already present
+cacheImg = True  # set to False to recalculate images even if already present
 
 ## you probably don't want to play with this block
 path = r'docs/basicCarbonTaxUK.xls' # name of cached spreadsheet 
