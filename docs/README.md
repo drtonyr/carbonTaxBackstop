@@ -3,14 +3,14 @@
 
 ## Abstract
 
-This work investigates the inpact of a [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) on UK household spending.  It is widely accepted that we must achieve [carbon neutrality](https://en.wikipedia.org/wiki/Carbon_neutrality) as soon as is practical and a carbon tax is regarded as the main economic tool to achive this.
+This work models the inpact of a [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) on UK household spending and tax rasied.  It is widely accepted that we must achieve [carbon neutrality](https://en.wikipedia.org/wiki/Carbon_neutrality) as soon as is practical and a carbon tax is regarded as the main economic tool to achive this.
 
-This work assumes that a carbon tax can implement and that the revenues raised can be used to reduce and sequester CO2e emissions such that we achieve carbon neurality.  Analysis of houshold spending from the UK gives a reasonable approximation of CO2e emissions by item expenditure.  Analysis of income elasticity by item gives an expectation of the change in spending at a given rate of carbon tax.  In order not to disavantage the lowest income households a universal household income is included so that there is no net change to the first decile.
-Increasing the carbon tax thus both reduces expenditure on high carbon items and so reduces emissions and also raises revenues which can be spent on carbon sequestration and so achieve net carbon zero.  Details of the expected changes are provided.
+This work assumes that a carbon tax will be implemented and that the revenues raised can be used to reduce CO2e emissions such that we achieve carbon neurality.  Analysis of houshold spending from the UK gives a reasonable approximation of CO2e emissions by item expenditure.  Analysis of income elasticity by item gives an expectation of the change in spending at a given rate of carbon tax.  In order not to disavantage the lowest income households a universal household income is included so that there is no net change to the first decile.
+Increasing the carbon tax thus both reduces expenditure on high carbon items (reducing emissions) and also raises revenues which can be spent on decarbonifying our economy so achieve net carbon zero.  Details of the expected changes are provided.
 
-This analysis is intentionally limited so as to to form a complete isolated work.  The tax-and-sequester method is not proposed as the best route forward, it is proposed to provide one way forward to bound the changes needed to achieve carbon neutrality.  It is clearly better not to emit than to emit-tax-and-sequester and as such it provides a backstop and economic pressure to find better solutions.
+This analysis is modelled as a backstop, that is a guarantee that the desired outcome will be achieved whilst leaving open the exact means of achieving the outcome.  All major political parties will be committing to carbon neuyrality for the UK between 2030 and 2050.   This work provides a means for them to guarantee that thier target will be hit whilst not having to specify the details at this stagee.
 
-This report is generated from python source code which is [freely avavilalbe](https://github.com/drtonyr/carbonTaxBackstop).
+This report is generated from python source code which is [freely available](https://github.com/drtonyr/carbonTaxBackstop).
 
 ## Motivation
 
