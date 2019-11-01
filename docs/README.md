@@ -1,6 +1,4 @@
 # Carbon Tax Backstop
-## WORK IN PROGRESS:  ETA NOVEMBER 2019
-
 ## Abstract
 
 This work models the inpact of a [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) on UK household spending and tax rasied.  It is widely accepted that we must achieve [carbon neutrality](https://en.wikipedia.org/wiki/Carbon_neutrality) as soon as is practical and a carbon tax is regarded as the main economic tool to achive this.
