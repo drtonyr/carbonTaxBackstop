@@ -1,5 +1,7 @@
 # A Carbon Tax Backstop to Guarantee Carbon Neutrality
+<p align="center">
 02 November 2019 
+</p>
 ## Abstract
 
 This work models the impact of a [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) on UK household spending and tax raised.  It is widely accepted that we must achieve [carbon neutrality](https://en.wikipedia.org/wiki/Carbon_neutrality) as soon as is practical and a carbon tax is regarded as the main economic tool to achieve this.
