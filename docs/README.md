@@ -32,7 +32,7 @@ This report considers the effect of a carbon tax on household consumption, both 
 
 Production of goods and services is highly driven by economic considerations, efficiency is well defined, a company or process that isn't as efficient as competitors will have to adapt or cease.  It is therefore expected that a carbon tax will be highly productive in driving rapid change.
 
-Household spending is only weakly driven by economics, there is no clear definition of efficiency or what is to be optimised and behaviours change slowly.  Nevertheless, it is total household spending that drives the economy and households that vote for governmensts that implement climate change policies.
+Household spending is only weakly driven by economics, there is no clear definition of efficiency or what is to be optimised and behaviours change slowly.  Nevertheless, it is total household spending that drives the economy and households that vote for parliament that implement climate change policies.
 
 This report looks a the effect of carbon tax on household spending.  It is not assumed that households will make complex economic decisions, it is assumed that the companies and processes that supply households will adapt to economic circumstances.
 
@@ -136,7 +136,7 @@ It is now possible to calculate the expected change in demand for expenditure it
 | mean | 27412 | 3829 | 12 | 21.5 | 18.9 |
 
 
-Thus a carbon tax of £500/tCO2e would be expected to raise £21 p.a. per household and reduce average emissions from 2038.3 tCO2e p.a. to 10739.9 tCO2e p.a, a reduction of -427%.The change in expenditure is assumed to occur over 10 years and so is 46.0% per year.  Note that this is the worse-case backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
+Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 18.9 tCO2e p.a, a reduction of 12%.The change in expenditure is assumed to occur over 10 years and so is 1.1% per year.  Note that this is the worse-case backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
 
 
 ## Carbon Tax And Decarbonisation
@@ -147,7 +147,7 @@ There are many ways to decarbonise our economy.  Many items are reasonably achie
 
 The cost of [Carbon Capture and Storage (CCS)](https://en.wikipedia.org/wiki/Carbon_capture_and_storage) is very hard to estimate.   The current marginal cost (e.g. from power plants or rewilding) is very low, but this does not scale to a Zero Carbon UK. [Bio-energy with carbon capture and storage](https://en.wikipedia.org/wiki/Bio-energy_with_carbon_capture_and_storage) and [direct air carbon capture and storage](https://en.wikipedia.org/wiki/Direct_air_capture) are both emerging technologies.  For example, figure 10.2 in [The Committee on Climate Change](https://www.theccc.org.uk) [Net Zero – Technical Report](https://www.theccc.org.uk/publication/net-zero-technical-report) has numbers around £200/tCO2e with great uncertainty.
 
-This report calculated that a carbon tax rate of £500/tCO2e would be expected to raise £21 p.a. per household with average emissions of 10739.9 tCO2e and thus support a removal rate of £0/tCO2e.  This is in line with worse case costs, so we can expect that decarbonisation would be achieved more effectively that this.
+This report calculated that a carbon tax rate of £500/tCO2e would be expected to raise £3829 p.a. per household with average emissions of 18.9 tCO2e and thus support a removal rate of £202/tCO2e.  This is in line with worse case costs, so we can expect that decarbonisation would be achieved more effectively that this.
 
 So what is the likely outcome of implementing a Carbon Tax Backstop?  It enables a trusted route to achieve carbon neutrality and so provides economic pressure to achieve this.  Industry would be able to plan to decarbonise and would see the economic benefit from doing so.  We have assumed worse case rates, so the real cost will be less than the numbers adopted in the backstop plan and decarbonisation will happen at considerably less cost than the worse case assumed.  Cnosequently the rates of revenue achieved would be considerably less than reported here.  Complete decarbonisation is not possible, but 90% should be, so the economic impact on household spending may only be 10% of that modeled here.   Thus the backstop achieves it's desired effect of decarbonisation without significant finanicial household burden.
 
