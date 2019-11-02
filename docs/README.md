@@ -177,6 +177,8 @@ npoly = 1     # polynomial order
 ```
 ## Appendix: A Fiscally Neutral Carbon Tax and Household Income
 
+It's interesting to consider the case where it's not felt necessary to fund decarbonisaton.  This would be fiscally neutral as the average household cost of the carbon tax matches the universal income.
+
 
 
 | Decile | expenditure/£ | ctax-UI at £500/t | %decrease in expenditure | prior tCO2e | post tCO2e  |
