@@ -118,7 +118,7 @@ Another major limitation of this model is that it does not consider cross correl
 
 ### Change In Expenditure Under A Carbon Tax
 
-It is now possible to calculate the expected change in demand for expenditure items and the CO2e for these items.
+It is now possible to calculate the expected change in demand for expenditure items and the CO2e for these items.  For every expenditure decile the carbon tax over all expenditure items is calculated.  If that matches the universal income then the books ballance and no further changes are necessary.  If there is a mismatch then the income elasticity of demand curves are used to adjust expenditure on each item until the carbon tax does match the universal income. 
 
 
 | Decile | expenditure/£ | ctax-UI at £500/t | %decrease in expenditure | prior tCO2e | post tCO2e  |
