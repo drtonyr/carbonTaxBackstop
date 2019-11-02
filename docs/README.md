@@ -202,7 +202,7 @@ It's interesting to consider the case where it's not felt necessary to fund deca
 | mean | 27412 | -22 | -5 | 21.5 | 21.5 |
 
 
-The main point to note is that there is no change in CO2e.
+The main point to note is that there is no change in CO2e.  This is expected as the income elasticity of demand for expenditure item has been modelled independently and linearly.  The total expenditure remains the same so the increase in expenditure in lower deciles is ballanced by the decrease in expenditure in upper deciles.  To achive an overall shift of expenditure requires modelling the dependencies of the expenditure items.
 ## Appendix: Full analysis by item
 
 
