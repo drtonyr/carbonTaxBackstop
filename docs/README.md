@@ -480,6 +480,7 @@ npoly = 1      # polynomial order
 ![13.4.2](13.4.2.png)
 ![14.6](14.6.png)
 ## Appendix: Expenditure change for decile 10 at £500/tCO2e
+
 | Item description | kgCO2/£ | expenditure pre cTax/£ | expenditure post cTax/£ | %% decrease |
 |:-----------------|--------:|-----------------------:|------------------------:|------------:|
 | 1.1.1 Bread, rice and cereals | 0.72 | 339.15 | 309.04 | 8.9 |
