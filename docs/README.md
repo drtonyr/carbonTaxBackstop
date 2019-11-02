@@ -1,4 +1,4 @@
-# A Carbon Tax Backstop to guarantee Carbon Neutrality
+# A Carbon Tax Backstop to Guarantee Carbon Neutrality
 <p align="center">
 Tony Robinson<br>02 November 2019
 </p>
