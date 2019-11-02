@@ -122,7 +122,6 @@ It is now possible to calculate the expected change in demand for expenditure it
 | 10 | 51791 | 9564 | 18 | 36.7 | 30.4 |
 | mean | 27412 | 3829 | 12 | 21.5 | 18.9 |
 
-
 Thus a carbon tax of £500/tCO2e would be expected to raise £21 p.a. per household and reduce average emissions from 2038.3 tCO2e p.a. to 10739.9 tCO2e p.a, a reduction of -427%.The change in expenditure is assumed to occur over 10 years and so is 46.0% per year.  Note that this is the worse-case backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
 
 
@@ -192,7 +191,6 @@ npoly = 1     # polynomial order
 | 9 | 39600 | 7261 | 18 | 30.6 | 25.8 |
 | 10 | 51791 | 9564 | 18 | 36.7 | 30.4 |
 | mean | 27412 | 3829 | 12 | 21.5 | 18.9 |
-
 ## Appendix: Full analysis by item
 
 
