@@ -3,7 +3,7 @@
 
 This work models the impact of a [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) on UK household spending and tax raised.  It is widely accepted that we must achieve [carbon neutrality](https://en.wikipedia.org/wiki/Carbon_neutrality) as soon as is practical and a carbon tax is regarded as the main economic tool to achieve this.
 
-This work assumes that a carbon tax will be implemented and that the revenues raised can be used to reduce [CO2e](https://en.wikipedia.org/wiki/Carbon_dioxide_equivalent) emissions such that we achieve carbon neutrality.  Analysis of household spending from the UK gives a reasonable approximation of CO2e emissions by item expenditure.  Analysis of income elasticity by item gives an expectation of the change in spending at a given rate of carbon tax.  In order not to disadvantage the lowest income households a universal household income is included so that there is no net change to decile 5 (with lower deciles gaining and higher deciles contributing).
+This work assumes that a carbon tax will be implemented and that the revenues raised can be used to reduce [CO2e](https://en.wikipedia.org/wiki/Carbon_dioxide_equivalent) emissions such that we achieve carbon neutrality.  Analysis of household spending from the UK gives a reasonable approximation of CO2e emissions by item expenditure.  Analysis of income elasticity by item gives an expectation of the change in spending at a given rate of carbon tax.  In order not to disadvantage the lowest income households a universal household income is included so that there is no net change to decile 6 (with lower deciles gaining and higher deciles contributing).
 Increasing the carbon tax thus both reduces expenditure on high carbon items (reducing emissions) and also raises revenues which can be spent on decarbonifying our economy so achieve net carbon zero.  Details of the expected changes are provided.
 
 This analysis is modelled as a backstop, that is a mechanism to guarantee that the desired outcome will be achieved whilst leaving open better means of achieving the outcome.  All major political parties will be committing to carbon neutrality for the UK between 2030 and 2050.   This work allows them to guarantee that their target will be hit whilst not having to specify every detail.  The report expcts carbon neutrality to be achievable with only modest changes in household expenditure.
@@ -72,24 +72,24 @@ Note that no changes in manufacturing or consumption have been included in the t
 
 ### Carbon Footprint By Decile And Universal Income
 
-The ONS data is segmented into income deciles so the carbon footprint can be calculated for each income segment under the two illustrative carbon tax rates.  The universal income is set so that there is no net effect to decile 5 and so the net effect of tax and universal income can be calculated (this number is one of the parameters of the code - changing it and running again results in a different report). 
+The ONS data is segmented into income deciles so the carbon footprint can be calculated for each income segment under the two illustrative carbon tax rates.  The universal income is set so that there is no net effect to decile 6 and so the net effect of tax and universal income can be calculated (this number is one of the parameters of the code - changing it and running again results in a different report). 
 
 | Decile | expenditure/£ | tCO2e | ctax at £200/t | ctax-UI at £200/t | ctax at £500/t | ctax-UI at £500/t |
 |:------:|--------------:|------:|--------------:|-----------------:|--------------:|-----------------:|
-| 1 | 12491 | 11.3 | 2258 | -1517 | 5644 | -3793 |
- | 2 | 16274 | 13.9 | 2788 | -987 | 6971 | -2466 |
- | 3 | 18405 | 15.6 | 3129 | -646 | 7823 | -1614 |
- | 4 | 20913 | 17.0 | 3406 | -369 | 8516 | -921 |
- | 5 | 23535 | 18.9 | 3775 | 0 | 9437 | 0 |
- | 6 | 27829 | 21.5 | 4308 | 533 | 10769 | 1332 |
- | 7 | 30205 | 23.8 | 4764 | 989 | 11910 | 2473 |
- | 8 | 33078 | 25.3 | 5060 | 1285 | 12649 | 3212 |
- | 9 | 39600 | 30.6 | 6123 | 2348 | 15308 | 5870 |
- | 10 | 51791 | 36.7 | 7349 | 3575 | 18373 | 8936 |
- | mean | 27412 | 21.5 | 4296 | 521 | 10740 | 1303 |
+| 1 | 12491 | 11.3 | 2258 | -2050 | 5644 | -5125 |
+ | 2 | 16274 | 13.9 | 2788 | -1519 | 6971 | -3798 |
+ | 3 | 18405 | 15.6 | 3129 | -1178 | 7823 | -2946 |
+ | 4 | 20913 | 17.0 | 3406 | -901 | 8516 | -2253 |
+ | 5 | 23535 | 18.9 | 3775 | -533 | 9437 | -1332 |
+ | 6 | 27829 | 21.5 | 4308 | 0 | 10769 | 0 |
+ | 7 | 30205 | 23.8 | 4764 | 456 | 11910 | 1141 |
+ | 8 | 33078 | 25.3 | 5060 | 752 | 12649 | 1881 |
+ | 9 | 39600 | 30.6 | 6123 | 1816 | 15308 | 4539 |
+ | 10 | 51791 | 36.7 | 7349 | 3042 | 18373 | 7605 |
+ | mean | 27412 | 21.5 | 4296 | -12 | 10740 | -29 |
  
 
-Looking at decile 5 we see that the Universal Income is set to exactly match the carbon tax.  Deciles higher than this benefit financially, those lower fund decarbonisation.  The numbers in this table still don't reflect the change in expenditure due to price changes or any benefits of decarbonisation.
+Looking at decile 6 we see that the Universal Income is set to exactly match the carbon tax.  Deciles higher than this benefit financially, those lower fund decarbonisation.  The numbers in this table still don't reflect the change in expenditure due to price changes or any benefits of decarbonisation.
 
 ### Income Elasticity Of Demand
 
@@ -110,19 +110,19 @@ It is now possible to calculate the expected change in demand for expenditure it
 
 | Decile | expenditure/£ | ctax-UI at £500/t | %decrease in expenditure | prior tCO2e | post tCO2e  |
 |:------:|--------------:|-----------------:|--------------------------:|------------:|------------:|
-| 1 | 12491 | -2850 | -23 | 11.3 | 13.2 |
-| 2 | 16274 | -1853 | -11 | 13.9 | 15.2 |
-| 3 | 18405 | -1213 | -7 | 15.6 | 16.4 |
-| 4 | 20913 | -692 | -3 | 17.0 | 17.5 |
-| 5 | 23535 | 0 | 0 | 18.9 | 18.9 |
-| 6 | 27829 | 1001 | 4 | 21.5 | 20.9 |
-| 7 | 30205 | 1858 | 6 | 23.8 | 22.6 |
-| 8 | 33078 | 2413 | 7 | 25.3 | 23.7 |
-| 9 | 39600 | 4411 | 11 | 30.6 | 27.7 |
-| 10 | 51791 | 6714 | 13 | 36.7 | 32.3 |
-| mean | 27412 | 979 | -0 | 21.5 | 20.8 |
+| 1 | 12491 | -3850 | -31 | 11.3 | 13.8 |
+| 2 | 16274 | -2854 | -18 | 13.9 | 15.8 |
+| 3 | 18405 | -2213 | -12 | 15.6 | 17.1 |
+| 4 | 20913 | -1693 | -8 | 17.0 | 18.2 |
+| 5 | 23535 | -1001 | -4 | 18.9 | 19.5 |
+| 6 | 27829 | 0 | 0 | 21.5 | 21.5 |
+| 7 | 30205 | 857 | 3 | 23.8 | 23.3 |
+| 8 | 33078 | 1413 | 4 | 25.3 | 24.4 |
+| 9 | 39600 | 3410 | 9 | 30.6 | 28.4 |
+| 10 | 51791 | 5714 | 11 | 36.7 | 33.0 |
+| mean | 27412 | -22 | -5 | 21.5 | 21.5 |
 
-Thus a carbon tax of £500/tCO2e would be expected to raise £979 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 20.8 tCO2e p.a, a reduction of 3%.The change in expenditure is assumed to occur over 10 years and so is -0.0% per year.  Note that this is the worse-case backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
+Thus a carbon tax of £500/tCO2e would be expected to raise £-22 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 21.5 tCO2e p.a, a reduction of -0%.The change in expenditure is assumed to occur over 10 years and so is -0.5% per year.  Note that this is the worse-case backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
 
 
 ## Carbon Tax And Decarbonisation
@@ -133,7 +133,7 @@ There are many ways to decarbonise our economy.  Many items are reasonably achie
 
 The cost of [Carbon Capture and Storage (CCS)](https://en.wikipedia.org/wiki/Carbon_capture_and_storage) is very hard to estimate.   The current marginal cost (e.g. from power plants or rewilding) is very low, but this does not scale to a Zero Carbon UK. [Bio-energy with carbon capture and storage](https://en.wikipedia.org/wiki/Bio-energy_with_carbon_capture_and_storage) and [direct air carbon capture and storage](https://en.wikipedia.org/wiki/Direct_air_capture) are both emerging technologies.  For example, figure 10.2 in [The Committee on Climate Change](https://www.theccc.org.uk) [Net Zero – Technical Report](https://www.theccc.org.uk/publication/net-zero-technical-report) has numbers around £200/tCO2e with great uncertainty.
 
-This report calculated that a carbon tax rate of £500/tCO2e would be expected to raise £979 p.a. per household with average emissions of 20.8 tCO2e and thus support a removal rate of £47/tCO2e.  This is in line with worse case costs, so we can expect that decarbonisation would be achieved more effectively that this.
+This report calculated that a carbon tax rate of £500/tCO2e would be expected to raise £-22 p.a. per household with average emissions of 21.5 tCO2e and thus support a removal rate of £-1/tCO2e.  This is in line with worse case costs, so we can expect that decarbonisation would be achieved more effectively that this.
 
 So what is the likely outcome of implementing a Carbon Tax Backstop?  It enables a trusted route to achieve carbon neutrality and so provides economic pressure to achieve this.  Industry would be able to plan to decarbonise and would see the economic benefit from doing so.  We have assumed worse case rates, so the real cost will be less than the numbers adopted in the backstop plan and decarbonisation will happen at considerably less cost than the worse case assumed.  Cnosequently the rates of revenue achieved would be considerably less than reported here.  Complete decarbonisation is not possible, but 90% should be, so the economic impact on household spending may only be 10% of that modeled here.   Thus the backstop achieves it's desired effect of decarbonisation without significant finanicial household burden.
 
@@ -161,7 +161,7 @@ There is a configuration section at the top of the code, the parameters used for
 exclItem = ['4.1.1', '4.1.2']          # excluded items
 inclItem = ['13.3', '13.4.2', '14.6']  # included items
 nyear = 10    # the number of years taken to get to Net Carbon Zero
-nEquality = 5 #  decile with no net impact
+nEquality = 6 #  decile with no net impact
 nEqualityZero = 5 #  decile with no net impact when no decarbonisation fund
 ctaxLo = 200   # the low  illustrative Carbon Tax rate in £/tCO2e
 ctaxHi = 500   # the high illustrative Carbon Tax rate in £/tCO2e
