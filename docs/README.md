@@ -1,6 +1,6 @@
-# A Carbon Tax Backstop to Guarantee Carbon Neutrality
+# A Carbon Tax Backstop To Enable Carbon Neutrality
 <p align="center">
-02 November 2019 
+Tony Robinons - 02 November 2019
 </p>
 ## Abstract
 
