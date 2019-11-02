@@ -28,11 +28,11 @@ A carbon tax backstop is valuable to all policies and all political parties.  It
 
 ## Methodology
 
-This report considers the effect of a carbon tax on household consumption, both diretly in terms of the amount consumed of various categories and indirectly in terms of the embedded carbon in the consumed goods and services.
+This report considers the effect of a carbon tax on household consumption, both directly in terms of the amount consumed of various categories and indirectly in terms of the embedded carbon in the consumed goods and services.
 
 Production of goods and services is highly driven by economic considerations, efficiency is well defined, a company or process that isn't as efficient as competitors will have to adapt or cease.  It is therefore expected that a carbon tax will be highly productive in driving rapid change.
 
-Household spending is only weekly driven by economics, there is no clear definition of efficiency or what is to be optimised and behaviours change slowly.  Nevertheless, it is total household spending that drives the economy and households that vote for governmensts that implement climate change policies.
+Household spending is only weakly driven by economics, there is no clear definition of efficiency or what is to be optimised and behaviours change slowly.  Nevertheless, it is total household spending that drives the economy and households that vote for governmensts that implement climate change policies.
 
 This report looks a the effect of carbon tax on household spending.  It is not assumed that households will make complex economic decisions, it is assumed that the companies and processes that supply households will adapt to economic circumstances.
 
