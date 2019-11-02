@@ -139,7 +139,7 @@ It is now possible to calculate the expected change in demand for expenditure it
 Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 18.9 tCO2e p.a, a reduction of 12%.The change in expenditure is assumed to occur over 10 years and so is 1.1% per year.  Note that this is the worse-case backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
 
 
-Note that the percentage reduction in CO2e emitted is pretty much the same as the percentage decrease in household expenditure.   Households are expected to make larger reductions in high carbon items, but most expenditure has about the same amount of embedded carbon.  The accuracy of the income elasticity of demand is not key to the operation of a carbon tax backstop, it merely provides the motivation to efficiently adapt for the production and supply of the consumed goods.
+Note that the percentage reduction in CO2e emitted is pretty much the same as the percentage decrease in household expenditure.   Households are expected to make larger reductions in high carbon items, but most expenditure has about the same amount of embedded carbon.  The accuracy of the income elasticity of demand is not key to the operation of a carbon tax backstop, it merely provides the motivation to efficiently decarbonisation the production and supply of the consumed goods.
 
 ## Carbon Tax And Decarbonisation
 
