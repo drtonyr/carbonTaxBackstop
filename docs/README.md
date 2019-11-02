@@ -136,7 +136,7 @@ The cost of [Carbon Capture and Storage (CCS)](https://en.wikipedia.org/wiki/Car
 
 This report calculated that a carbon tax rate of £500/tCO2e would be expected to raise £21 p.a. per household with average emissions of 10739.9 tCO2e and thus support a removal rate of £0/tCO2e.  This is in line with worse case costs, so we can expect that decarbonisation would be achieved more effectively that this.
 
-So what is the likely outcome of implementing a Carbon Tax Backstop?  It enables a trusted route to achieve carbon neutrality and so provides economic pressure to achieve this.  Industry would be able to plan to decarbonise and would see the economic benefit from doing so.  We have assumed worse case rates, so the real cost will be less than the numbers adopted in the backstop plan and decarbonisation will happen at considerably less cost than the worse case assumed.  Cnosequently the rates of revenue achieved would be considerably less than reported here.  Complete decarbonisation is not possible, but 90% should be, so the economic impact on household spending may only be 10% of that modeled here.   Thus the backstop achieves it's desired effect of decarbonisation without significant finanicial household burden.
+So what is the likely outcome of implementing a Carbon Tax Backstop?  It enables a trusted route to achieve carbon neutrality and so provides economic pressure to achieve this.  Industry would be able to plan to decarbonise and would see the economic benefit from doing so.  We have assumed worse case rates, so the real cost will be less than the numbers adopted in the backstop plan and decarbonisation will happen at considerably less cost than the worse case assumed.  Cnosequently the rates of revenue achieved would be considerably less than reported here.  Complete decarbonisation is not possible, but 90%% should be, so the economic impact on household spending may only be 10%% of that modeled here.   Thus the backstop achieves it's desired effect of decarbonisation without significant finanicial household burden.
 
 ## Conclusion              
 
@@ -150,8 +150,7 @@ We do not have CCS technology that can operate at scale.  Considerable capital e
 
 This work does not consider how the carbon tax would be implemented not its effect on different sectors of the economy.  For discussion of this see [How to price carbon
 to reach net-zero emissions in the UK](http://www.lse.ac.uk/GranthamInstitute/wp-content/uploads/2019/05/GRI_POLICY-REPORT_How-to-price-carbon-to-reach-net-zero-emissions-in-the-UK.pdf).
-
-## Appendix: Python Configuration
+## Appendix 1: Python Configuration
 
 This report was generated from carbonTaxBackstop.py which can be found at [drtonyr.github.io/carbonTaxBackstop](https://drtonyr.github.io/carbonTaxBackstop).
 
@@ -195,6 +194,8 @@ It's interesting to consider the case where it's not felt necessary to fund deca
 | 10 | 51791 | 5714 | 11 | 36.7 | 33.0 |
 | mean | 27412 | -22 | -5 | 21.5 | 21.5 |
 
+
+The main point to note is that there is no change in CO2e.
 ## Appendix: Full analysis by item
 
 
