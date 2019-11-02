@@ -15,6 +15,8 @@ This report is generated from python source code which is [freely available](htt
 
 ## Motivation
 
+A [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) offers a means to rectify that fossil fuel costs do not account for cleaning up the resulting emissions.  This is unsustainable and necessitates change before much more damnage is done.
+
 Broadly speaking, the spectrum of climate change policy ranges between:
 
 * Aspirational:  These polices will have a clear target but are not backed up by a detailed implementation.  They carry an execution risk because they may not be practical and aspirations may change.
@@ -25,6 +27,14 @@ A backstop is means of guaranteeing the desired outcome, if better means are fou
 A carbon tax backstop is valuable to all policies and all political parties.  It provides the ability to commit to carbon neutrality which is now of key importance to the UK electorate ([Climate crisis affects how majority will vote in UK election](https://www.theguardian.com/environment/2019/oct/30/climate-crisis-affects-how-majority-will-vote-in-uk-election-poll)).
 
 ## Methodology
+
+This report considers the effect of a carbon tax on household consumption, both diretly in terms of the amount consumed of various categories and indirectly in terms of the embedded carbon in the consumed goods and services.
+
+Production of goods and services is highly driven by economic considerations, efficiency is well defined, a company or process that isn't as efficient as competitors will have to adapt or cease.  It is therefore expected that a carbon tax will be highly productive in driving rapid change.
+
+Household spending is only weekly driven by economics, there is no clear definition of efficiency or what is to be optimised and behaviours change slowly.  Nevertheless, it is total household spending that drives the economy and households that vote for governmensts that implement climate change policies.
+
+This report looks a the effect of carbon tax on household spending.  It is not assumed that households will make complex economic decisions, it is assumed that the companies and processes that supply households will adapt to economic circumstances.
 
 ### Household Expenditure
 
@@ -202,7 +212,9 @@ It's interesting to consider the case where it's not felt necessary to fund deca
 | mean | 27412 | -22 | -5 | 21.5 | 21.5 |
 
 
-The main point to note is that there is no change in CO2e.  This is expected as the income elasticity of demand for expenditure item has been modelled independently and linearly.  The total expenditure remains the same so the increase in expenditure in lower deciles is ballanced by the decrease in expenditure in upper deciles.  To achive an overall shift of expenditure requires modelling the dependencies of the expenditure items.
+The main point to note is that there is no change in CO2e.  This is expected as the income elasticity of demand for expenditure item has been modelled independently and linearly.  The total expenditure remains the same so the increase in expenditure in lower deciles is ballanced by the decrease in expenditure in upper deciles.
+
+The fiscally neutral carbon tax provides part of the incentive to decarbonise but in a much weaker form.  The manufacturing and distribution of goods still has high incentive to decarbonise as companies and processes that don't will be replaced by more efficient companies and processes that do.  However, there is no incentive to 'go the last mile' and achieve carbon neutrality.
 ## Appendix: Full analysis by item
 
 
