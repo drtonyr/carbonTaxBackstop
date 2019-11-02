@@ -143,6 +143,7 @@ So what is the likely outcome of implementing a Carbon Tax Backstop?  It enables
 Raising money through carbon tax/universal income to spend on sequestration is far from the best way to achieve carbon neutrality.  However, it does provide an effective economic incentive to implement better mechanisms and so serves it's purpose as a backstop to provide the certainty needed to prevent catastrophic climate breakdown.
 
 ---
+---
 
 ## Appendix: Summary Of Assumptions And Limitations
 
