@@ -150,7 +150,7 @@ Raising money through carbon tax/universal income to spend on sequestration is f
 
 ## Appendix: Summary Of Assumptions And Limitations
 
-The income elasticity of demand model is very basic, but there again the change in demand is not great for most expenditure items.  Even taken over all items this work does not depend on reducing expenditure directly.
+The income elasticity of demand model is very basic, but there again the change in demand is not great for most expenditure items.  It would be an improvement to meansure the dependency of expenditure items.
 
 We do not have CCS technology that can operate at scale.  Considerable capital expenditure will be required to develop this. However, this is at the far end of the backstop.  As the carbon tax will be phased in gradually over a number of years the initial low rate will discourage the emissions which are easy to eliminate and as the rate increases different techniques will come into play.   It is expected that CO2e emissions will be vastly reduced by the time this technology is needed.
 
