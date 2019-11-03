@@ -2,7 +2,7 @@
 <p align="center">
 Tony Robinson<br>
 03 November 2019<br>
-version: 1.0.2394fca8
+version: 1.0.815473b4
 </p>
 
 ## Abstract
@@ -59,7 +59,7 @@ Some non-COICOP items in the ONS data were included as they constituted signific
 | 14.6 | Savings and investments |
 
 
-The weekly expenditures provided have been scaled to annual expenditures.  Throughout this work all values are per annum.
+The weekly expenditures provided have been scaled to annual expenditures.  Throughout this work all values are per annum (e.g. £ and CO2e).
 
 ### Calculation Of Carbon Footprint
 
@@ -83,7 +83,7 @@ It is assumed that a carbon tax would be introduced gradually over a 10 year tim
 | Household total | 27412 |  | 21480 |
 
 
-Note that no changes in manufacturing or consumption have been included in the table above.  This is a backstop calculation and at this stage we are just interested in the worse case change.
+Note that no changes in manufacturing or consumption have been included in the table above.  This is a backstop calculation and at this stage we are just interested in the 'worse case' change.
 
 ### Carbon Footprint By Decile And Universal Income
 
@@ -116,7 +116,7 @@ Elasticity has been estimated using all three functions. The appendix contains p
 
 Note that whilst we regard income as the total of expenditure items, the income elasticity of demand model is not constrained so that the total change in demand equates to the change in income.  Thus, if we apply a change in income it predicts a change in expenditure for each item but the total of predicted item expenditures does not equal the total expenditure.  Other models could be developed but ethos of this work is to keep things as simple as possible so the process is iterated until the totals match.
 
-Another major limitation of this model is that it does not consider cross correlations, that is that the change in demand of one item may affect another.  For example, when the carbon tax on natural gas makes electricity more economical for home heating it can be assumed that there will be a drastic reduction in gas usage and an equivalent increase in electricity usage.  More subtly, it also assumes that a household which has exactly the same increase in costs due to carbon tax as is matched with the universal income will not change any expenditures.  Whilst this may be true for some households, others may chose to spend on low carbon goods and so increase overall value and reduce carbon emissions.   Thus the model presented here can be considered an upper bound on what is needed, in practice we will be able to get away with lower carbon tax rates - this being perfectly acceptable behaviour for a backstop.
+Another major limitation of this model is that it does not consider cross correlations, that is that the change in demand of one item may affect another.  For example, when the carbon tax on natural gas makes electricity more economical for home heating it can be assumed that there will be a drastic reduction in gas usage and an equivalent increase in electricity usage.  More subtly, it also assumes that a household which has exactly the same increase in costs due to carbon tax as is matched with the universal income will not change any expenditures.  Whilst this may be true for mnay households, others may chose to spend on low carbon goods and so reduce carbon emissions.
 
 ### Change In Expenditure Under A Carbon Tax
 
@@ -138,10 +138,10 @@ It is now possible to calculate the expected change in demand for expenditure it
 | mean | 27412 | 3829 | 12 | 21.5 | 18.9 |
 
 
-Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 18.9 tCO2e p.a, a reduction of 12%.The change in expenditure is assumed to occur over 10 years and so is 1.1% per year.  Note that this is the worse-case backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
+Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 18.9 tCO2e p.a, a reduction of 12%.The change in expenditure is assumed to occur over 10 years and so is 1.1% per year.  Note that this is the 'worse case' backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
 
 
-Note that the percentage reduction in CO2e emitted is pretty much the same as the percentage decrease in household expenditure.   Households are expected to make larger reductions in high carbon items, but most expenditure has about the same amount of embedded carbon.  The accuracy of the income elasticity of demand is not key to the operation of a carbon tax backstop, it merely provides the motivation to efficiently decarbonisation the production and supply of the consumed goods.
+Note also that the percentage reduction in CO2e emitted is pretty much the same as the percentage decrease in household expenditure.   Households are expected to make larger reductions in high carbon items, but most expenditure has about the same amount of embedded carbon.  Thus the accuracy of the income elasticity of demand is not key to the operation of a carbon tax backstop, it merely provides the motivation to efficiently decarbonisation the production and supply of the consumed goods.
 
 ## Carbon Tax And Decarbonisation
 
@@ -153,7 +153,7 @@ The cost of [Carbon Capture and Storage (CCS)](https://en.wikipedia.org/wiki/Car
 
 This report calculated that a carbon tax rate of £500/tCO2e would be expected to raise £3829 p.a. per household with average emissions of 18.9 tCO2e and thus support a removal rate of £202/tCO2e.  This is in line with worse case costs, so we can expect that decarbonisation would be achieved more effectively that this.
 
-So what is the likely outcome of implementing a Carbon Tax Backstop?  It enables a trusted route to achieve carbon neutrality and so provides economic pressure to achieve this.  Industry would be able to plan to decarbonise and would see the economic benefit from doing so.  We have assumed worse case rates, so the real cost will be less than the numbers adopted in the backstop plan and decarbonisation will happen at considerably less cost than the worse case assumed.  Consequently the rates of revenue achieved would be considerably less than reported here.  Complete decarbonisation is not possible, but 90%% should be, so the economic impact on household spending may only be 10%% of that modeled here.   Thus the backstop achieves it's desired effect of decarbonisation without significant finanicial household burden.
+So what is the likely outcome of implementing a Carbon Tax Backstop?  It enables a trusted route to achieve carbon neutrality and so provides economic pressure to achieve this.  Industry would be able to plan to decarbonise and would see the economic benefit from doing so.  We have assumed worse case rates, so the real cost will be less than the numbers adopted in the backstop plan and decarbonisation will happen at considerably less cost than the worse case assumed.  Consequently the rates of revenue achieved would be considerably less than reported here.  Complete decarbonisation is not possible, but 90% should be, so the economic impact on household spending may only be 10-20% of that modeled here.   Thus the backstop achieves it's desired effect of decarbonisation without significant finanicial household burden.
 
 ## Conclusion              
 
