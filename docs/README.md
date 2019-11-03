@@ -2,17 +2,16 @@
 <p align="center">
 Tony Robinson<br>
 03 November 2019<br>
-version: 1.0.93f966c3
+version: 1.0.352c7530
 </p>
 
 ## Abstract
 
 This work models the impact of a [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) on UK household spending and tax raised.  It is widely accepted that we must achieve [carbon neutrality](https://en.wikipedia.org/wiki/Carbon_neutrality) as soon as is practical and a carbon tax is regarded as the main economic tool to achieve this.
 
-This work assumes that a carbon tax will be implemented and that the revenues raised can be used to reduce [CO2e](https://en.wikipedia.org/wiki/Carbon_dioxide_equivalent) emissions such that we achieve carbon neutrality.  Analysis of household spending from the UK gives a reasonable approximation of CO2e emissions by item expenditure.  Analysis of income elasticity by item gives an expectation of the change in spending at a given rate of carbon tax.  In order not to disadvantage the lowest income households a universal household income is included so that there is no net change to the first decile.
-Increasing the carbon tax thus both reduces expenditure on high carbon items (reducing emissions) and also raises revenues which can be spent on decarbonifying our economy so achieve net carbon zero.  Details of the expected changes are provided.
+This work assumes that a carbon tax will be implemented and that the revenues raised can be used to reduce [CO2e](https://en.wikipedia.org/wiki/Carbon_dioxide_equivalent) emissions such that we achieve carbon neutrality.  Analysis of household spending from the UK gives a reasonable approximation of CO2e emissions by item expenditure.  Analysis of income elasticity by item gives an expectation of the change in spending at a given rate of carbon tax.  In order not to disadvantage the lowest income households a universal household income is included so that there is no net change to the first decile.  Details of the expected changes are provided.
 
-This analysis is modelled as a [backstop](https://www.collinsdictionary.com/dictionary/english/backstop), that is a system that will come into effect if no other arrangement is made.  By committing to this 'worst case' backstop a country can guarantee that it will become carbon neutral whilst not having to specify every detail.  The adoptation of a backstop provides the econoomic pressure to find better ways to decarbonise, and so adopting it the expectation is that zero carbon will be achievable with only modest changes in household expenditure.
+This analysis is modelled as a [backstop](https://www.collinsdictionary.com/dictionary/english/backstop), that is a system that will come into effect if no other arrangement is made.  By committing to this 'worst case' scenario a country can guarantee that it will become carbon neutral whilst not having to specify every detail.  The adoptation of a backstop provides the economic pressure to find better ways to decarbonise and so achieve zero carbon with only modest changes in household expenditure.
 
 This report is generated from python source code which is [freely available](https://github.com/drtonyr/carbonTaxBackstop).
 
