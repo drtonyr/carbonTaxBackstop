@@ -2,7 +2,7 @@
 <p align="center">
 Tony Robinson<br>
 03 November 2019<br>
-version: 1.0.0a6b9f21
+version: 1.0.d78b9335
 </p>
 
 ## Abstract
@@ -24,7 +24,7 @@ Broadly speaking, the spectrum of climate change policy ranges between:
 * Aspirational:  These polices will have a clear target but are not backed up by a detailed implementation.  They carry an execution risk because they may not be practical and aspirations may change.
 * Implementational:  These have a detailed implementation, typically involving many interdependent parts which sum to the desired target.  They carry an execution risk as inevitably some parts will work out and some won't - the Danish saying "Prediction is very difficult, especially about the future." is pertinent as there are many things we can't model exactly.
 
-It is important to achieve carbon neutrality for all policies.  Accordingly, this analysis is modelled as a [backstop](https://www.collinsdictionary.com/dictionary/english/backstop), that is a system that will come into effect if no other arrangement is made.  Many better arangements are possible than the crude ones modelled here.  The purpose of this work is not to detail the best climate change policy, it's to provide a means to guarantee the desired outcome, better means can and will be implmented so the changes required will be less than those modelled here.
+It is important to achieve carbon neutrality for all policies.  Accordingly, this analysis is modelled as a [backstop](https://www.collinsdictionary.com/dictionary/english/backstop), that is a system that will come into effect if no other arrangement is made.  Many better arrangements are possible than the crude ones modelled here.  The purpose of this work is not to detail the best climate change policy, it's to provide a means to guarantee the desired outcome, better means can and will be implmented so the changes required will be less than those modelled here.
 
 A carbon tax backstop is valuable to all policies and all political parties.  It provides the ability to commit to carbon neutrality which is now of key importance to the UK electorate ([Climate crisis affects how majority will vote in UK election](https://www.theguardian.com/environment/2019/oct/30/climate-crisis-affects-how-majority-will-vote-in-uk-election-poll)).
 
