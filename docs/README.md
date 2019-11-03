@@ -2,7 +2,7 @@
 <p align="center">
 Tony Robinson<br>
 03 November 2019<br>
-version: 1.0.666aebe4
+version: 1.0.d5be3e41
 </p>
 
 ## Abstract
@@ -197,8 +197,8 @@ nChange = ndec # number of decile to illustrate expenditure change
 npoly = 1      # polynomial order
  
 ```
-## Appendix: Total CO2e by item
 
+## Appendix: Total CO2e by item
 
 | Item description | £  | kgCO2/£ | kgCO2 | £(%up) at £200/t| £(%up) at £500/t|
 |:-----------------|---:|--------:|------:|----------------:|----------------:|
@@ -341,8 +341,8 @@ npoly = 1      # polynomial order
 | 13.3 Holiday spending | 645 | 0.50 | 322 | 709 (10) | 806 (25) |
 | Household total | 27412 |  | 21480 |
 
-## Appendix: Elasticity by item
 
+## Appendix: Elasticity by item
 ![1.1.1](1.1.1.png)
 ![1.1.2](1.1.2.png)
 ![1.1.3](1.1.3.png)
