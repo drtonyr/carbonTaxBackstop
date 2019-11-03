@@ -2,7 +2,7 @@
 <p align="center">
 Tony Robinson<br>
 03 November 2019<br>
-version: 1.0.d5be3e41
+version: 1.0.ba3d5479
 </p>
 
 ## Abstract
@@ -154,7 +154,7 @@ The cost of [Carbon Capture and Storage (CCS)](https://en.wikipedia.org/wiki/Car
 
 This report calculated that a carbon tax rate of £500/tCO2e would be expected to raise £3829 p.a. per household with average emissions of 18.9 tCO2e and thus support a removal rate of £202/tCO2e.  This is in line with worse case costs, so we can expect that decarbonisation would be achieved more effectively that this.
 
-So what is the likely outcome of implementing a Carbon Tax Backstop?  It enables a trusted route to achieve carbon neutrality and so provides economic pressure to achieve this.  Industry would be able to plan to decarbonise and would see the economic benefit from doing so.  We have assumed worse case rates, so the real cost will be less than the numbers adopted in the backstop plan and decarbonisation will happen at considerably less cost than the worse case assumed.  Consequently the rates of revenue achieved would be considerably less than reported here.  Complete decarbonisation is not possible, but 90% should be, so the economic impact on household spending may only be 10% of that modeled here.   Thus the backstop achieves it's desired effect of decarbonisation without significant finanicial household burden.
+So what is the likely outcome of implementing a Carbon Tax Backstop?  It enables a trusted route to achieve carbon neutrality and so provides economic pressure to achieve this.  Industry would be able to plan to decarbonise and would see the economic benefit from doing so.  We have assumed worse case rates, so the real cost will be less than the numbers adopted in the backstop plan and decarbonisation will happen at considerably less cost than the worse case assumed.  Consequently the rates of revenue achieved would be considerably less than reported here.  Complete decarbonisation is not possible, but 90%% should be, so the economic impact on household spending may only be 10%% of that modeled here.   Thus the backstop achieves it's desired effect of decarbonisation without significant finanicial household burden.
 
 ## Conclusion              
 
@@ -162,6 +162,15 @@ Raising money through carbon tax/universal income to spend on sequestration is f
 
 ---
 ---
+
+## List of Appendices
+
+[Appendix: Summary Of Assumptions And Limitations](#appendix:-summary-of-assumptions-and-limitations)
+[Appendix: Python Configuration](#appendix:-python-configuration)
+[Appendix: Total CO2e by item](#appendix:-total-co2e-by-item)
+[Appendix: Elasticity by item](#appendix:-elasticity-by-item)
+[Appendix: Maximum expenditure change](#appendix:-maximum-expenditure-change)
+[Appendix: A Fiscally Neutral Carbon Tax and Household Income](#appendix:-a-fiscally-neutral-carbon-tax-and-household-income)
 
 ## Appendix: Summary Of Assumptions And Limitations
 
@@ -482,7 +491,10 @@ npoly = 1      # polynomial order
 ![13.3](13.3.png)
 ![13.4.2](13.4.2.png)
 ![14.6](14.6.png)
-## Appendix: Maximum expenditure change for decile 10 at £500/tCO2e
+
+## Appendix: Maximum expenditure change
+
+The maximum expenditure change occurs at the top decide.  A Carbon tax rate of £500/tCO2e is assumed.
 
 | Item description | kgCO2/£ | expenditure pre cTax/£ | expenditure post cTax/£ | % change |
 |:-----------------|--------:|-----------------------:|------------------------:|---------:|
