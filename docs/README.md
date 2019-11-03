@@ -2,7 +2,7 @@
 <p align="center">
 Tony Robinson<br>
 03 November 2019<br>
-version: 1.0.ba3d5479
+version: 1.0.c07c7d47
 </p>
 
 ## Abstract
@@ -165,12 +165,12 @@ Raising money through carbon tax/universal income to spend on sequestration is f
 
 ## List of Appendices
 
-[Appendix: Summary Of Assumptions And Limitations](#appendix:-summary-of-assumptions-and-limitations)
-[Appendix: Python Configuration](#appendix:-python-configuration)
-[Appendix: Total CO2e by item](#appendix:-total-co2e-by-item)
-[Appendix: Elasticity by item](#appendix:-elasticity-by-item)
-[Appendix: Maximum expenditure change](#appendix:-maximum-expenditure-change)
-[Appendix: A Fiscally Neutral Carbon Tax and Household Income](#appendix:-a-fiscally-neutral-carbon-tax-and-household-income)
+[Appendix: Summary Of Assumptions And Limitations](#appendix:-summary-of-assumptions-and-limitations)  
+[Appendix: Python Configuration](#appendix:-python-configuration)  
+[Appendix: Total CO2e by item](#appendix:-total-co2e-by-item)  
+[Appendix: Elasticity by item](#appendix:-elasticity-by-item)  
+[Appendix: Maximum expenditure change](#appendix:-maximum-expenditure-change)  
+[Appendix: A Fiscally Neutral Carbon Tax and Household Income](#appendix:-a-fiscally-neutral-carbon-tax-and-household-income)  
 
 ## Appendix: Summary Of Assumptions And Limitations
 
