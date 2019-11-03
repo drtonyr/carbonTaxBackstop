@@ -2,7 +2,7 @@
 <p align="center">
 Tony Robinson<br>
 03 November 2019<br>
-version: 1.0.352c7530
+version: 1.0.41a003c4
 </p>
 
 ## Abstract
@@ -17,14 +17,14 @@ This report is generated from python source code which is [freely available](htt
 
 ## Motivation
 
-A [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) offers a means to rectify that fossil fuel costs do not account for cleaning up the resulting emissions.  This is unsustainable and necessitates change before much more damnage is done.
+The necessity to eliminate our [CO2e](https://en.wikipedia.org/wiki/Carbon_dioxide_equivalent) emissions is now [well establised](https://climate.nasa.gov/evidence).  A [Carbon Tax](https://en.wikipedia.org/wiki/Carbon_tax) offers a means to rectify the emissions problem.
 
 Broadly speaking, the spectrum of climate change policy ranges between:
 
 * Aspirational:  These polices will have a clear target but are not backed up by a detailed implementation.  They carry an execution risk because they may not be practical and aspirations may change.
 * Implementational:  These have a detailed implementation, typically involving many interdependent parts which sum to the desired target.  They carry an execution risk as inevitably some parts will work out and some won't - the Danish saying "Prediction is very difficult, especially about the future." is pertinent as there are many things we can't model exactly.
 
-A backstop is means of guaranteeing the desired outcome, if better means are found then it need not be used.
+This analysis is modelled as a [backstop](https://www.collinsdictionary.com/dictionary/english/backstop), that is a system that will come into effect if no other arrangement is made.  Many better arangements are possible than the crude ones modelled here.  The purpose of this work is not to detail the best climate change policy, it's to provide a means to guarantee the desired outcome, better means can and will be implmented so the changes required will be less than those modelled here.
 
 A carbon tax backstop is valuable to all policies and all political parties.  It provides the ability to commit to carbon neutrality which is now of key importance to the UK electorate ([Climate crisis affects how majority will vote in UK election](https://www.theguardian.com/environment/2019/oct/30/climate-crisis-affects-how-majority-will-vote-in-uk-election-poll)).
 
