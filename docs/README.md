@@ -2,7 +2,7 @@
 <p align="center">
 Tony Robinson<br>
 04 November 2019<br>
-version: 1.0.7086d660
+version: 1.0.dc740240
 </p>
 
 ## Abstract
@@ -179,7 +179,9 @@ We do not have CCS technology that can operate at scale.  Considerable capital e
 
 This work does not consider how the carbon tax would be implemented not its effect on different sectors of the economy.  For discussion of this see [How to price carbon
 to reach net-zero emissions in the UK](http://www.lse.ac.uk/GranthamInstitute/wp-content/uploads/2019/05/GRI_POLICY-REPORT_How-to-price-carbon-to-reach-net-zero-emissions-in-the-UK.pdf).
-              
+
+Some fossil fuels already have a significant carbon tax.  For example, petrol sold at £1.25/l includes £0.79 of VAT and duty.  At 2.31 kgCO2e/l the tax is already £340 per tCO2e.   A more indepth analysis would account for this.
+
 ## Appendix: Python Configuration
 
 This report was generated from carbonTaxBackstop.py which can be found at [drtonyr.github.io/carbonTaxBackstop](https://drtonyr.github.io/carbonTaxBackstop).
