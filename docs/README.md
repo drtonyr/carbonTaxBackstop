@@ -2,7 +2,7 @@
 <p align="center">
 Tony Robinson<br>
 04 November 2019<br>
-version: 1.0.6b5c6cd2
+version: 1.0.7086d660
 </p>
 
 ## Abstract
@@ -101,7 +101,7 @@ The ONS data is segmented into income deciles so the carbon footprint can be cal
  | 8 | £33078 | 25.3 | £5060 | £2802 | £12649 | £7005 |
  | 9 | £39600 | 30.6 | £6123 | £3865 | £15308 | £9663 |
  | 10 | £51791 | 36.7 | £7349 | £5092 | £18373 | £12729 |
- | mean | 27412 | 21.5 | 4296 | 2038 | 10740 | 5096 |
+ | mean | £27412 | 21.5 | £4296 | £2038 | £10740 | £5096 |
  
 
 Looking at decile 1 we see that the Universal Income is set to exactly match the carbon tax.  Deciles higher than this benefit financially, those lower fund decarbonisation.  The numbers in this table still don't reflect the change in expenditure due to price changes or any benefits of decarbonisation.
