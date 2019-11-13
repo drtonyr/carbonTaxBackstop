@@ -407,7 +407,7 @@ def writeExpendChange(nEqual, nDump):
       
   m = [np.mean([lines[j][i] for j in range(len(lines))]) for i in range(len(lines[0]))]
   # means of changes are the same as changes in means, so fix up
-  m[3] = 100 * (m[1] - m[2]) / m[1]
+  m[3] = 100 * m[2] / m[1]
   m[6] = 100 * (m[4] - m[5]) / m[4]
   fREADME.write('| mean | £%0.0f | £%0.0f | %0.0f%% | %0.1f | %0.1f | %0.0f%% |\n\n' % tuple(m[1:]))
   return m, list(eQuit)
