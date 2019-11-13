@@ -61,10 +61,11 @@ fREADME = open(os.path.join('docs', 'README.md'), 'w')
 fREADME.write('''# A Carbon Tax Backstop to Guarantee Carbon Neutrality
 <p align="center">
 Tony Robinson<br>
-%s<br>
-version: 1.0.%s
+Version: 1.0.%s<br>
+First release: 23 September 2019<br>
+This release: %s<br>
 </p>
-''' % (time.strftime("%d %B %Y", time.localtime(os.path.getmtime(sys.argv[0]))), subprocess.check_output(['sha512sum', sys.argv[0]], universal_newlines=True)[0:8]))
+''' % (subprocess.check_output(['sha512sum', sys.argv[0]], universal_newlines=True)[0:8], time.strftime("%d %B %Y", time.localtime(os.path.getmtime(sys.argv[0])))))
 
 fREADME.write('''
 ## Abstract
@@ -358,14 +359,14 @@ Elasticity has been estimated using all three functions. The appendix contains p
 
 Note that whilst we regard income as the total of expenditure items, the income elasticity of demand model is not constrained so that the total change in demand equates to the change in income.  Thus, if we apply a change in income it predicts a change in expenditure for each item but the total of predicted item expenditures does not equal the total expenditure.  Other models could be developed but ethos of this work is to keep things as simple as possible so the process is iterated until the totals match.
 
-Another major limitation of this model is that it does not consider cross correlations, that is that the change in demand of one item may affect another.  For example, when the carbon tax on natural gas makes electricity more economical for home heating it can be assumed that there will be a drastic reduction in gas usage and an equivalent increase in electricity usage.  More subtly, it also assumes that a household which has exactly the same increase in costs due to carbon tax as is matched with the universal income will not change any expenditures.  Whilst this may be true for mnay households, others may chose to spend on low carbon goods and so reduce carbon emissions.
+Another major limitation of this model is that it does not consider cross correlations, that is that the change in demand of one item may affect another.  For example, when the carbon tax on natural gas makes electricity more economical for home heating it can be assumed that there will be a drastic reduction in gas usage and an equivalent increase in electricity usage.  More subtly, it also assumes that a household which has exactly the same increase in costs due to carbon tax as is matched with the universal income will not change any expenditures.  Whilst this may be true for many households, others may chose to spend on low carbon goods and so reduce carbon emissions.
 
 ### Change In Expenditure Under A Carbon Tax
 
 It is now possible to calculate the expected change in demand for expenditure items and the CO2e for these items.  For every expenditure decile the carbon tax over all expenditure items is calculated.  If that matches the universal income then the books ballance and no further changes are necessary.  If there is a mismatch then the income elasticity of demand curves are used to adjust expenditure on each item until the carbon tax does match the universal income. 
 ''')
 
-def expend2ctax(expend):
+def expend2CO2e(expend):
   return np.dot(expend, [kgCO2epp[leaf] for leaf in leaves]) / 1000
 
 # WARNING - really bad code - reads and overwrites global variables
@@ -373,17 +374,17 @@ def writeExpendChange(nEqual, nDump):
 
   fREADME.write('''
 
-| Decile | expenditure | ctax-UI at £%d/t | %%decrease in expenditure | prior tCO2e | post tCO2e  |
-|:------:|------------:|-----------------:|--------------------------:|------------:|------------:|
+| Decile | prior expenditure | +ctax -UI at £%d/t | %%decrease in expenditure | prior tCO2e | post tCO2e | %%decrease in CO2e |
+|:------:|------------:|-----------------:|--------------------------:|------------:|------------:|----:|
 ''' % (ctaxHi))
 
   lines = []
   uiTarget = decileCO2e(nEqual - 1) * ctaxHi
   for index in range(0, ndec):
     expend = [table[leaf].data[index] for leaf in leaves]
-    initCO2e = expend2ctax(expend)
+    initCO2e = expend2CO2e(expend)
     target = np.sum(expend) + uiTarget
-    ctSum  = expend2ctax(expend) * ctaxHi
+    ctSum  = expend2CO2e(expend) * ctaxHi
     diff = np.sum(expend) + ctSum - target
     while abs(diff) > 0.01: # iterate until correct to the nearest penny
 
@@ -391,13 +392,13 @@ def writeExpendChange(nEqual, nDump):
       expend = np.add(expend, [ - table[leaf].elasticity * diff for leaf in leaves ])
 
       # recompute the carbon tax at the current level of expenditure
-      ctSum = expend2ctax(expend) * ctaxHi
+      ctSum = expend2CO2e(expend) * ctaxHi
 
       diff = np.sum(expend) + ctSum - target
 
-    quitCO2e = expend2ctax(expend)
-    line   = (index + 1, total[index], ctSum - uiTarget, 100 * (ctSum - uiTarget) / total[index], initCO2e, quitCO2e)
-    fREADME.write('| %d | £%0.0f | £%0.0f | %0.0f%% | %0.1f | %0.1f |\n' % line)
+    quitCO2e = expend2CO2e(expend)
+    line   = (index + 1, total[index], ctSum - uiTarget, 100 * (ctSum - uiTarget) / total[index], initCO2e, quitCO2e, 100 * (initCO2e - quitCO2e) / initCO2e)
+    fREADME.write('| %d | £%0.0f | £%0.0f | %0.0f%% | %0.1f | %0.1f | %0.0f%% |\n' % line)
     lines.append(line)
 
     # if example decile then dump out
@@ -405,15 +406,18 @@ def writeExpendChange(nEqual, nDump):
       eQuit = expend
       
   m = [np.mean([lines[j][i] for j in range(len(lines))]) for i in range(len(lines[0]))]
-  fREADME.write('| mean | £%0.0f | £%0.0f | %0.0f%% | %0.1f | %0.1f |\n\n' % tuple(m[1:]))
+  # means of changes are the same as changes in means, so fix up
+  m[3] = 100 * (m[1] - m[2]) / m[1]
+  m[6] = 100 * (m[4] - m[5]) / m[4]
+  fREADME.write('| mean | £%0.0f | £%0.0f | %0.0f%% | %0.1f | %0.1f | %0.0f%% |\n\n' % tuple(m[1:]))
   return m, list(eQuit)
 
 mean, change = writeExpendChange(nEquality, nChange)
   
 fREADME.write('''
-Thus a carbon tax of £%d/tCO2e would be expected to raise £%0.0f p.a. per household and reduce average emissions from %0.1f tCO2e p.a. to %0.1f tCO2e p.a, a reduction of %0.0f%%.''' % (ctaxHi, mean[2], mean[4], mean[5], 100 * (mean[4] - mean[5])/mean[4]))
+Thus a carbon tax of £%d/tCO2e would be expected to raise £%0.0f p.a. per household and reduce average emissions from %0.1f tCO2e p.a. to %0.1f tCO2e p.a, a reduction of %0.0f%%.''' % (ctaxHi, mean[2], mean[4], mean[5], mean[6]))
 
-fREADME.write('''The change in expenditure is assumed to occur over %d years and so is %0.1f%% per year.  Note that this is the 'worse case' backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
+fREADME.write('''  The change in expenditure is assumed to occur over %d years and so is %0.1f%% per year.  Note that this is the 'worse case' backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
 ''' % (nyear, (math.exp(math.log(1.0 + (mean[3] / 100)) / nyear) - 1.0) * 100))
 
 fREADME.write('''
