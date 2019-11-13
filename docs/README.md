@@ -1,8 +1,9 @@
 # A Carbon Tax Backstop to Guarantee Carbon Neutrality
 <p align="center">
 Tony Robinson<br>
-08 November 2019<br>
-version: 1.0.cd8377d2
+Version: 1.0.502930b5<br>
+First release: 23 September 2019<br>
+This release: 13 November 2019<br>
 </p>
 
 ## Abstract
