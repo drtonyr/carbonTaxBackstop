@@ -1,7 +1,7 @@
 # A Carbon Tax Backstop to Guarantee Carbon Neutrality
 <p align="center">
 Tony Robinson<br>
-Version: 1.0.502930b5<br>
+Version: 1.0.9d9b2657<br>
 First release: 23 September 2019<br>
 This release: 13 November 2019<br>
 </p>
@@ -117,14 +117,14 @@ Elasticity has been estimated using all three functions. The appendix contains p
 
 Note that whilst we regard income as the total of expenditure items, the income elasticity of demand model is not constrained so that the total change in demand equates to the change in income.  Thus, if we apply a change in income it predicts a change in expenditure for each item but the total of predicted item expenditures does not equal the total expenditure.  Other models could be developed but ethos of this work is to keep things as simple as possible so the process is iterated until the totals match.
 
-Another major limitation of this model is that it does not consider cross correlations, that is that the change in demand of one item may affect another.  For example, when the carbon tax on natural gas makes electricity more economical for home heating it can be assumed that there will be a drastic reduction in gas usage and an equivalent increase in electricity usage.  More subtly, it also assumes that a household which has exactly the same increase in costs due to carbon tax as is matched with the universal income will not change any expenditures.  Whilst this may be true for mnay households, others may chose to spend on low carbon goods and so reduce carbon emissions.
+Another major limitation of this model is that it does not consider cross correlations, that is that the change in demand of one item may affect another.  For example, when the carbon tax on natural gas makes electricity more economical for home heating it can be assumed that there will be a drastic reduction in gas usage and an equivalent increase in electricity usage.  More subtly, it also assumes that a household which has exactly the same increase in costs due to carbon tax as is matched with the universal income will not change any expenditures.  Whilst this may be true for many households, others may chose to spend on low carbon goods and so reduce carbon emissions.
 
 ### Change In Expenditure Under A Carbon Tax
 
 It is now possible to calculate the expected change in demand for expenditure items and the CO2e for these items.  For every expenditure decile the carbon tax over all expenditure items is calculated.  If that matches the universal income then the books ballance and no further changes are necessary.  If there is a mismatch then the income elasticity of demand curves are used to adjust expenditure on each item until the carbon tax does match the universal income. 
 
 
-| Decile | expenditure | ctax-UI at £500/t | %decrease in expenditure | prior tCO2e | post tCO2e  |
+| Decile | prior expenditure | +ctax -UI at £500/t | %decrease in expenditure | prior tCO2e | post tCO2e  |
 |:------:|------------:|-----------------:|--------------------------:|------------:|------------:|
 | 1 | £12491 | £0 | 0% | 11.3 | 11.3 |
 | 2 | £16274 | £997 | 6% | 13.9 | 13.3 |
@@ -647,7 +647,7 @@ It's interesting to consider the case where it's not felt necessary to fund deca
 
 
 
-| Decile | expenditure | ctax-UI at £500/t | %decrease in expenditure | prior tCO2e | post tCO2e  |
+| Decile | prior expenditure | +ctax -UI at £500/t | %decrease in expenditure | prior tCO2e | post tCO2e  |
 |:------:|------------:|-----------------:|--------------------------:|------------:|------------:|
 | 1 | £12491 | £-3850 | -31% | 11.3 | 13.8 |
 | 2 | £16274 | £-2854 | -18% | 13.9 | 15.8 |
