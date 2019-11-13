@@ -1,7 +1,7 @@
 # A Carbon Tax Backstop to Guarantee Carbon Neutrality
 <p align="center">
 Tony Robinson<br>
-Version: 1.0.34fa4eb8<br>
+Version: 1.0.1f434eb0<br>
 First release: 23 September 2019<br>
 This release: 13 November 2019<br>
 </p>
@@ -136,10 +136,10 @@ It is now possible to calculate the expected change in demand for expenditure it
 | 8 | £33078 | £5263 | 16% | 25.3 | 21.8 | 14% |
 | 9 | £39600 | £7261 | 18% | 30.6 | 25.8 | 16% |
 | 10 | £51791 | £9564 | 18% | 36.7 | 30.4 | 17% |
-| mean | £27412 | £3829 | 12% | 21.5 | 18.9 | 12% |
+| mean | £27412 | £3829 | 86% | 21.5 | 18.9 | 12% |
 
 
-Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 18.9 tCO2e p.a, a reduction of 12%.  The change in expenditure is assumed to occur over 10 years and so is 1.1% per year.  Note that this is the 'worse case' backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
+Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 18.9 tCO2e p.a, a reduction of 12%.  The change in expenditure is assumed to occur over 10 years and so is 6.4% per year.  Note that this is the 'worse case' backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
 
 
 Note also that the percentage reduction in CO2e emitted is pretty much the same as the percentage decrease in household expenditure.   Households are expected to make larger reductions in high carbon items, but most expenditure has about the same amount of embedded carbon.  Thus the accuracy of the income elasticity of demand is not key to the operation of a carbon tax backstop, it merely provides the motivation to efficiently decarbonisation the production and supply of the consumed goods.
@@ -659,7 +659,7 @@ It's interesting to consider the case where it's not felt necessary to fund deca
 | 8 | £33078 | £1413 | 4% | 25.3 | 24.4 | 4% |
 | 9 | £39600 | £3410 | 9% | 30.6 | 28.4 | 7% |
 | 10 | £51791 | £5714 | 11% | 36.7 | 33.0 | 10% |
-| mean | £27412 | £-22 | -5% | 21.5 | 21.5 | -0% |
+| mean | £27412 | £-22 | 100% | 21.5 | 21.5 | -0% |
 
 
 The main point to note is that there is no change in CO2e.  This is expected as the income elasticity of demand for expenditure item has been modelled independently and linearly.  The total expenditure remains the same so the increase in expenditure in lower deciles is balanced by the decrease in expenditure in upper deciles.
