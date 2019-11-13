@@ -1,7 +1,7 @@
 # A Carbon Tax Backstop to Guarantee Carbon Neutrality
 <p align="center">
 Tony Robinson<br>
-Version: 1.0.9d9b2657<br>
+Version: 1.0.8097ef87<br>
 First release: 23 September 2019<br>
 This release: 13 November 2019<br>
 </p>
@@ -124,22 +124,22 @@ Another major limitation of this model is that it does not consider cross correl
 It is now possible to calculate the expected change in demand for expenditure items and the CO2e for these items.  For every expenditure decile the carbon tax over all expenditure items is calculated.  If that matches the universal income then the books ballance and no further changes are necessary.  If there is a mismatch then the income elasticity of demand curves are used to adjust expenditure on each item until the carbon tax does match the universal income. 
 
 
-| Decile | prior expenditure | +ctax -UI at £500/t | %decrease in expenditure | prior tCO2e | post tCO2e  |
-|:------:|------------:|-----------------:|--------------------------:|------------:|------------:|
-| 1 | £12491 | £0 | 0% | 11.3 | 11.3 |
-| 2 | £16274 | £997 | 6% | 13.9 | 13.3 |
-| 3 | £18405 | £1637 | 9% | 15.6 | 14.6 |
-| 4 | £20913 | £2158 | 10% | 17.0 | 15.6 |
-| 5 | £23535 | £2850 | 12% | 18.9 | 17.0 |
-| 6 | £27829 | £3850 | 14% | 21.5 | 19.0 |
-| 7 | £30205 | £4708 | 16% | 23.8 | 20.7 |
-| 8 | £33078 | £5263 | 16% | 25.3 | 21.8 |
-| 9 | £39600 | £7261 | 18% | 30.6 | 25.8 |
-| 10 | £51791 | £9564 | 18% | 36.7 | 30.4 |
-| mean | £27412 | £3829 | 12% | 21.5 | 18.9 |
+| Decile | prior expenditure | +ctax -UI at £500/t | %decrease in expenditure | prior tCO2e | post tCO2e | %decrease in CO2e |
+|:------:|------------:|-----------------:|--------------------------:|------------:|------------:|----:|
+| 1 | £12491 | £0 | 0% | 11.3 | 11.3 | 0% |
+| 2 | £16274 | £997 | 6% | 13.9 | 13.3 | 5% |
+| 3 | £18405 | £1637 | 9% | 15.6 | 14.6 | 7% |
+| 4 | £20913 | £2158 | 10% | 17.0 | 15.6 | 8% |
+| 5 | £23535 | £2850 | 12% | 18.9 | 17.0 | 10% |
+| 6 | £27829 | £3850 | 14% | 21.5 | 19.0 | 12% |
+| 7 | £30205 | £4708 | 16% | 23.8 | 20.7 | 13% |
+| 8 | £33078 | £5263 | 16% | 25.3 | 21.8 | 14% |
+| 9 | £39600 | £7261 | 18% | 30.6 | 25.8 | 16% |
+| 10 | £51791 | £9564 | 18% | 36.7 | 30.4 | 17% |
+| mean | £27412 | £3829 | 12% | 21.5 | 18.9 | 10% |
 
 
-Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 18.9 tCO2e p.a, a reduction of 12%.The change in expenditure is assumed to occur over 10 years and so is 1.1% per year.  Note that this is the 'worse case' backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
+Thus a carbon tax of £500/tCO2e would be expected to raise £3829 p.a. per household and reduce average emissions from 21.5 tCO2e p.a. to 18.9 tCO2e p.a, a reduction of 12%.  The change in expenditure is assumed to occur over 10 years and so is 1.1% per year.  Note that this is the 'worse case' backstop, we still haven't factored in the decarbonisation of expenditure and so the changes would be significantly less than this.
 
 
 Note also that the percentage reduction in CO2e emitted is pretty much the same as the percentage decrease in household expenditure.   Households are expected to make larger reductions in high carbon items, but most expenditure has about the same amount of embedded carbon.  Thus the accuracy of the income elasticity of demand is not key to the operation of a carbon tax backstop, it merely provides the motivation to efficiently decarbonisation the production and supply of the consumed goods.
@@ -647,19 +647,19 @@ It's interesting to consider the case where it's not felt necessary to fund deca
 
 
 
-| Decile | prior expenditure | +ctax -UI at £500/t | %decrease in expenditure | prior tCO2e | post tCO2e  |
-|:------:|------------:|-----------------:|--------------------------:|------------:|------------:|
-| 1 | £12491 | £-3850 | -31% | 11.3 | 13.8 |
-| 2 | £16274 | £-2854 | -18% | 13.9 | 15.8 |
-| 3 | £18405 | £-2213 | -12% | 15.6 | 17.1 |
-| 4 | £20913 | £-1693 | -8% | 17.0 | 18.2 |
-| 5 | £23535 | £-1001 | -4% | 18.9 | 19.5 |
-| 6 | £27829 | £0 | 0% | 21.5 | 21.5 |
-| 7 | £30205 | £857 | 3% | 23.8 | 23.3 |
-| 8 | £33078 | £1413 | 4% | 25.3 | 24.4 |
-| 9 | £39600 | £3410 | 9% | 30.6 | 28.4 |
-| 10 | £51791 | £5714 | 11% | 36.7 | 33.0 |
-| mean | £27412 | £-22 | -5% | 21.5 | 21.5 |
+| Decile | prior expenditure | +ctax -UI at £500/t | %decrease in expenditure | prior tCO2e | post tCO2e | %decrease in CO2e |
+|:------:|------------:|-----------------:|--------------------------:|------------:|------------:|----:|
+| 1 | £12491 | £-3850 | -31% | 11.3 | 13.8 | -23% |
+| 2 | £16274 | £-2854 | -18% | 13.9 | 15.8 | -14% |
+| 3 | £18405 | £-2213 | -12% | 15.6 | 17.1 | -9% |
+| 4 | £20913 | £-1693 | -8% | 17.0 | 18.2 | -7% |
+| 5 | £23535 | £-1001 | -4% | 18.9 | 19.5 | -4% |
+| 6 | £27829 | £0 | 0% | 21.5 | 21.5 | 0% |
+| 7 | £30205 | £857 | 3% | 23.8 | 23.3 | 2% |
+| 8 | £33078 | £1413 | 4% | 25.3 | 24.4 | 4% |
+| 9 | £39600 | £3410 | 9% | 30.6 | 28.4 | 7% |
+| 10 | £51791 | £5714 | 11% | 36.7 | 33.0 | 10% |
+| mean | £27412 | £-22 | -5% | 21.5 | 21.5 | -3% |
 
 
 The main point to note is that there is no change in CO2e.  This is expected as the income elasticity of demand for expenditure item has been modelled independently and linearly.  The total expenditure remains the same so the increase in expenditure in lower deciles is balanced by the decrease in expenditure in upper deciles.
