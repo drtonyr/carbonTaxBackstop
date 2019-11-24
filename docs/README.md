@@ -1,7 +1,7 @@
 # A Carbon Tax Backstop to Guarantee Carbon Neutrality
 <p align="center">
 Tony Robinson<br>
-Version: 1.0.eda31d2b<br>
+Version: 1.0.55580aed<br>
 First release: 23 September 2019<br>
 This release: 24 November 2019<br>
 </p>
@@ -70,8 +70,8 @@ We can now summarise all expenditure items with their CO2e impact and the new co
 
 It is assumed that a carbon tax would be introduced gradually over a 10 year timescale.  As such items that increase in cost less than 50 percent (4.14 percent per year) have been excluded for clarity.  The full table can be found in the appendix.
 
-| Item description | £  | kgCO2/£ | kgCO2 | £ (%up) at £200/t| £ (%up) at £500/t|
-|:-----------------|---:|--------:|------:|-----------------:|-----------------:|
+| Item description | £  | kgCO2e/£ | kgCO2e | £ (%up) at £200/t| £ (%up) at £500/t|
+|:-----------------|---:|---------:|-------:|-----------------:|-----------------:|
 | 1.1.5 Beef (fresh, chilled or frozen) | £103 | 1.80 | 186 | £141 (36%) | £196 (89%) |
 | 1.1.6 Pork (fresh, chilled or frozen) | £32 | 1.14 | 36 | £39 (22%) | £50 (57%) |
 | 1.1.8 Poultry (fresh, chilled or frozen) | £122 | 1.14 | 139 | £149 (22%) | £191 (57%) |
@@ -211,8 +211,8 @@ npoly = 1      # polynomial order
 
 ## Appendix: Total CO2e by item
 
-| Item description | £  | kgCO2/£ | kgCO2 | £ (%up) at £200/t| £ (%up) at £500/t|
-|:-----------------|---:|--------:|------:|-----------------:|-----------------:|
+| Item description | £  | kgCO2e/£ | kgCO2e | £ (%up) at £200/t| £ (%up) at £500/t|
+|:-----------------|---:|---------:|-------:|-----------------:|-----------------:|
 | 1.1.1 Bread, rice and cereals | £284 | 0.72 | 205 | £325 (14%) | £387 (36%) |
 | 1.1.2 Pasta products | £22 | 0.72 | 16 | £26 (14%) | £31 (35%) |
 | 1.1.3 Buns, cakes, biscuits etc | £200 | 0.72 | 144 | £229 (14%) | £272 (36%) |
@@ -498,147 +498,147 @@ npoly = 1      # polynomial order
 
 The maximum expenditure change occurs at the top decide.  A Carbon tax rate of £500/tCO2e is assumed.
 
-| Item description | kgCO2/£ | expenditure pre cTax/£ | expenditure post cTax/£ | % change |
-|:-----------------|--------:|-----------------------:|------------------------:|---------:|
-| 1.1.1 Bread, rice and cereals | 0.72 | 339.15 | 309.04 | -8.9 |
-| 1.1.2 Pasta products | 0.72 | 26.09 | 23.36 | -10.5 |
-| 1.1.3 Buns, cakes, biscuits etc | 0.72 | 213.93 | 201.50 | -5.8 |
-| 1.1.4 Pastry (savoury) | 0.72 | 52.18 | 46.04 | -11.8 |
-| 1.1.5 Beef (fresh, chilled or frozen) | 1.80 | 156.53 | 133.39 | -14.8 |
-| 1.1.6 Pork (fresh, chilled or frozen) | 1.14 | 31.31 | 27.33 | -12.7 |
-| 1.1.7 Lamb (fresh, chilled or frozen) | 0.95 | 46.96 | 42.88 | -8.7 |
-| 1.1.8 Poultry (fresh, chilled or frozen) | 1.14 | 161.75 | 139.45 | -13.8 |
-| 1.1.9 Bacon and ham | 0.39 | 46.96 | 42.26 | -10.0 |
-| 1.1.10 Other meat and meat preparations | 1.30 | 370.46 | 343.81 | -7.2 |
-| 1.1.11 Fish and fish products | 0.72 | 240.01 | 208.30 | -13.2 |
-| 1.1.12 Milk | 0.72 | 114.79 | 113.47 | -1.2 |
-| 1.1.13 Cheese and curd | 0.72 | 151.31 | 130.41 | -13.8 |
-| 1.1.14 Eggs | 0.72 | 52.18 | 46.91 | -10.1 |
-| 1.1.15 Other milk products | 0.72 | 166.97 | 146.23 | -12.4 |
-| 1.1.16 Butter | 0.72 | 31.31 | 28.45 | -9.1 |
-| 1.1.17 Margarine, other vegetable fats and peanut butter | 0.72 | 36.52 | 33.93 | -7.1 |
-| 1.1.18 Cooking oils and fats | 0.72 | 20.87 | 19.07 | -8.6 |
-| 1.1.19 Fresh fruit | 0.72 | 318.28 | 273.47 | -14.1 |
-| 1.1.20 Other fresh, chilled or frozen fruits | 0.72 | 36.52 | 32.01 | -12.4 |
-| 1.1.21 Dried fruit and nuts | 0.72 | 78.27 | 65.80 | -15.9 |
-| 1.1.22 Preserved fruit and fruit based products | 0.72 | 10.44 | 9.58 | -8.2 |
-| 1.1.23 Fresh vegetables | 0.72 | 360.02 | 305.88 | -15.0 |
-| 1.1.24 Dried vegetables | 0.72 | 5.22 | 4.56 | -12.7 |
-| 1.1.25 Other preserved or processed vegetables | 0.72 | 140.88 | 117.89 | -16.3 |
-| 1.1.26 Potatoes | 0.72 | 41.74 | 39.28 | -5.9 |
-| 1.1.27 Other tubers and products of tuber vegetables | 0.72 | 78.27 | 77.88 | -0.5 |
-| 1.1.28 Sugar and sugar products | 0.72 | 26.09 | 25.02 | -4.1 |
-| 1.1.29 Jams, marmalades | 0.72 | 20.87 | 19.21 | -7.9 |
-| 1.1.30 Chocolate | 0.72 | 130.44 | 117.34 | -10.0 |
-| 1.1.31 Confectionery products | 0.72 | 36.52 | 35.18 | -3.7 |
-| 1.1.32 Edible ices and ice cream | 0.72 | 36.52 | 34.67 | -5.1 |
-| 1.1.33 Other food products | 0.72 | 182.62 | 157.26 | -13.9 |
-| 1.2.1 Coffee | 0.72 | 67.83 | 60.42 | -10.9 |
-| 1.2.2 Tea | 0.72 | 31.31 | 27.60 | -11.8 |
-| 1.2.3 Cocoa and powdered chocolate | 0.72 | 5.22 | 5.22 | 0.0 |
-| 1.2.4 Fruit and vegetable juices (inc. fruit squash) | 0.72 | 67.83 | 60.14 | -11.3 |
-| 1.2.5 Mineral or spring waters | 0.72 | 31.31 | 28.07 | -10.3 |
-| 1.2.6 Soft drinks (inc. fizzy and ready to drink fruit drinks) | 0.72 | 88.70 | 88.74 | 0.0 |
-| 2.1.1 Spirits and liqueurs (brought home) | 0.50 | 125.23 | 106.92 | -14.6 |
-| 2.1.2 Wines, fortified wines (brought home) | 0.15 | 474.81 | 369.54 | -22.2 |
-| 2.1.3 Beer, lager, ciders and perry (brought home) | 0.50 | 140.88 | 118.42 | -15.9 |
-| 2.1.4 Alcopops (brought home) | 0.50 | 2.61 | 2.61 | 0.0 |
-| 2.2.1 Cigarettes | 0.50 | 67.83 | 80.88 | 19.2 |
-| 2.2.2 Cigars, other tobacco products and narcotics | 0.50 | 31.31 | 47.33 | 51.2 |
-| 3.1.1 Men's outer garments | 0.33 | 474.81 | 359.77 | -24.2 |
-| 3.1.2 Men's under garments | 0.33 | 36.52 | 31.34 | -14.2 |
-| 3.1.3 Women's outer garments | 0.33 | 751.35 | 593.87 | -21.0 |
-| 3.1.4 Women's under garments | 0.33 | 88.70 | 75.40 | -15.0 |
-| 3.1.5 Boys' outer garments (5-15) | 0.33 | 83.48 | 73.21 | -12.3 |
-| 3.1.6 Girls' outer garments (5-15) | 0.33 | 57.39 | 51.20 | -10.8 |
-| 3.1.7 Infants' outer garments (under 5) | 0.33 | 36.52 | 32.45 | -11.2 |
-| 3.1.8 Children's under garments (under 16) | 0.33 | 15.65 | 15.26 | -2.5 |
-| 3.1.9 Accessories | 0.33 | 88.70 | 73.61 | -17.0 |
-| 3.1.10 Haberdashery and clothing hire | 0.33 | 31.31 | 26.75 | -14.5 |
-| 3.1.11 Dry cleaners, laundry and dyeing | 0.33 | 31.31 | 24.55 | -21.6 |
-| 3.2 Footwear | 0.33 | 344.37 | 293.17 | -14.9 |
-| 4.1.3 Net rent | 0.50 | 1862.72 | 1771.79 | -4.9 |
-| 4.1.4 Second dwelling rent | 0.50 | 2.61 | 2.61 | 0.0 |
-| 4.2 Maintenance and repair of dwelling | 0.50 | 954.84 | 772.59 | -19.1 |
-| 4.3 Water supply and miscellaneous services relating to the dwelling | 0.50 | 636.56 | 582.58 | -8.5 |
-| 4.4.1 Electricity | 2.32 | 725.26 | 691.49 | -4.7 |
-| 4.4.2 Gas | 6.41 | 641.78 | 602.59 | -6.1 |
-| 4.4.3 Other fuels | 1.78 | 140.88 | 121.03 | -14.1 |
-| 5.1.1 Furniture and furnishings | 0.50 | 2707.99 | 2214.36 | -18.2 |
-| 5.1.2 Floor coverings | 0.50 | 422.63 | 345.51 | -18.2 |
-| 5.2 Household textiles | 0.50 | 219.14 | 174.06 | -20.6 |
-| 5.3 Household appliances | 0.50 | 307.85 | 228.95 | -25.6 |
-| 5.4 Glassware, tableware and household utensils | 0.50 | 172.18 | 142.02 | -17.5 |
-| 5.5 Tools and equipment for house and garden | 0.50 | 255.67 | 201.15 | -21.3 |
-| 5.6.1 Cleaning materials | 0.50 | 161.75 | 144.53 | -10.6 |
-| 5.6.2 Household goods and hardware | 0.50 | 114.79 | 100.29 | -12.6 |
-| 5.6.3 Domestic services, carpet cleaning, hire/repair of furniture/furnishings | 0.50 | 448.72 | 359.20 | -20.0 |
-| 6.1.1 Medicines, prescriptions, healthcare products etc | 0.66 | 151.31 | 127.50 | -15.7 |
-| 6.1.2 Spectacles, lenses, accessories and repairs | 0.50 | 146.10 | 109.18 | -25.3 |
-| 6.2 Hospital services | 0.50 | 464.38 | 366.14 | -21.2 |
-| 7.1.1 Purchase of new cars and vans | 0.78 | 1732.28 | 1345.67 | -22.3 |
-| 7.1.2 Purchase of second hand cars or vans | 0.78 | 1534.01 | 1181.12 | -23.0 |
-| 7.1.3 Purchase of motorcycles and other vehicles | 0.78 | 198.27 | 165.14 | -16.7 |
-| 7.2.1 Spares and accessories | 0.50 | 386.11 | 321.29 | -16.8 |
-| 7.2.2 Petrol, diesel and other motor oils | 1.78 | 1565.31 | 1243.15 | -20.6 |
-| 7.2.3 Repairs and servicing | 0.50 | 626.13 | 496.38 | -20.7 |
-| 7.2.4 Other motoring costs | 0.50 | 307.85 | 245.67 | -20.2 |
-| 7.3.1 Rail and tube fares | 0.50 | 756.57 | 590.76 | -21.9 |
-| 7.3.2 Bus and coach fares | 0.50 | 46.96 | 53.12 | 13.1 |
-| 7.3.3 Combined fares | 0.50 | 140.88 | 102.77 | -27.1 |
-| 7.3.4 Other travel and transport | 0.50 | 1721.85 | 1387.20 | -19.4 |
-| 8.1 Postal services | 0.50 | 62.61 | 51.53 | -17.7 |
-| 8.2 Telephone and telefax equipment | 0.39 | 93.92 | 70.80 | -24.6 |
-| 8.3 Telephone and telefax services | 0.62 | 772.22 | 677.33 | -12.3 |
-| 8.4 Internet subscription fees | 0.50 | 255.67 | 226.30 | -11.5 |
-| 9.1.1 Audio equipment and accessories, CD players | 0.65 | 156.53 | 127.57 | -18.5 |
-| 9.1.2 TV, video and computers | 0.65 | 323.50 | 259.99 | -19.6 |
-| 9.1.3 Photographic, cine and optical equipment | 0.65 | 2.61 | -3.11 | -219.4 |
-| 9.2 Other major durables for recreation and culture | 0.29 | 537.42 | 410.06 | -23.7 |
-| 9.3.1 Games, toys and hobbies | 0.29 | 234.80 | 198.33 | -15.5 |
-| 9.3.2 Computer software and games | 0.29 | 78.27 | 69.34 | -11.4 |
-| 9.3.3 Equipment for sport, camping and open-air recreation | 0.29 | 109.57 | 86.49 | -21.1 |
-| 9.3.4 Horticultural goods, garden equipment and plants | 0.29 | 260.89 | 214.45 | -17.8 |
-| 9.3.5 Pets and pet food | 0.29 | 485.25 | 406.21 | -16.3 |
-| 9.4.1 Sports admissions, subscriptions, leisure class fees and equipment hire | 0.29 | 876.58 | 687.13 | -21.6 |
-| 9.4.2 Cinema, theatre and museums etc | 0.29 | 360.02 | 275.16 | -23.6 |
-| 9.4.3 TV, video, satellite rental, cable subscriptions and TV licences | 0.29 | 516.55 | 443.76 | -14.1 |
-| 9.4.4 Miscellaneous entertainments | 0.29 | 109.57 | 90.96 | -17.0 |
-| 9.4.5 Development of film, deposit for film development, passport photos, holiday and school photos | 0.29 | 15.65 | 11.71 | -25.2 |
-| 9.4.6 Gambling payments | 0.29 | 114.79 | 100.42 | -12.5 |
-| 9.5.1 Books | 0.66 | 130.44 | 99.51 | -23.7 |
-| 9.5.2 Diaries, address books, cards etc | 0.66 | 161.75 | 132.86 | -17.9 |
-| 9.5.3 Newspapers | 0.66 | 99.14 | 88.37 | -10.9 |
-| 9.5.4 Magazines and periodicals | 0.66 | 41.74 | 36.86 | -11.7 |
-| 9.6.1 Package holidays - UK | 0.51 | 104.35 | 79.94 | -23.4 |
-| 9.6.2 Package holidays - abroad | 2.00 | 2994.97 | 2240.93 | -25.2 |
-| 10.1 Education fees | 0.25 | 1539.23 | 1181.83 | -23.2 |
-| 10.2 Payments for school trips, other ad-hoc expenditure | 0.50 | 73.05 | 59.60 | -18.4 |
-| 11.1.1 Restaurant and café meals | 0.51 | 2014.04 | 1587.41 | -21.2 |
-| 11.1.2 Alcoholic drinks (away from home) | 0.51 | 949.62 | 731.87 | -22.9 |
-| 11.1.3 Take away meals eaten at home | 0.51 | 328.72 | 282.86 | -13.9 |
-| 11.1.4 Other take-away and snack food | 0.51 | 459.16 | 371.41 | -19.1 |
-| 11.1.5 Contract catering (food) and canteens | 0.51 | 146.10 | 113.59 | -22.2 |
-| 11.2.1 Holiday in the UK | 0.50 | 777.44 | 606.98 | -21.9 |
-| 11.2.2 Holiday abroad | 0.50 | 1074.85 | 860.33 | -20.0 |
-| 11.2.3 Room hire | 0.50 | 2.61 | 2.61 | 0.0 |
-| 12.1.1 Hairdressing, beauty treatment | 0.50 | 386.11 | 302.51 | -21.7 |
-| 12.1.2 Toilet paper | 0.50 | 41.74 | 39.34 | -5.7 |
-| 12.1.3 Toiletries and soap | 0.50 | 166.97 | 144.71 | -13.3 |
-| 12.1.4 Baby toiletries and accessories (disposable) | 0.50 | 26.09 | 28.96 | 11.0 |
-| 12.1.5 Hair products, cosmetics and related electrical appliances | 0.50 | 386.11 | 305.99 | -20.8 |
-| 12.2 Personal effects | 0.50 | 500.90 | 399.36 | -20.3 |
-| 12.3 Social protection | 0.50 | 474.81 | 369.16 | -22.3 |
-| 12.4.1 Household insurances - structural, contents and appliances | 0.31 | 422.63 | 351.98 | -16.7 |
-| 12.4.2 Medical insurance premiums | 0.31 | 297.41 | 232.52 | -21.8 |
-| 12.4.3 Vehicle insurance including boat insurance | 0.31 | 735.70 | 610.43 | -17.0 |
-| 12.4.4 Non-package holiday, other travel insurance | 0.31 | 26.09 | 21.77 | -16.5 |
-| 12.5.1 Moving house | 0.50 | 511.34 | 407.16 | -20.4 |
-| 12.5.2 Bank, building society, post office, credit card charges | 0.50 | 62.61 | 50.81 | -18.9 |
-| 12.5.3 Other services and professional fees | 0.50 | 130.44 | 99.61 | -23.6 |
-| 13.3 Holiday spending | 0.50 | 1695.76 | 1285.28 | -24.2 |
-| 13.4.2 Cash gifts and donations | 0.00 | 1894.03 | 1526.95 | -19.4 |
-| 14.6 Savings and investments | 0.00 | 1278.34 | 981.87 | -23.2 |
+| Item description | kgCO2e/£ | expenditure pre cTax/£ | expenditure post cTax/£ | % change |
+|:-----------------|---------:|-----------------------:|------------------------:|---------:|
+| 1.1.1 Bread, rice and cereals | 0.72 | 339.15 | 309.04 | -9% |
+| 1.1.2 Pasta products | 0.72 | 26.09 | 23.36 | -10% |
+| 1.1.3 Buns, cakes, biscuits etc | 0.72 | 213.93 | 201.50 | -6% |
+| 1.1.4 Pastry (savoury) | 0.72 | 52.18 | 46.04 | -12% |
+| 1.1.5 Beef (fresh, chilled or frozen) | 1.80 | 156.53 | 133.39 | -15% |
+| 1.1.6 Pork (fresh, chilled or frozen) | 1.14 | 31.31 | 27.33 | -13% |
+| 1.1.7 Lamb (fresh, chilled or frozen) | 0.95 | 46.96 | 42.88 | -9% |
+| 1.1.8 Poultry (fresh, chilled or frozen) | 1.14 | 161.75 | 139.45 | -14% |
+| 1.1.9 Bacon and ham | 0.39 | 46.96 | 42.26 | -10% |
+| 1.1.10 Other meat and meat preparations | 1.30 | 370.46 | 343.81 | -7% |
+| 1.1.11 Fish and fish products | 0.72 | 240.01 | 208.30 | -13% |
+| 1.1.12 Milk | 0.72 | 114.79 | 113.47 | -1% |
+| 1.1.13 Cheese and curd | 0.72 | 151.31 | 130.41 | -14% |
+| 1.1.14 Eggs | 0.72 | 52.18 | 46.91 | -10% |
+| 1.1.15 Other milk products | 0.72 | 166.97 | 146.23 | -12% |
+| 1.1.16 Butter | 0.72 | 31.31 | 28.45 | -9% |
+| 1.1.17 Margarine, other vegetable fats and peanut butter | 0.72 | 36.52 | 33.93 | -7% |
+| 1.1.18 Cooking oils and fats | 0.72 | 20.87 | 19.07 | -9% |
+| 1.1.19 Fresh fruit | 0.72 | 318.28 | 273.47 | -14% |
+| 1.1.20 Other fresh, chilled or frozen fruits | 0.72 | 36.52 | 32.01 | -12% |
+| 1.1.21 Dried fruit and nuts | 0.72 | 78.27 | 65.80 | -16% |
+| 1.1.22 Preserved fruit and fruit based products | 0.72 | 10.44 | 9.58 | -8% |
+| 1.1.23 Fresh vegetables | 0.72 | 360.02 | 305.88 | -15% |
+| 1.1.24 Dried vegetables | 0.72 | 5.22 | 4.56 | -13% |
+| 1.1.25 Other preserved or processed vegetables | 0.72 | 140.88 | 117.89 | -16% |
+| 1.1.26 Potatoes | 0.72 | 41.74 | 39.28 | -6% |
+| 1.1.27 Other tubers and products of tuber vegetables | 0.72 | 78.27 | 77.88 | -0% |
+| 1.1.28 Sugar and sugar products | 0.72 | 26.09 | 25.02 | -4% |
+| 1.1.29 Jams, marmalades | 0.72 | 20.87 | 19.21 | -8% |
+| 1.1.30 Chocolate | 0.72 | 130.44 | 117.34 | -10% |
+| 1.1.31 Confectionery products | 0.72 | 36.52 | 35.18 | -4% |
+| 1.1.32 Edible ices and ice cream | 0.72 | 36.52 | 34.67 | -5% |
+| 1.1.33 Other food products | 0.72 | 182.62 | 157.26 | -14% |
+| 1.2.1 Coffee | 0.72 | 67.83 | 60.42 | -11% |
+| 1.2.2 Tea | 0.72 | 31.31 | 27.60 | -12% |
+| 1.2.3 Cocoa and powdered chocolate | 0.72 | 5.22 | 5.22 | 0% |
+| 1.2.4 Fruit and vegetable juices (inc. fruit squash) | 0.72 | 67.83 | 60.14 | -11% |
+| 1.2.5 Mineral or spring waters | 0.72 | 31.31 | 28.07 | -10% |
+| 1.2.6 Soft drinks (inc. fizzy and ready to drink fruit drinks) | 0.72 | 88.70 | 88.74 | 0% |
+| 2.1.1 Spirits and liqueurs (brought home) | 0.50 | 125.23 | 106.92 | -15% |
+| 2.1.2 Wines, fortified wines (brought home) | 0.15 | 474.81 | 369.54 | -22% |
+| 2.1.3 Beer, lager, ciders and perry (brought home) | 0.50 | 140.88 | 118.42 | -16% |
+| 2.1.4 Alcopops (brought home) | 0.50 | 2.61 | 2.61 | 0% |
+| 2.2.1 Cigarettes | 0.50 | 67.83 | 80.88 | 19% |
+| 2.2.2 Cigars, other tobacco products and narcotics | 0.50 | 31.31 | 47.33 | 51% |
+| 3.1.1 Men's outer garments | 0.33 | 474.81 | 359.77 | -24% |
+| 3.1.2 Men's under garments | 0.33 | 36.52 | 31.34 | -14% |
+| 3.1.3 Women's outer garments | 0.33 | 751.35 | 593.87 | -21% |
+| 3.1.4 Women's under garments | 0.33 | 88.70 | 75.40 | -15% |
+| 3.1.5 Boys' outer garments (5-15) | 0.33 | 83.48 | 73.21 | -12% |
+| 3.1.6 Girls' outer garments (5-15) | 0.33 | 57.39 | 51.20 | -11% |
+| 3.1.7 Infants' outer garments (under 5) | 0.33 | 36.52 | 32.45 | -11% |
+| 3.1.8 Children's under garments (under 16) | 0.33 | 15.65 | 15.26 | -3% |
+| 3.1.9 Accessories | 0.33 | 88.70 | 73.61 | -17% |
+| 3.1.10 Haberdashery and clothing hire | 0.33 | 31.31 | 26.75 | -15% |
+| 3.1.11 Dry cleaners, laundry and dyeing | 0.33 | 31.31 | 24.55 | -22% |
+| 3.2 Footwear | 0.33 | 344.37 | 293.17 | -15% |
+| 4.1.3 Net rent | 0.50 | 1862.72 | 1771.79 | -5% |
+| 4.1.4 Second dwelling rent | 0.50 | 2.61 | 2.61 | 0% |
+| 4.2 Maintenance and repair of dwelling | 0.50 | 954.84 | 772.59 | -19% |
+| 4.3 Water supply and miscellaneous services relating to the dwelling | 0.50 | 636.56 | 582.58 | -8% |
+| 4.4.1 Electricity | 2.32 | 725.26 | 691.49 | -5% |
+| 4.4.2 Gas | 6.41 | 641.78 | 602.59 | -6% |
+| 4.4.3 Other fuels | 1.78 | 140.88 | 121.03 | -14% |
+| 5.1.1 Furniture and furnishings | 0.50 | 2707.99 | 2214.36 | -18% |
+| 5.1.2 Floor coverings | 0.50 | 422.63 | 345.51 | -18% |
+| 5.2 Household textiles | 0.50 | 219.14 | 174.06 | -21% |
+| 5.3 Household appliances | 0.50 | 307.85 | 228.95 | -26% |
+| 5.4 Glassware, tableware and household utensils | 0.50 | 172.18 | 142.02 | -18% |
+| 5.5 Tools and equipment for house and garden | 0.50 | 255.67 | 201.15 | -21% |
+| 5.6.1 Cleaning materials | 0.50 | 161.75 | 144.53 | -11% |
+| 5.6.2 Household goods and hardware | 0.50 | 114.79 | 100.29 | -13% |
+| 5.6.3 Domestic services, carpet cleaning, hire/repair of furniture/furnishings | 0.50 | 448.72 | 359.20 | -20% |
+| 6.1.1 Medicines, prescriptions, healthcare products etc | 0.66 | 151.31 | 127.50 | -16% |
+| 6.1.2 Spectacles, lenses, accessories and repairs | 0.50 | 146.10 | 109.18 | -25% |
+| 6.2 Hospital services | 0.50 | 464.38 | 366.14 | -21% |
+| 7.1.1 Purchase of new cars and vans | 0.78 | 1732.28 | 1345.67 | -22% |
+| 7.1.2 Purchase of second hand cars or vans | 0.78 | 1534.01 | 1181.12 | -23% |
+| 7.1.3 Purchase of motorcycles and other vehicles | 0.78 | 198.27 | 165.14 | -17% |
+| 7.2.1 Spares and accessories | 0.50 | 386.11 | 321.29 | -17% |
+| 7.2.2 Petrol, diesel and other motor oils | 1.78 | 1565.31 | 1243.15 | -21% |
+| 7.2.3 Repairs and servicing | 0.50 | 626.13 | 496.38 | -21% |
+| 7.2.4 Other motoring costs | 0.50 | 307.85 | 245.67 | -20% |
+| 7.3.1 Rail and tube fares | 0.50 | 756.57 | 590.76 | -22% |
+| 7.3.2 Bus and coach fares | 0.50 | 46.96 | 53.12 | 13% |
+| 7.3.3 Combined fares | 0.50 | 140.88 | 102.77 | -27% |
+| 7.3.4 Other travel and transport | 0.50 | 1721.85 | 1387.20 | -19% |
+| 8.1 Postal services | 0.50 | 62.61 | 51.53 | -18% |
+| 8.2 Telephone and telefax equipment | 0.39 | 93.92 | 70.80 | -25% |
+| 8.3 Telephone and telefax services | 0.62 | 772.22 | 677.33 | -12% |
+| 8.4 Internet subscription fees | 0.50 | 255.67 | 226.30 | -11% |
+| 9.1.1 Audio equipment and accessories, CD players | 0.65 | 156.53 | 127.57 | -19% |
+| 9.1.2 TV, video and computers | 0.65 | 323.50 | 259.99 | -20% |
+| 9.1.3 Photographic, cine and optical equipment | 0.65 | 2.61 | -3.11 | -219% |
+| 9.2 Other major durables for recreation and culture | 0.29 | 537.42 | 410.06 | -24% |
+| 9.3.1 Games, toys and hobbies | 0.29 | 234.80 | 198.33 | -16% |
+| 9.3.2 Computer software and games | 0.29 | 78.27 | 69.34 | -11% |
+| 9.3.3 Equipment for sport, camping and open-air recreation | 0.29 | 109.57 | 86.49 | -21% |
+| 9.3.4 Horticultural goods, garden equipment and plants | 0.29 | 260.89 | 214.45 | -18% |
+| 9.3.5 Pets and pet food | 0.29 | 485.25 | 406.21 | -16% |
+| 9.4.1 Sports admissions, subscriptions, leisure class fees and equipment hire | 0.29 | 876.58 | 687.13 | -22% |
+| 9.4.2 Cinema, theatre and museums etc | 0.29 | 360.02 | 275.16 | -24% |
+| 9.4.3 TV, video, satellite rental, cable subscriptions and TV licences | 0.29 | 516.55 | 443.76 | -14% |
+| 9.4.4 Miscellaneous entertainments | 0.29 | 109.57 | 90.96 | -17% |
+| 9.4.5 Development of film, deposit for film development, passport photos, holiday and school photos | 0.29 | 15.65 | 11.71 | -25% |
+| 9.4.6 Gambling payments | 0.29 | 114.79 | 100.42 | -13% |
+| 9.5.1 Books | 0.66 | 130.44 | 99.51 | -24% |
+| 9.5.2 Diaries, address books, cards etc | 0.66 | 161.75 | 132.86 | -18% |
+| 9.5.3 Newspapers | 0.66 | 99.14 | 88.37 | -11% |
+| 9.5.4 Magazines and periodicals | 0.66 | 41.74 | 36.86 | -12% |
+| 9.6.1 Package holidays - UK | 0.51 | 104.35 | 79.94 | -23% |
+| 9.6.2 Package holidays - abroad | 2.00 | 2994.97 | 2240.93 | -25% |
+| 10.1 Education fees | 0.25 | 1539.23 | 1181.83 | -23% |
+| 10.2 Payments for school trips, other ad-hoc expenditure | 0.50 | 73.05 | 59.60 | -18% |
+| 11.1.1 Restaurant and café meals | 0.51 | 2014.04 | 1587.41 | -21% |
+| 11.1.2 Alcoholic drinks (away from home) | 0.51 | 949.62 | 731.87 | -23% |
+| 11.1.3 Take away meals eaten at home | 0.51 | 328.72 | 282.86 | -14% |
+| 11.1.4 Other take-away and snack food | 0.51 | 459.16 | 371.41 | -19% |
+| 11.1.5 Contract catering (food) and canteens | 0.51 | 146.10 | 113.59 | -22% |
+| 11.2.1 Holiday in the UK | 0.50 | 777.44 | 606.98 | -22% |
+| 11.2.2 Holiday abroad | 0.50 | 1074.85 | 860.33 | -20% |
+| 11.2.3 Room hire | 0.50 | 2.61 | 2.61 | 0% |
+| 12.1.1 Hairdressing, beauty treatment | 0.50 | 386.11 | 302.51 | -22% |
+| 12.1.2 Toilet paper | 0.50 | 41.74 | 39.34 | -6% |
+| 12.1.3 Toiletries and soap | 0.50 | 166.97 | 144.71 | -13% |
+| 12.1.4 Baby toiletries and accessories (disposable) | 0.50 | 26.09 | 28.96 | 11% |
+| 12.1.5 Hair products, cosmetics and related electrical appliances | 0.50 | 386.11 | 305.99 | -21% |
+| 12.2 Personal effects | 0.50 | 500.90 | 399.36 | -20% |
+| 12.3 Social protection | 0.50 | 474.81 | 369.16 | -22% |
+| 12.4.1 Household insurances - structural, contents and appliances | 0.31 | 422.63 | 351.98 | -17% |
+| 12.4.2 Medical insurance premiums | 0.31 | 297.41 | 232.52 | -22% |
+| 12.4.3 Vehicle insurance including boat insurance | 0.31 | 735.70 | 610.43 | -17% |
+| 12.4.4 Non-package holiday, other travel insurance | 0.31 | 26.09 | 21.77 | -17% |
+| 12.5.1 Moving house | 0.50 | 511.34 | 407.16 | -20% |
+| 12.5.2 Bank, building society, post office, credit card charges | 0.50 | 62.61 | 50.81 | -19% |
+| 12.5.3 Other services and professional fees | 0.50 | 130.44 | 99.61 | -24% |
+| 13.3 Holiday spending | 0.50 | 1695.76 | 1285.28 | -24% |
+| 13.4.2 Cash gifts and donations | 0.00 | 1894.03 | 1526.95 | -19% |
+| 14.6 Savings and investments | 0.00 | 1278.34 | 981.87 | -23% |
 
 
 ## Appendix: A Fiscally Neutral Carbon Tax and Household Income
