@@ -1,9 +1,9 @@
 # A Carbon Tax Backstop to Guarantee Carbon Neutrality
 <p align="center">
 Tony Robinson<br>
-Version: 1.0.12fea7a7<br>
+Version: 1.0.7f62a16e<br>
 First release: 23 September 2019<br>
-This release: 13 November 2019<br>
+This release: 24 November 2019<br>
 </p>
 
 ## Abstract
@@ -90,19 +90,19 @@ Note that no changes in manufacturing or consumption have been included in the t
 
 The ONS data is segmented into income deciles so the carbon footprint can be calculated for each income segment under the two illustrative carbon tax rates.  The universal income is set so that there is no net effect to decile 1 and so the net effect of tax and universal income can be calculated (this number is one of the parameters of the code - changing it and running again results in a different report). 
 
-| Decile | expenditure | tCO2e | ctax at £200/t | ctax-UI at £200/t | ctax at £500/t | ctax-UI at £500/t |
-|:------:|--------------:|------:|--------------:|-----------------:|--------------:|-----------------:|
-| 1 | £12491 | 11.3 | £2258 | £0 | £5644 | £0 |
- | 2 | £16274 | 13.9 | £2788 | £531 | £6971 | £1327 |
- | 3 | £18405 | 15.6 | £3129 | £871 | £7823 | £2179 |
- | 4 | £20913 | 17.0 | £3406 | £1149 | £8516 | £2872 |
- | 5 | £23535 | 18.9 | £3775 | £1517 | £9437 | £3793 |
- | 6 | £27829 | 21.5 | £4308 | £2050 | £10769 | £5125 |
- | 7 | £30205 | 23.8 | £4764 | £2506 | £11910 | £6265 |
- | 8 | £33078 | 25.3 | £5060 | £2802 | £12649 | £7005 |
- | 9 | £39600 | 30.6 | £6123 | £3865 | £15308 | £9663 |
- | 10 | £51791 | 36.7 | £7349 | £5092 | £18373 | £12729 |
- | mean | £27412 | 21.5 | £4296 | £2038 | £10740 | £5096 |
+| Decile | expenditure | tCO2e | kgCO2e/£ | ctax at £200/t | ctax-UI at £200/t | ctax at £500/t | ctax-UI at £500/t |
+|:------:|------------:|------:|---------:|--------------:|-----------------:|--------------:|-----------------:|
+| 1 | £12491 | 11.3 | 0.9 | £2258 | £0 | £5644 | £0 |
+ | 2 | £16274 | 13.9 | 0.9 | £2788 | £531 | £6971 | £1327 |
+ | 3 | £18405 | 15.6 | 0.9 | £3129 | £871 | £7823 | £2179 |
+ | 4 | £20913 | 17.0 | 0.8 | £3406 | £1149 | £8516 | £2872 |
+ | 5 | £23535 | 18.9 | 0.8 | £3775 | £1517 | £9437 | £3793 |
+ | 6 | £27829 | 21.5 | 0.8 | £4308 | £2050 | £10769 | £5125 |
+ | 7 | £30205 | 23.8 | 0.8 | £4764 | £2506 | £11910 | £6265 |
+ | 8 | £33078 | 25.3 | 0.8 | £5060 | £2802 | £12649 | £7005 |
+ | 9 | £39600 | 30.6 | 0.8 | £6123 | £3865 | £15308 | £9663 |
+ | 10 | £51791 | 36.7 | 0.7 | £7349 | £5092 | £18373 | £12729 |
+ | mean | £27412 | 21.5 | 0.8 | £4296 | £2038 | £10740 | £5096 |
  
 
 Looking at decile 1 we see that the Universal Income is set to exactly match the carbon tax.  Deciles higher than this benefit financially, those lower fund decarbonisation.  The numbers in this table still don't reflect the change in expenditure due to price changes or any benefits of decarbonisation.
