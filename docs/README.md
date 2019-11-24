@@ -1,7 +1,7 @@
 # A Carbon Tax Backstop to Guarantee Carbon Neutrality
 <p align="center">
 Tony Robinson<br>
-Version: 1.0.7f62a16e<br>
+Version: 1.0.3580fa29<br>
 First release: 23 September 2019<br>
 This release: 24 November 2019<br>
 </p>
@@ -102,7 +102,7 @@ The ONS data is segmented into income deciles so the carbon footprint can be cal
  | 8 | £33078 | 25.3 | 0.8 | £5060 | £2802 | £12649 | £7005 |
  | 9 | £39600 | 30.6 | 0.8 | £6123 | £3865 | £15308 | £9663 |
  | 10 | £51791 | 36.7 | 0.7 | £7349 | £5092 | £18373 | £12729 |
- | mean | £27412 | 21.5 | 0.8 | £4296 | £2038 | £10740 | £5096 |
+ | mean | £27412 | 21.5 | 0.78 | £4296 | £2038 | £10740 | £5096 |
  
 
 Looking at decile 1 we see that the Universal Income is set to exactly match the carbon tax.  Deciles higher than this benefit financially, those lower fund decarbonisation.  The numbers in this table still don't reflect the change in expenditure due to price changes or any benefits of decarbonisation.
