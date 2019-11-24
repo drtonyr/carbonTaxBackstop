@@ -292,8 +292,8 @@ It is assumed that a carbon tax would be introduced gradually over a %d year tim
 
 def writeItemTable(threshold):
   fREADME.write('''
-| Item description | £  | kgCO2/£ | kgCO2 | £ (%%up) at £%d/t| £ (%%up) at £%d/t|
-|:-----------------|---:|--------:|------:|-----------------:|-----------------:|
+| Item description | £  | kgCO2e/£ | kgCO2e | £ (%%up) at £%d/t| £ (%%up) at £%d/t|
+|:-----------------|---:|---------:|-------:|-----------------:|-----------------:|
 ''' % (ctaxLo, ctaxHi))
 
   sumExpend = sumkgCO2e = 0.0
@@ -321,8 +321,8 @@ The ONS data is segmented into income deciles so the carbon footprint can be cal
 ''' % (nEquality))
 
 fREADME.write('''
-| Decile | expenditure | tCO2e | ctax at £%d/t | ctax-UI at £%d/t | ctax at £%d/t | ctax-UI at £%d/t |
-|:------:|--------------:|------:|--------------:|-----------------:|--------------:|-----------------:|
+| Decile | expenditure | tCO2e | kgCO2e/£ | ctax at £%d/t | ctax-UI at £%d/t | ctax at £%d/t | ctax-UI at £%d/t |
+|:------:|------------:|------:|---------:|--------------:|-----------------:|--------------:|-----------------:|
 ''' % (ctaxLo, ctaxLo, ctaxHi, ctaxHi))
 
 def decileCO2e(index):
@@ -337,11 +337,12 @@ lines = []
 for index in range(0, ndec):
   tCO2e  = decileCO2e(index)
   expend = total[index]
-  line   = (index + 1, expend, tCO2e, tCO2e * ctaxLo, tCO2e * ctaxLo - uiLo, tCO2e * ctaxHi, tCO2e * ctaxHi - uiHi)
-  fREADME.write('| %d | £%0.0f | %0.1f | £%0.0f | £%0.0f | £%0.0f | £%0.0f |\n ' % line)
+  line   = (index + 1, expend, tCO2e, 1000 * tCO2e / expend , tCO2e * ctaxLo, tCO2e * ctaxLo - uiLo, tCO2e * ctaxHi, tCO2e * ctaxHi - uiHi)
+  fREADME.write('| %d | £%0.0f | %0.1f | %0.2f | £%0.0f | £%0.0f | £%0.0f | £%0.0f |\n ' % line)
   lines.append(line)
 mean = [np.mean([lines[j][i] for j in range(len(lines))]) for i in range(len(lines[0]))]
-fREADME.write('| mean | £%0.0f | %0.1f | £%0.0f | £%0.0f | £%0.0f | £%0.0f |\n ' % tuple(mean[1:]))
+mean[3] = 1000 * mean[2] / mean[1]
+fREADME.write('| mean | £%0.0f | %0.1f | %0.2f | £%0.0f | £%0.0f | £%0.0f | £%0.0f |\n ' % tuple(mean[1:]))
 
 fREADME.write('''
 
@@ -499,13 +500,13 @@ The maximum expenditure change occurs at the top decide.  A Carbon tax rate of �
 ''' % (ctaxHi))
 
 fREADME.write('''
-| Item description | kgCO2/£ | expenditure pre cTax/£ | expenditure post cTax/£ | % change |
-|:-----------------|--------:|-----------------------:|------------------------:|---------:|
+| Item description | kgCO2e/£ | expenditure pre cTax/£ | expenditure post cTax/£ | % change |
+|:-----------------|---------:|-----------------------:|------------------------:|---------:|
 ''')
 
 for leaf, c in zip(leaves, change):
   init = table[leaf].data[nChange - 1]
-  fREADME.write('| %s %s | %0.2f | %0.2f | %0.2f | %0.1f |\n' % (leaf, table[leaf].name, kgCO2epp[leaf], init, c, 100 * (c - init) / init))
+  fREADME.write('| %s %s | %0.2f | %0.2f | %0.2f | %0.0f%% |\n' % (leaf, table[leaf].name, kgCO2epp[leaf], init, c, 100 * (c - init) / init))
 
 
 fREADME.write('''
